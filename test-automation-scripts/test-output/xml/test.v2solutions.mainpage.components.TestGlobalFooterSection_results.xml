@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="V2SolutionsMainPage"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="28.877">
+  <properties />
+  
+  
+            <testcase name="validateCopyRightsLinksClickableInMobileView" time="11.362" classname="test.v2solutions.mainpage.components.TestGlobalFooterSection" />
+                <testcase name="verifyGlobalFooterSectionPresentInMobileView" time="1.138" classname="test.v2solutions.mainpage.components.TestGlobalFooterSection" />
+                <testcase name="verifyPageIsResizedToMobileViewLayout" time="4.320" classname="test.v2solutions.mainpage.components.TestGlobalFooterSection" />
+                <testcase name="validateCopyRightsLinksClickableInMobileView" time="11.295" classname="test.v2solutions.mainpage.components.TestGlobalFooterSection" />
+                <testcase name="close" time="0.762" classname="test.v2solutions.mainpage.components.TestGlobalFooterSection" />
+      
+</testsuite>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="V2SolutionsMainPage"
+           tests="9"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="96.267">
+  <properties />
+            <testcase name="validateTabToggleFuctionalityInTabletView" time="26.048" classname="test.v2solutions.pages.TestV2SolutionsHomePage">
+                <failure type="java.lang.AssertionError"
+                  message=" Locator of &apos;Menu link with xpath&apos; is &apos;(//*[@data-toggle=&apos;tab&apos;])&apos; Error-Menu links not expanded on mouse hover expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError:  Locator of 'Menu link with xpath' is '(//*[@data-toggle='tab'])' Error-Menu links not expanded on mouse hover expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:83)
+  com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:369)
+  test.v2solutions.pages.TestV2SolutionsHomePage.validateTabToggleFuctionalityInTabletView(TestV2SolutionsHomePage.java:280)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: com.v2solutions.taf.common.logs.AnalizerException:  Locator of 'Menu link with xpath' is '(//*[@data-toggle='tab'])' Error-Menu links not expanded on mouse hover expected [true] but found [false]
+  com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:363)
+  test.v2solutions.pages.TestV2SolutionsHomePage.validateTabToggleFuctionalityInTabletView(TestV2SolutionsHomePage.java:280)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.AssertionError: Menu links not expanded on mouse hover expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:513)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  test.v2solutions.pages.TestV2SolutionsHomePage.validateTabToggleFuctionalityInTabletView(TestV2SolutionsHomePage.java:278)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="validatePaginationInTabletView" time="1.301" classname="test.v2solutions.pages.TestV2SolutionsHomePage">
+                <failure type="java.lang.AssertionError"
+                  message=" Locator of &apos;GLobal Header section with xpath&apos; is &apos;&apos; Error-Pagination not working properly in Tablet view expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError:  Locator of 'GLobal Header section with xpath' is '' Error-Pagination not working properly in Tablet view expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:83)
+  com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:369)
+  test.v2solutions.pages.TestV2SolutionsHomePage.validatePaginationInTabletView(TestV2SolutionsHomePage.java:218)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: com.v2solutions.taf.common.logs.AnalizerException:  Locator of 'GLobal Header section with xpath' is '' Error-Pagination not working properly in Tablet view expected [true] but found [false]
+  com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:363)
+  test.v2solutions.pages.TestV2SolutionsHomePage.validatePaginationInTabletView(TestV2SolutionsHomePage.java:218)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.AssertionError: Pagination not working properly in Tablet view expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:513)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  test.v2solutions.pages.TestV2SolutionsHomePage.validatePaginationInTabletView(TestV2SolutionsHomePage.java:216)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="verifyPageIsResizedToTabletViewLayout" time="3.898" classname="test.v2solutions.pages.TestV2SolutionsHomePage" />
+                <testcase name="validateInOurSolutionSectionTabToggleFunctionalityArrangedInHorizontallyInTabletView" time="4.052" classname="test.v2solutions.pages.TestV2SolutionsHomePage" />
+                <testcase name="validate_Button_Links_In_Innovation_That_Matters_Are_ClickableIn_Tablet_View" time="9.407" classname="test.v2solutions.pages.TestV2SolutionsHomePage" />
+                <testcase name="validateThumbnailIconPositionInOurIndustryFocusSectionInTabletView" time="9.109" classname="test.v2solutions.pages.TestV2SolutionsHomePage" />
+                <testcase name="validate_Button_Links_In_Innovation_That_Matters_Are_Highlighted_On_MouseHover_In_Tablet_View" time="8.229" classname="test.v2solutions.pages.TestV2SolutionsHomePage" />
+                <testcase name="validatePaginationForCompaniesWorkedWithSectionInTabletView" time="32.458" classname="test.v2solutions.pages.TestV2SolutionsHomePage" />
+                <testcase name="close" time="1.765" classname="test.v2solutions.pages.TestV2SolutionsHomePage" />
+      
+</testsuite>

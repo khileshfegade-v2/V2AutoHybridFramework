@@ -1,0 +1,12 @@
+#iPad with iOS: 7.0 - executes only in this version 
+BROWSER=iPad
+VERSION=7.0
+MAX_WAIT_TIME_SECONDS=30
+TEST_ENV=browserstack
+DEVICE=iPad Air
+CLOUD_URL=https://sampletest7:edAmYWTt5paPx1ysgsod@hub-cloud.browserstack.com/wd/hub
+PLATFORM=iOS
+PLATFORM_VERSION=7.0
+BASE_URL=http://www.v2solutions.com
+RESOLUTION=1280x1024
+REAL_MOBILE=true

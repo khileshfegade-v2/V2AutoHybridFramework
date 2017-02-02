@@ -1,0 +1,1762 @@
+I 2017-01-20 18:36:26:962 server.cc(86) Starting WebDriver server on port: '23831' on host: ''
+I 2017-01-20 18:36:26:963 IEServer.cpp(32) Driver version: 2.53.1.0 (64-bit)
+D 2017-01-20 18:36:26:963 server.cc(148) Civetweb ACL is -0.0.0.0/0,+127.0.0.1
+D 2017-01-20 18:36:27:328 server.cc(281) Command: GET /status {}
+D 2017-01-20 18:36:27:328 server.cc(355) Response: {"sessionId":"","status":0,"value":{"build":{"version":"2.53.1.0 (64-bit)"},"os":{"arch":"x64","name":"windows","version":"6.1.7600.16385 (win7_rtm.090713-1255)"}}}
+
+D 2017-01-20 18:36:27:482 server.cc(281) Command: POST /session {"desiredCapabilities":{"ensureCleanSession":true,"logLevel":"DEBUG","logFile":"IEDriverLog.txt","browserName":"internet explorer","version":"","platform":"WINDOWS"}}
+D 2017-01-20 18:36:27:483 IESession.cpp(51) Mutex acquired for session initalization
+D 2017-01-20 18:36:27:483 IESession.cpp(96) Using legacy driver implementation per user request
+D 2017-01-20 18:36:27:486 IESession.cpp(130) Releasing session initialization mutex
+D 2017-01-20 18:36:27:486 command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {"desiredCapabilities":{"ensureCleanSession":true,"logLevel":"DEBUG","logFile":"IEDriverLog.txt","browserName":"internet explorer","version":"","platform":"WINDOWS"}} }
+D 2017-01-20 18:36:27:486 BrowserFactory.cpp(80) Ignoring Protected Mode Settings: 0
+D 2017-01-20 18:36:27:486 BrowserFactory.cpp(83) Checking validity of Protected Mode settings.
+D 2017-01-20 18:36:27:486 BrowserFactory.cpp(995) Detected IE version: 11, Windows version supports Protected Mode: 1
+D 2017-01-20 18:36:27:487 BrowserFactory.cpp(1086) Found Protected Mode setting value of 0 for zone 1
+D 2017-01-20 18:36:27:487 BrowserFactory.cpp(1086) Found Protected Mode setting value of 0 for zone 2
+D 2017-01-20 18:36:27:487 BrowserFactory.cpp(1086) Found Protected Mode setting value of 0 for zone 3
+D 2017-01-20 18:36:27:487 BrowserFactory.cpp(1086) Found Protected Mode setting value of 0 for zone 4
+D 2017-01-20 18:36:27:487 BrowserFactory.cpp(86) Has Valid Protected Mode Settings: 1
+D 2017-01-20 18:36:27:490 BrowserFactory.cpp(182) Starting IE using the IELaunchURL API
+D 2017-01-20 18:36:27:629 BrowserFactory.cpp(136) IE launched successfully with process ID 4640
+D 2017-01-20 18:36:27:629 BrowserFactory.cpp(142) Process with ID 4640 is executing iexplore.exe
+D 2017-01-20 18:36:27:629 BrowserFactory.cpp(309) Using Active Accessibility to find IWebBrowser2 interface
+D 2017-01-20 18:36:29:210 BrowserFactory.cpp(368) Found window handle 00000000000508DA for window with class 'Internet Explorer_Server' belonging to process with id 4640
+D 2017-01-20 18:36:29:242 BrowserFactory.cpp(330) Ignoring zoom setting: 0
+D 2017-01-20 18:36:29:275 BrowserFactory.cpp(628) Browser zoom level is 100%
+I 2017-01-20 18:36:29:276 IECommandExecutor.cpp(678) Persistent hovering set to: 1
+D 2017-01-20 18:36:29:276 ProxyManager.cpp(106) Using existing system proxy settings.
+D 2017-01-20 18:36:29:283 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"browserAttachTimeout":0,"browserName":"internet explorer","elementScrollBehavior":0,"enableElementCacheCleanup":true,"enablePersistentHover":true,"ie.browserCommandLineSwitches":"","ie.enableFullPageScreenshot":true,"ie.ensureCleanSession":false,"ie.fileUploadDialogTimeout":3000,"ie.forceCreateProcessApi":false,"ie.forceShellWindowsApi":false,"ignoreProtectedModeSettings":false,"ignoreZoomSetting":false,"initialBrowserUrl":"http://localhost:23831/","javascriptEnabled":true,"nativeEvents":true,"pageLoadStrategy":"normal","platform":"WINDOWS","requireWindowFocus":false,"unexpectedAlertBehaviour":"dismiss","version":"11"}}
+
+D 2017-01-20 18:36:29:305 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/timeouts {"type":"implicit","ms":90000}
+D 2017-01-20 18:36:29:305 command.cc(36) Raw JSON command: { "name" : "timeouts", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"type":"implicit","ms":90000} }
+D 2017-01-20 18:36:29:305 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:29:316 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:29:380 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/url {"url":"http://www.v2solutions.com/"}
+D 2017-01-20 18:36:29:406 command.cc(36) Raw JSON command: { "name" : "get", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"url":"http://www.v2solutions.com/"} }
+D 2017-01-20 18:36:29:406 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:29:407 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:36:29:414 Browser.cpp(478) Browser ReadyState is not at least '4'; it was 1
+D 2017-01-20 18:36:29:614 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:36:29:614 Browser.cpp(458) Browser busy property is true.
+D 2017-01-20 18:36:29:814 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:36:29:814 Browser.cpp(458) Browser busy property is true.
+D 2017-01-20 18:36:30:014 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:36:30:014 Browser.cpp(458) Browser busy property is true.
+D 2017-01-20 18:36:30:156 server.cc(281) Command: GET /favicon.ico {}
+D 2017-01-20 18:36:30:156 server.cc(355) Response: { "status" : 404, "sessionId" : "<no session>", "value" : "Command not found: GET /favicon.ico" }
+D 2017-01-20 18:36:30:214 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:36:30:237 Browser.cpp(458) Browser busy property is true.
+D 2017-01-20 18:36:30:439 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:36:30:463 Browser.cpp(458) Browser busy property is true.
+D 2017-01-20 18:36:30:663 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:36:30:700 Browser.cpp(478) Browser ReadyState is not at least '4'; it was 3
+D 2017-01-20 18:36:30:703 ElementRepository.cpp(110) Refreshing managed element cache. Found 0 to remove from cache.
+D 2017-01-20 18:36:30:901 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:36:30:980 Browser.cpp(502) Waiting for document to complete...
+D 2017-01-20 18:36:31:201 Browser.cpp(507) Not in navigating state
+D 2017-01-20 18:36:31:206 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:31:212 server.cc(281) Command: DELETE /session/3aa89e38-c507-4447-9676-716dc641552e/cookie {}
+D 2017-01-20 18:36:31:212 command.cc(36) Raw JSON command: { "name" : "deleteAllCookies", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {} }
+D 2017-01-20 18:36:31:213 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:31:213 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:36:31:304 HookProcessor.cpp(127) Unable to set Windows hook procedure. Driver is a 64-bit process, but browser is a 32-bit process.
+W 2017-01-20 18:36:31:305 CookieManager.cpp(98) Cannot get cookies because driver and browser are not the same bit-ness.
+D 2017-01-20 18:36:31:309 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:31:340 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/execute {"script":"return document.readyState","args":[]}
+D 2017-01-20 18:36:31:340 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"script":"return document.readyState","args":[]} }
+D 2017-01-20 18:36:31:340 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:31:340 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:31:578 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"complete"}
+
+D 2017-01-20 18:36:31:589 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/execute {"script":"return document.readyState","args":[]}
+D 2017-01-20 18:36:31:589 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"script":"return document.readyState","args":[]} }
+D 2017-01-20 18:36:31:590 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:31:590 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:31:778 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"complete"}
+
+D 2017-01-20 18:36:33:187 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/window/current/maximize {"windowHandle":"current"}
+D 2017-01-20 18:36:33:187 command.cc(36) Raw JSON command: { "name" : "maximizeWindow", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "windowHandle" : "current" }, "parameters" : {"windowHandle":"current"} }
+D 2017-01-20 18:36:33:187 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:33:295 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:33:300 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/window/current/size {"windowHandle":"current","width":1920,"height":1080}
+D 2017-01-20 18:36:33:300 command.cc(36) Raw JSON command: { "name" : "setWindowSize", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "windowHandle" : "current" }, "parameters" : {"windowHandle":"current","width":1920,"height":1080} }
+D 2017-01-20 18:36:33:300 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:33:374 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:36:395 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/window/current/size {}
+D 2017-01-20 18:36:36:396 command.cc(36) Raw JSON command: { "name" : "getWindowSize", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "windowHandle" : "current" }, "parameters" : {} }
+D 2017-01-20 18:36:36:396 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:36:406 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"height":1080,"width":1920}}
+
+D 2017-01-20 18:36:36:425 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/execute {"script":"window.scrollTo(0, document.body.scrollHeight)","args":[]}
+D 2017-01-20 18:36:36:425 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"script":"window.scrollTo(0, document.body.scrollHeight)","args":[]} }
+D 2017-01-20 18:36:36:425 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:36:425 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:36:571 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:37:588 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"//footer[@class='main-footer']"}
+D 2017-01-20 18:36:37:588 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"//footer[@class='main-footer']"} }
+D 2017-01-20 18:36:37:588 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:37:608 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = //footer[@class='main-footer']
+I 2017-01-20 18:36:37:609 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:37:920 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:37:925 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:37:931 ElementRepository.cpp(66) Element is not yet managed
+D 2017-01-20 18:36:37:944 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"3de56826-9809-4771-9638-dcfbb8f6fe71","element-6066-11e4-a52e-4f735466cecf":"3de56826-9809-4771-9638-dcfbb8f6fe71"}}
+
+D 2017-01-20 18:36:37:955 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/3de56826-9809-4771-9638-dcfbb8f6fe71/displayed {}
+D 2017-01-20 18:36:37:955 command.cc(36) Raw JSON command: { "name" : "isDisplayed", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "3de56826-9809-4771-9638-dcfbb8f6fe71" }, "parameters" : {} }
+D 2017-01-20 18:36:37:956 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:38:022 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:38:178 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":true}
+
+D 2017-01-20 18:36:38:197 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[1]"}
+D 2017-01-20 18:36:38:197 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[1]"} }
+D 2017-01-20 18:36:38:197 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:38:197 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[1]
+I 2017-01-20 18:36:38:197 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:38:645 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:38:823 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:38:831 ElementRepository.cpp(66) Element is not yet managed
+D 2017-01-20 18:36:38:851 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"bc7af93c-957d-4d0d-85ce-d152dac1fbf7","element-6066-11e4-a52e-4f735466cecf":"bc7af93c-957d-4d0d-85ce-d152dac1fbf7"}}
+
+D 2017-01-20 18:36:38:862 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/bc7af93c-957d-4d0d-85ce-d152dac1fbf7/displayed {}
+D 2017-01-20 18:36:38:862 command.cc(36) Raw JSON command: { "name" : "isDisplayed", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "bc7af93c-957d-4d0d-85ce-d152dac1fbf7" }, "parameters" : {} }
+D 2017-01-20 18:36:38:862 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:38:978 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:39:198 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":true}
+
+D 2017-01-20 18:36:39:202 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/execute {"script":"arguments[0].scrollIntoView(true);","args":[{"ELEMENT":"bc7af93c-957d-4d0d-85ce-d152dac1fbf7","element-6066-11e4-a52e-4f735466cecf":"bc7af93c-957d-4d0d-85ce-d152dac1fbf7"}]}
+D 2017-01-20 18:36:39:203 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"script":"arguments[0].scrollIntoView(true);","args":[{"ELEMENT":"bc7af93c-957d-4d0d-85ce-d152dac1fbf7","element-6066-11e4-a52e-4f735466cecf":"bc7af93c-957d-4d0d-85ce-d152dac1fbf7"}]} }
+D 2017-01-20 18:36:39:203 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:39:203 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-01-20 18:36:39:243 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:39:289 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:41:335 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/execute {"script":"window.scrollBy(0,-250)","args":[""]}
+D 2017-01-20 18:36:41:335 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"script":"window.scrollBy(0,-250)","args":[""]} }
+D 2017-01-20 18:36:41:336 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:41:336 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:41:399 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:43:404 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/bc7af93c-957d-4d0d-85ce-d152dac1fbf7/location {}
+D 2017-01-20 18:36:43:404 command.cc(36) Raw JSON command: { "name" : "getElementLocation", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "bc7af93c-957d-4d0d-85ce-d152dac1fbf7" }, "parameters" : {} }
+D 2017-01-20 18:36:43:405 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:43:418 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-01-20 18:36:43:443 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:43:488 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:43:488 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:43:554 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"x":367,"y":3843}}
+
+D 2017-01-20 18:36:43:557 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[2]"}
+D 2017-01-20 18:36:43:557 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[2]"} }
+D 2017-01-20 18:36:43:557 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:43:557 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[2]
+I 2017-01-20 18:36:43:557 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:43:611 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:43:613 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:43:618 ElementRepository.cpp(66) Element is not yet managed
+D 2017-01-20 18:36:43:628 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"f45d8df9-bb6f-483a-9523-1567a249e9b6","element-6066-11e4-a52e-4f735466cecf":"f45d8df9-bb6f-483a-9523-1567a249e9b6"}}
+
+D 2017-01-20 18:36:43:633 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/f45d8df9-bb6f-483a-9523-1567a249e9b6/displayed {}
+D 2017-01-20 18:36:43:633 command.cc(36) Raw JSON command: { "name" : "isDisplayed", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "f45d8df9-bb6f-483a-9523-1567a249e9b6" }, "parameters" : {} }
+D 2017-01-20 18:36:43:633 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:43:653 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:43:715 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":true}
+
+D 2017-01-20 18:36:43:720 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/f45d8df9-bb6f-483a-9523-1567a249e9b6/location {}
+D 2017-01-20 18:36:43:721 command.cc(36) Raw JSON command: { "name" : "getElementLocation", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "f45d8df9-bb6f-483a-9523-1567a249e9b6" }, "parameters" : {} }
+D 2017-01-20 18:36:43:721 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:43:736 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-01-20 18:36:43:758 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:43:801 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:43:801 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:43:834 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"x":659,"y":3843}}
+
+D 2017-01-20 18:36:43:837 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[3]"}
+D 2017-01-20 18:36:43:837 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[3]"} }
+D 2017-01-20 18:36:43:837 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:43:837 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[3]
+I 2017-01-20 18:36:43:837 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:43:889 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:43:890 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:43:897 ElementRepository.cpp(66) Element is not yet managed
+D 2017-01-20 18:36:43:901 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"25370a55-fc10-455b-b6f8-d58839a0773f","element-6066-11e4-a52e-4f735466cecf":"25370a55-fc10-455b-b6f8-d58839a0773f"}}
+
+D 2017-01-20 18:36:43:905 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/25370a55-fc10-455b-b6f8-d58839a0773f/displayed {}
+D 2017-01-20 18:36:43:905 command.cc(36) Raw JSON command: { "name" : "isDisplayed", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "25370a55-fc10-455b-b6f8-d58839a0773f" }, "parameters" : {} }
+D 2017-01-20 18:36:43:906 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:43:926 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:43:984 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":true}
+
+D 2017-01-20 18:36:43:990 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/25370a55-fc10-455b-b6f8-d58839a0773f/location {}
+D 2017-01-20 18:36:43:990 command.cc(36) Raw JSON command: { "name" : "getElementLocation", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "25370a55-fc10-455b-b6f8-d58839a0773f" }, "parameters" : {} }
+D 2017-01-20 18:36:43:990 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:44:006 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-01-20 18:36:44:028 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:44:071 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:44:071 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:44:110 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"x":952,"y":3843}}
+
+D 2017-01-20 18:36:44:112 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[4]"}
+D 2017-01-20 18:36:44:112 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[4]"} }
+D 2017-01-20 18:36:44:112 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:44:112 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[4]
+I 2017-01-20 18:36:44:112 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:44:166 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:44:167 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:44:174 ElementRepository.cpp(66) Element is not yet managed
+D 2017-01-20 18:36:44:184 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"4be234be-1075-488a-9411-6f6a0f0794ba","element-6066-11e4-a52e-4f735466cecf":"4be234be-1075-488a-9411-6f6a0f0794ba"}}
+
+D 2017-01-20 18:36:44:190 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/4be234be-1075-488a-9411-6f6a0f0794ba/displayed {}
+D 2017-01-20 18:36:44:190 command.cc(36) Raw JSON command: { "name" : "isDisplayed", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "4be234be-1075-488a-9411-6f6a0f0794ba" }, "parameters" : {} }
+D 2017-01-20 18:36:44:190 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:44:211 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:44:283 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":true}
+
+D 2017-01-20 18:36:44:289 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/4be234be-1075-488a-9411-6f6a0f0794ba/location {}
+D 2017-01-20 18:36:44:289 command.cc(36) Raw JSON command: { "name" : "getElementLocation", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "4be234be-1075-488a-9411-6f6a0f0794ba" }, "parameters" : {} }
+D 2017-01-20 18:36:44:290 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:44:303 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-01-20 18:36:44:327 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:44:375 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:44:375 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:44:415 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"x":1244,"y":3843}}
+
+D 2017-01-20 18:36:45:425 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/elements {"using":"xpath","value":"(//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[1]//p"}
+D 2017-01-20 18:36:45:425 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[1]//p"} }
+D 2017-01-20 18:36:45:426 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:45:426 ElementFinder.cpp(121) Using FindElements atom to locate element having xpath = (//footer[@class='main-footer']//div[@class='col-sm-6 col-md-3'])[1]//p
+I 2017-01-20 18:36:45:426 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:45:476 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:36:45:478 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:45:478 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:45:483 ElementRepository.cpp(66) Element is not yet managed
+I 2017-01-20 18:36:45:484 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:45:488 ElementRepository.cpp(66) Element is not yet managed
+D 2017-01-20 18:36:45:499 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":[{"ELEMENT":"52ca5501-4652-465f-baa1-d3eecfa6812a","element-6066-11e4-a52e-4f735466cecf":"52ca5501-4652-465f-baa1-d3eecfa6812a"},{"ELEMENT":"9ab31aee-957a-42cb-964c-01cd388d6b68","element-6066-11e4-a52e-4f735466cecf":"9ab31aee-957a-42cb-964c-01cd388d6b68"}]}
+
+D 2017-01-20 18:36:45:507 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/52ca5501-4652-465f-baa1-d3eecfa6812a/text {}
+D 2017-01-20 18:36:45:508 command.cc(36) Raw JSON command: { "name" : "getElementText", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "52ca5501-4652-465f-baa1-d3eecfa6812a" }, "parameters" : {} }
+D 2017-01-20 18:36:45:508 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:45:530 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-01-20 18:36:45:576 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:45:627 Script.cpp(439) Result type is string
+D 2017-01-20 18:36:45:637 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"For 10+ years, we have helped businesses solve “Where to?” with our Business IT Consulting and “How to?” with our proprietary delivery methodologies and technology."}
+
+D 2017-01-20 18:36:45:642 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/9ab31aee-957a-42cb-964c-01cd388d6b68/text {}
+D 2017-01-20 18:36:45:642 command.cc(36) Raw JSON command: { "name" : "getElementText", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "9ab31aee-957a-42cb-964c-01cd388d6b68" }, "parameters" : {} }
+D 2017-01-20 18:36:45:642 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:45:661 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+I 2017-01-20 18:36:45:688 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:45:737 Script.cpp(439) Result type is string
+D 2017-01-20 18:36:45:741 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"We deliver superior value to our customers by ensuring quality with our predictable outcome models, quality framework and ISO certification."}
+
+D 2017-01-20 18:36:45:748 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/elements {"using":"xpath","value":"(//ul[@id='tweets']//a)"}
+D 2017-01-20 18:36:45:748 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//ul[@id='tweets']//a)"} }
+D 2017-01-20 18:36:45:749 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:45:749 ElementFinder.cpp(121) Using FindElements atom to locate element having xpath = (//ul[@id='tweets']//a)
+I 2017-01-20 18:36:45:749 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:45:797 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:36:45:799 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:45:799 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:45:804 ElementRepository.cpp(66) Element is not yet managed
+I 2017-01-20 18:36:45:805 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:45:810 ElementRepository.cpp(66) Element is not yet managed
+I 2017-01-20 18:36:45:811 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:45:817 ElementRepository.cpp(66) Element is not yet managed
+I 2017-01-20 18:36:45:817 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:45:822 ElementRepository.cpp(66) Element is not yet managed
+I 2017-01-20 18:36:45:823 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:45:829 ElementRepository.cpp(66) Element is not yet managed
+D 2017-01-20 18:36:45:839 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":[{"ELEMENT":"a2dd68e7-5a92-4d3c-93f2-17d67589e4fa","element-6066-11e4-a52e-4f735466cecf":"a2dd68e7-5a92-4d3c-93f2-17d67589e4fa"},{"ELEMENT":"b661cca0-61ed-4edb-adce-39e82fb3dd30","element-6066-11e4-a52e-4f735466cecf":"b661cca0-61ed-4edb-adce-39e82fb3dd30"},{"ELEMENT":"6b0d1dfe-9478-48e5-b51f-a7d72bcb9873","element-6066-11e4-a52e-4f735466cecf":"6b0d1dfe-9478-48e5-b51f-a7d72bcb9873"},{"ELEMENT":"38990a02-e3a7-4c2c-8eeb-b61e2a29fa82","element-6066-11e4-a52e-4f735466cecf":"38990a02-e3a7-4c2c-8eeb-b61e2a29fa82"},{"ELEMENT":"137a147b-34ec-4f87-86e0-ab3d33d43f64","element-6066-11e4-a52e-4f735466cecf":"137a147b-34ec-4f87-86e0-ab3d33d43f64"}]}
+
+D 2017-01-20 18:36:45:843 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//ul[@id='tweets']//a)[1]"}
+D 2017-01-20 18:36:45:843 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//ul[@id='tweets']//a)[1]"} }
+D 2017-01-20 18:36:45:843 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:45:843 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//ul[@id='tweets']//a)[1]
+I 2017-01-20 18:36:45:843 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:45:895 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:45:897 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:45:897 ElementRepository.cpp(72) Element is already managed
+D 2017-01-20 18:36:45:898 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"a2dd68e7-5a92-4d3c-93f2-17d67589e4fa","element-6066-11e4-a52e-4f735466cecf":"a2dd68e7-5a92-4d3c-93f2-17d67589e4fa"}}
+
+D 2017-01-20 18:36:45:901 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/moveto {"element":"a2dd68e7-5a92-4d3c-93f2-17d67589e4fa"}
+D 2017-01-20 18:36:45:901 command.cc(36) Raw JSON command: { "name" : "moveTo", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"element":"a2dd68e7-5a92-4d3c-93f2-17d67589e4fa"} }
+D 2017-01-20 18:36:45:901 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:45:912 InputManager.cpp(86) Mutex acquired for user interaction.
+D 2017-01-20 18:36:45:980 Element.cpp(480) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2017-01-20 18:36:46:004 Element.cpp(561) Element is not in a frame
+D 2017-01-20 18:36:46:112 Script.cpp(439) Result type is string
+D 2017-01-20 18:36:46:112 Element.cpp(353) (x, y, w, h): 675, 853, 262, 23
+D 2017-01-20 18:36:46:140 InputManager.cpp(477) Using SendMessage method for mouse move
+W 2017-01-20 18:36:46:140 InteractionsManager.cpp(1051) From X appears to be < 0. Rounding to 0. -1
+W 2017-01-20 18:36:46:140 InteractionsManager.cpp(1055) From Y appears to be < 0. Rounding to 0. -1
+D 2017-01-20 18:36:46:661 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:48:679 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/a2dd68e7-5a92-4d3c-93f2-17d67589e4fa/attribute/href {}
+D 2017-01-20 18:36:48:679 command.cc(36) Raw JSON command: { "name" : "getElementAttribute", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "a2dd68e7-5a92-4d3c-93f2-17d67589e4fa", "name" : "href" }, "parameters" : {} }
+D 2017-01-20 18:36:48:680 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:48:854 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:49:967 Script.cpp(439) Result type is string
+D 2017-01-20 18:36:49:982 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"https://twitter.com/v2solutions/status/822318659846565888"}
+
+D 2017-01-20 18:36:49:985 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//ul[@id='tweets']//a)[2]"}
+D 2017-01-20 18:36:49:985 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//ul[@id='tweets']//a)[2]"} }
+D 2017-01-20 18:36:49:985 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:49:985 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//ul[@id='tweets']//a)[2]
+I 2017-01-20 18:36:49:985 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:50:683 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:50:687 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:50:687 ElementRepository.cpp(72) Element is already managed
+D 2017-01-20 18:36:50:691 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"b661cca0-61ed-4edb-adce-39e82fb3dd30","element-6066-11e4-a52e-4f735466cecf":"b661cca0-61ed-4edb-adce-39e82fb3dd30"}}
+
+D 2017-01-20 18:36:50:695 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/moveto {"element":"b661cca0-61ed-4edb-adce-39e82fb3dd30"}
+D 2017-01-20 18:36:50:695 command.cc(36) Raw JSON command: { "name" : "moveTo", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"element":"b661cca0-61ed-4edb-adce-39e82fb3dd30"} }
+D 2017-01-20 18:36:50:695 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:50:695 InputManager.cpp(86) Mutex acquired for user interaction.
+D 2017-01-20 18:36:50:842 Element.cpp(480) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2017-01-20 18:36:50:888 Element.cpp(561) Element is not in a frame
+D 2017-01-20 18:36:50:992 Script.cpp(439) Result type is string
+D 2017-01-20 18:36:50:992 Element.cpp(353) (x, y, w, h): 675, 907, 262, 23
+D 2017-01-20 18:36:51:025 InputManager.cpp(477) Using SendMessage method for mouse move
+D 2017-01-20 18:36:51:055 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:53:082 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/b661cca0-61ed-4edb-adce-39e82fb3dd30/attribute/href {}
+D 2017-01-20 18:36:53:082 command.cc(36) Raw JSON command: { "name" : "getElementAttribute", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "b661cca0-61ed-4edb-adce-39e82fb3dd30", "name" : "href" }, "parameters" : {} }
+D 2017-01-20 18:36:53:083 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:53:121 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:53:211 Script.cpp(439) Result type is string
+D 2017-01-20 18:36:53:217 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"https://twitter.com/v2solutions/status/821962496907087872"}
+
+D 2017-01-20 18:36:53:220 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//ul[@id='tweets']//a)[3]"}
+D 2017-01-20 18:36:53:220 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//ul[@id='tweets']//a)[3]"} }
+D 2017-01-20 18:36:53:220 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:53:220 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//ul[@id='tweets']//a)[3]
+I 2017-01-20 18:36:53:220 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:53:268 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:53:273 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:53:273 ElementRepository.cpp(72) Element is already managed
+D 2017-01-20 18:36:53:274 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"6b0d1dfe-9478-48e5-b51f-a7d72bcb9873","element-6066-11e4-a52e-4f735466cecf":"6b0d1dfe-9478-48e5-b51f-a7d72bcb9873"}}
+
+D 2017-01-20 18:36:53:281 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/moveto {"element":"6b0d1dfe-9478-48e5-b51f-a7d72bcb9873"}
+D 2017-01-20 18:36:53:283 command.cc(36) Raw JSON command: { "name" : "moveTo", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"element":"6b0d1dfe-9478-48e5-b51f-a7d72bcb9873"} }
+D 2017-01-20 18:36:53:283 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:53:283 InputManager.cpp(86) Mutex acquired for user interaction.
+D 2017-01-20 18:36:53:348 Element.cpp(480) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2017-01-20 18:36:53:371 Element.cpp(561) Element is not in a frame
+D 2017-01-20 18:36:53:471 Script.cpp(439) Result type is string
+D 2017-01-20 18:36:53:471 Element.cpp(353) (x, y, w, h): 675, 961, 262, 23
+D 2017-01-20 18:36:53:500 InputManager.cpp(477) Using SendMessage method for mouse move
+D 2017-01-20 18:36:53:530 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:55:536 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/6b0d1dfe-9478-48e5-b51f-a7d72bcb9873/attribute/href {}
+D 2017-01-20 18:36:55:536 command.cc(36) Raw JSON command: { "name" : "getElementAttribute", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "6b0d1dfe-9478-48e5-b51f-a7d72bcb9873", "name" : "href" }, "parameters" : {} }
+D 2017-01-20 18:36:55:536 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:55:549 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:55:598 Script.cpp(439) Result type is string
+D 2017-01-20 18:36:55:604 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"https://twitter.com/v2solutions/status/821711840602374144"}
+
+D 2017-01-20 18:36:55:607 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//ul[@id='tweets']//a)[4]"}
+D 2017-01-20 18:36:55:607 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//ul[@id='tweets']//a)[4]"} }
+D 2017-01-20 18:36:55:608 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:55:608 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//ul[@id='tweets']//a)[4]
+I 2017-01-20 18:36:55:608 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:55:711 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:55:714 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:55:714 ElementRepository.cpp(72) Element is already managed
+D 2017-01-20 18:36:55:718 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"38990a02-e3a7-4c2c-8eeb-b61e2a29fa82","element-6066-11e4-a52e-4f735466cecf":"38990a02-e3a7-4c2c-8eeb-b61e2a29fa82"}}
+
+D 2017-01-20 18:36:55:722 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/moveto {"element":"38990a02-e3a7-4c2c-8eeb-b61e2a29fa82"}
+D 2017-01-20 18:36:55:723 command.cc(36) Raw JSON command: { "name" : "moveTo", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"element":"38990a02-e3a7-4c2c-8eeb-b61e2a29fa82"} }
+D 2017-01-20 18:36:55:848 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:55:849 InputManager.cpp(86) Mutex acquired for user interaction.
+D 2017-01-20 18:36:55:918 Element.cpp(480) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2017-01-20 18:36:55:944 Element.cpp(561) Element is not in a frame
+W 2017-01-20 18:36:56:007 Element.cpp(892) Y coordinate is out of element area
+D 2017-01-20 18:36:56:007 Element.cpp(328) Will need to scroll element into view
+D 2017-01-20 18:36:56:049 Element.cpp(480) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2017-01-20 18:36:56:070 Element.cpp(561) Element is not in a frame
+D 2017-01-20 18:36:56:129 Element.cpp(353) (x, y, w, h): 675, 765, 262, 23
+D 2017-01-20 18:36:56:161 InputManager.cpp(477) Using SendMessage method for mouse move
+D 2017-01-20 18:36:56:221 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:36:58:230 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/38990a02-e3a7-4c2c-8eeb-b61e2a29fa82/attribute/href {}
+D 2017-01-20 18:36:58:230 command.cc(36) Raw JSON command: { "name" : "getElementAttribute", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "38990a02-e3a7-4c2c-8eeb-b61e2a29fa82", "name" : "href" }, "parameters" : {} }
+D 2017-01-20 18:36:58:230 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:36:58:246 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:58:305 Script.cpp(439) Result type is string
+D 2017-01-20 18:36:58:309 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"https://twitter.com/v2solutions/status/821711405586018304"}
+
+D 2017-01-20 18:36:58:314 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//ul[@id='tweets']//a)[5]"}
+D 2017-01-20 18:36:58:314 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//ul[@id='tweets']//a)[5]"} }
+D 2017-01-20 18:36:58:314 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:58:314 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//ul[@id='tweets']//a)[5]
+I 2017-01-20 18:36:58:314 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:36:58:374 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:36:58:376 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:36:58:376 ElementRepository.cpp(72) Element is already managed
+D 2017-01-20 18:36:58:380 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"137a147b-34ec-4f87-86e0-ab3d33d43f64","element-6066-11e4-a52e-4f735466cecf":"137a147b-34ec-4f87-86e0-ab3d33d43f64"}}
+
+D 2017-01-20 18:36:58:390 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/moveto {"element":"137a147b-34ec-4f87-86e0-ab3d33d43f64"}
+D 2017-01-20 18:36:58:395 command.cc(36) Raw JSON command: { "name" : "moveTo", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"element":"137a147b-34ec-4f87-86e0-ab3d33d43f64"} }
+D 2017-01-20 18:36:58:401 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:36:58:401 InputManager.cpp(86) Mutex acquired for user interaction.
+D 2017-01-20 18:36:58:473 Element.cpp(480) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2017-01-20 18:36:58:498 Element.cpp(561) Element is not in a frame
+D 2017-01-20 18:36:58:846 Script.cpp(439) Result type is string
+D 2017-01-20 18:36:58:846 Element.cpp(353) (x, y, w, h): 675, 819, 262, 23
+D 2017-01-20 18:36:58:882 InputManager.cpp(477) Using SendMessage method for mouse move
+D 2017-01-20 18:36:58:922 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:37:00:927 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/element/137a147b-34ec-4f87-86e0-ab3d33d43f64/attribute/href {}
+D 2017-01-20 18:37:00:927 command.cc(36) Raw JSON command: { "name" : "getElementAttribute", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "137a147b-34ec-4f87-86e0-ab3d33d43f64", "name" : "href" }, "parameters" : {} }
+D 2017-01-20 18:37:00:927 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:37:00:940 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:00:994 Script.cpp(439) Result type is string
+D 2017-01-20 18:37:01:000 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"https://twitter.com/v2solutions/status/821711200807514112"}
+
+D 2017-01-20 18:37:01:012 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/elements {"using":"xpath","value":"(//div[@class='tagcloud']/a)"}
+D 2017-01-20 18:37:01:012 command.cc(36) Raw JSON command: { "name" : "findElements", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//div[@class='tagcloud']/a)"} }
+D 2017-01-20 18:37:01:012 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:37:01:012 ElementFinder.cpp(121) Using FindElements atom to locate element having xpath = (//div[@class='tagcloud']/a)
+I 2017-01-20 18:37:01:012 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:01:068 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:01:069 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:37:01:070 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:37:01:076 ElementRepository.cpp(66) Element is not yet managed
+I 2017-01-20 18:37:01:077 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:37:01:083 ElementRepository.cpp(66) Element is not yet managed
+I 2017-01-20 18:37:01:084 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:37:01:089 ElementRepository.cpp(66) Element is not yet managed
+I 2017-01-20 18:37:01:089 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:37:01:094 ElementRepository.cpp(66) Element is not yet managed
+I 2017-01-20 18:37:01:095 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:37:01:099 ElementRepository.cpp(66) Element is not yet managed
+I 2017-01-20 18:37:01:100 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:37:01:105 ElementRepository.cpp(66) Element is not yet managed
+D 2017-01-20 18:37:01:110 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":[{"ELEMENT":"6cd78bd3-b694-4325-8e4a-fd0fa8e8770a","element-6066-11e4-a52e-4f735466cecf":"6cd78bd3-b694-4325-8e4a-fd0fa8e8770a"},{"ELEMENT":"b84ad566-1978-4cb5-9ae5-abd3a8a77080","element-6066-11e4-a52e-4f735466cecf":"b84ad566-1978-4cb5-9ae5-abd3a8a77080"},{"ELEMENT":"fb7b207f-b0c9-4138-a944-215afa7537c3","element-6066-11e4-a52e-4f735466cecf":"fb7b207f-b0c9-4138-a944-215afa7537c3"},{"ELEMENT":"cf09606d-8339-4414-945a-d3c3ec827959","element-6066-11e4-a52e-4f735466cecf":"cf09606d-8339-4414-945a-d3c3ec827959"},{"ELEMENT":"addc7c87-7965-4384-aa18-4ce8550a8b26","element-6066-11e4-a52e-4f735466cecf":"addc7c87-7965-4384-aa18-4ce8550a8b26"},{"ELEMENT":"154438bc-2b93-4987-b7bc-eb8caa06d607","element-6066-11e4-a52e-4f735466cecf":"154438bc-2b93-4987-b7bc-eb8caa06d607"}]}
+
+D 2017-01-20 18:37:01:115 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/url {}
+D 2017-01-20 18:37:01:115 command.cc(36) Raw JSON command: { "name" : "getCurrentUrl", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {} }
+D 2017-01-20 18:37:01:115 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:37:01:115 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:01:139 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"http://www.v2solutions.com/"}
+
+D 2017-01-20 18:37:01:141 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//div[@class='tagcloud']/a)[1]"}
+D 2017-01-20 18:37:01:141 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//div[@class='tagcloud']/a)[1]"} }
+D 2017-01-20 18:37:01:141 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:37:01:141 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[1]
+I 2017-01-20 18:37:01:141 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:01:196 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:37:01:197 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:37:01:197 ElementRepository.cpp(72) Element is already managed
+D 2017-01-20 18:37:01:198 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"6cd78bd3-b694-4325-8e4a-fd0fa8e8770a","element-6066-11e4-a52e-4f735466cecf":"6cd78bd3-b694-4325-8e4a-fd0fa8e8770a"}}
+
+D 2017-01-20 18:37:01:201 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element/6cd78bd3-b694-4325-8e4a-fd0fa8e8770a/click {"id":"6cd78bd3-b694-4325-8e4a-fd0fa8e8770a"}
+D 2017-01-20 18:37:01:201 command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "6cd78bd3-b694-4325-8e4a-fd0fa8e8770a" }, "parameters" : {"id":"6cd78bd3-b694-4325-8e4a-fd0fa8e8770a"} }
+D 2017-01-20 18:37:01:201 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:37:01:229 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:01:251 InputManager.cpp(86) Mutex acquired for user interaction.
+D 2017-01-20 18:37:01:302 Element.cpp(480) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2017-01-20 18:37:01:326 Element.cpp(561) Element is not in a frame
+D 2017-01-20 18:37:01:421 Script.cpp(439) Result type is string
+D 2017-01-20 18:37:01:421 Element.cpp(353) (x, y, w, h): 967, 587, 63, 32
+D 2017-01-20 18:37:01:449 InputManager.cpp(477) Using SendMessage method for mouse move
+D 2017-01-20 18:37:01:500 InputManager.cpp(246) Using SendMessage method for mouse click
+D 2017-01-20 18:37:01:540 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:01:556 Browser.cpp(502) Waiting for document to complete...
+D 2017-01-20 18:37:01:557 Browser.cpp(540) document.readyState is not 'complete'; it was loading
+D 2017-01-20 18:37:01:758 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:01:758 Browser.cpp(458) Browser busy property is true.
+D 2017-01-20 18:37:01:958 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:01:958 Browser.cpp(458) Browser busy property is true.
+D 2017-01-20 18:37:02:158 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:02:252 Browser.cpp(458) Browser busy property is true.
+D 2017-01-20 18:37:02:576 ElementRepository.cpp(110) Refreshing managed element cache. Found 18 to remove from cache.
+D 2017-01-20 18:37:02:578 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:02:585 Browser.cpp(502) Waiting for document to complete...
+D 2017-01-20 18:37:02:597 Browser.cpp(507) Not in navigating state
+D 2017-01-20 18:37:02:604 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:37:02:608 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/window_handles {}
+D 2017-01-20 18:37:02:608 command.cc(36) Raw JSON command: { "name" : "getWindowHandles", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {} }
+D 2017-01-20 18:37:02:608 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:37:02:618 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":["3b128310-732e-4bac-8dd5-072e7f051fc2"]}
+
+D 2017-01-20 18:37:02:622 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/url {}
+D 2017-01-20 18:37:02:622 command.cc(36) Raw JSON command: { "name" : "getCurrentUrl", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {} }
+D 2017-01-20 18:37:02:622 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:37:02:622 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:02:656 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"http://www.v2solutions.com/engineering/mobile.html"}
+
+D 2017-01-20 18:37:02:659 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/back {}
+D 2017-01-20 18:37:02:659 command.cc(36) Raw JSON command: { "name" : "goBack", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {} }
+D 2017-01-20 18:37:02:659 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:37:02:660 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:02:666 Browser.cpp(502) Waiting for document to complete...
+D 2017-01-20 18:37:02:724 Browser.cpp(540) document.readyState is not 'complete'; it was uninitialized
+D 2017-01-20 18:37:02:938 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:03:404 Browser.cpp(458) Browser busy property is true.
+D 2017-01-20 18:37:03:408 ElementRepository.cpp(110) Refreshing managed element cache. Found 0 to remove from cache.
+D 2017-01-20 18:37:03:604 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:03:630 Browser.cpp(502) Waiting for document to complete...
+D 2017-01-20 18:37:03:652 Browser.cpp(507) Not in navigating state
+D 2017-01-20 18:37:03:660 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:37:03:663 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/execute {"script":"return document.readyState","args":[]}
+D 2017-01-20 18:37:03:663 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"script":"return document.readyState","args":[]} }
+D 2017-01-20 18:37:03:663 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:37:03:663 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:03:745 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"complete"}
+
+D 2017-01-20 18:37:05:750 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//div[@class='tagcloud']/a)[2]"}
+D 2017-01-20 18:37:05:750 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//div[@class='tagcloud']/a)[2]"} }
+D 2017-01-20 18:37:05:750 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:37:05:750 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[2]
+I 2017-01-20 18:37:05:750 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:05:808 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+I 2017-01-20 18:37:05:810 VariantUtilities.cpp(179) Unknown type of dispatch is found in result, assuming IHTMLElement
+D 2017-01-20 18:37:05:815 ElementRepository.cpp(66) Element is not yet managed
+D 2017-01-20 18:37:05:819 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":{"ELEMENT":"e43d8da7-8cd3-494f-bcbf-c341ea1ba6f9","element-6066-11e4-a52e-4f735466cecf":"e43d8da7-8cd3-494f-bcbf-c341ea1ba6f9"}}
+
+D 2017-01-20 18:37:05:822 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element/e43d8da7-8cd3-494f-bcbf-c341ea1ba6f9/click {"id":"e43d8da7-8cd3-494f-bcbf-c341ea1ba6f9"}
+D 2017-01-20 18:37:05:822 command.cc(36) Raw JSON command: { "name" : "click", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e", "id" : "e43d8da7-8cd3-494f-bcbf-c341ea1ba6f9" }, "parameters" : {"id":"e43d8da7-8cd3-494f-bcbf-c341ea1ba6f9"} }
+D 2017-01-20 18:37:05:822 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:37:05:846 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:05:872 InputManager.cpp(86) Mutex acquired for user interaction.
+D 2017-01-20 18:37:05:928 Element.cpp(480) Element is inline with one client rect, using IHTMLElement2::getBoundingClientRect
+D 2017-01-20 18:37:05:952 Element.cpp(561) Element is not in a frame
+D 2017-01-20 18:37:06:067 Script.cpp(439) Result type is string
+D 2017-01-20 18:37:06:067 Element.cpp(353) (x, y, w, h): 1038, 587, 80, 32
+D 2017-01-20 18:37:06:100 InputManager.cpp(477) Using SendMessage method for mouse move
+D 2017-01-20 18:37:06:120 InputManager.cpp(246) Using SendMessage method for mouse click
+D 2017-01-20 18:37:06:159 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:06:180 Browser.cpp(502) Waiting for document to complete...
+D 2017-01-20 18:37:06:251 Browser.cpp(507) Not in navigating state
+D 2017-01-20 18:37:06:256 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:37:06:263 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/window_handles {}
+D 2017-01-20 18:37:06:263 command.cc(36) Raw JSON command: { "name" : "getWindowHandles", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {} }
+D 2017-01-20 18:37:06:263 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:37:06:273 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":["3b128310-732e-4bac-8dd5-072e7f051fc2"]}
+
+D 2017-01-20 18:37:06:278 server.cc(281) Command: GET /session/3aa89e38-c507-4447-9676-716dc641552e/url {}
+D 2017-01-20 18:37:06:278 command.cc(36) Raw JSON command: { "name" : "getCurrentUrl", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {} }
+D 2017-01-20 18:37:06:278 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:37:06:278 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:06:312 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"http://www.v2solutions.com/"}
+
+D 2017-01-20 18:37:06:314 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/back {}
+D 2017-01-20 18:37:06:315 command.cc(36) Raw JSON command: { "name" : "goBack", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {} }
+D 2017-01-20 18:37:06:315 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:37:06:315 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:06:315 Browser.cpp(458) Browser busy property is true.
+D 2017-01-20 18:37:06:422 ElementRepository.cpp(110) Refreshing managed element cache. Found 1 to remove from cache.
+D 2017-01-20 18:37:06:427 server.cc(281) Command: GET /favicon.ico {}
+D 2017-01-20 18:37:06:427 server.cc(355) Response: { "status" : 404, "sessionId" : "<no session>", "value" : "Command not found: GET /favicon.ico" }
+D 2017-01-20 18:37:06:515 Browser.cpp(442) Navigate Events Completed.
+D 2017-01-20 18:37:06:521 Browser.cpp(502) Waiting for document to complete...
+D 2017-01-20 18:37:06:531 Browser.cpp(507) Not in navigating state
+D 2017-01-20 18:37:06:539 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":null}
+
+D 2017-01-20 18:37:06:542 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/execute {"script":"return document.readyState","args":[]}
+D 2017-01-20 18:37:06:542 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"script":"return document.readyState","args":[]} }
+D 2017-01-20 18:37:06:542 IECommandExecutor.cpp(572) No alert handle is found
+I 2017-01-20 18:37:06:542 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:06:601 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":0,"value":"complete"}
+
+D 2017-01-20 18:37:08:604 server.cc(281) Command: POST /session/3aa89e38-c507-4447-9676-716dc641552e/element {"using":"xpath","value":"(//div[@class='tagcloud']/a)[3]"}
+D 2017-01-20 18:37:08:604 command.cc(36) Raw JSON command: { "name" : "findElement", "locator" : { "sessionid" : "3aa89e38-c507-4447-9676-716dc641552e" }, "parameters" : {"using":"xpath","value":"(//div[@class='tagcloud']/a)[3]"} }
+D 2017-01-20 18:37:08:604 IECommandExecutor.cpp(572) No alert handle is found
+D 2017-01-20 18:37:08:604 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:08:604 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:08:654 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:08:906 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:08:906 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:08:956 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:09:207 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:09:207 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:09:261 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:09:512 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:09:512 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:09:560 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:09:811 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:09:811 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:09:860 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:10:111 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:10:111 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:10:158 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:10:409 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:10:409 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:10:451 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:10:702 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:10:702 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:10:751 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:11:002 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:11:002 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:11:047 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:11:298 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:11:298 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:11:348 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:11:599 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:11:599 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:11:644 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:11:895 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:11:895 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:11:947 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:12:198 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:12:198 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:12:246 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:12:498 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:12:498 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:12:547 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:12:798 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:12:798 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:12:840 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:13:091 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:13:091 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:13:137 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:13:388 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:13:388 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:13:439 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:13:690 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:13:690 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:13:738 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:13:989 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:13:989 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:14:071 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:14:323 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:14:323 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:14:392 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:14:643 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:14:643 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:14:692 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:14:943 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:14:943 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:14:987 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:15:238 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:15:238 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:15:302 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:15:553 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:15:553 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:15:602 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:15:853 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:15:853 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:15:901 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:16:152 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:16:152 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:16:201 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:16:452 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:16:452 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:16:501 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:16:752 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:16:752 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:16:798 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:17:051 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:17:051 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:17:099 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:17:350 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:17:350 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:17:401 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:17:652 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:17:652 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:17:700 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:17:952 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:17:952 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:18:112 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:18:363 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:18:363 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:18:417 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:18:668 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:18:668 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:18:720 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:18:971 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:18:971 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:19:018 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:19:269 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:19:269 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:19:320 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:19:571 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:19:571 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:19:621 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:19:872 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:19:872 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:19:922 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:20:173 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:20:173 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:20:221 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:20:472 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:20:472 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:20:525 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:20:776 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:20:776 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:20:827 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:21:078 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:21:078 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:21:130 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:21:381 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:21:381 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:21:427 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:21:679 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:21:679 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:21:751 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:22:002 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:22:002 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:22:051 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:22:302 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:22:302 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:22:347 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:22:598 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:22:598 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:22:640 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:22:891 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:22:891 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:22:940 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:23:191 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:23:191 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:23:234 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:23:485 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:23:485 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:23:530 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:23:781 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:23:781 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:23:826 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:24:077 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:24:077 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:24:124 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:24:376 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:24:376 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:24:425 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:24:676 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:24:676 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:24:726 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:24:977 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:24:977 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:25:025 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:25:276 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:25:276 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:25:322 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:25:586 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:25:586 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:25:631 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:25:882 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:25:882 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:25:924 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:26:175 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:26:175 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:26:220 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:26:471 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:26:471 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:26:514 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:26:765 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:26:765 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:26:837 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:27:089 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:27:089 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:27:147 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:27:398 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:27:398 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:27:446 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:27:698 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:27:698 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:27:747 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:27:998 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:27:998 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:28:046 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:28:297 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:28:297 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:28:350 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:28:601 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:28:601 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:28:645 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:28:897 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:28:897 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:28:939 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:29:190 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:29:190 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:29:245 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:29:496 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:29:496 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:29:547 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:29:798 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:29:798 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:29:847 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:30:098 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:30:098 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:30:143 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:30:394 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:30:394 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:30:444 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:30:696 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:30:696 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:30:747 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:30:998 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:30:998 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:31:053 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:31:304 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:31:304 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:31:353 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:31:604 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:31:604 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:31:655 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:31:906 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:31:906 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:31:951 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:32:202 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:32:202 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:32:252 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:32:503 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:32:503 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:32:548 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:32:799 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:32:799 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:32:846 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:33:097 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:33:097 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:33:144 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:33:395 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:33:395 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:33:442 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:33:693 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:33:693 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:33:744 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:33:995 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:33:995 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:34:045 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:34:296 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:34:296 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:34:359 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:34:611 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:34:611 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:34:710 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:34:964 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:34:964 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:35:021 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:35:272 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:35:272 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:35:315 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:35:566 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:35:566 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:35:619 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:35:870 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:35:870 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:35:915 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:36:166 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:36:166 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:36:215 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:36:466 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:36:466 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:36:516 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:36:767 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:36:767 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:36:818 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:37:070 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:37:070 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:37:116 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:37:367 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:37:367 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:37:414 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:37:665 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:37:665 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:37:713 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:37:964 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:37:964 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:38:022 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:38:273 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:38:273 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:38:322 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:38:573 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:38:573 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:38:626 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:38:877 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:38:877 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:38:924 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:39:175 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:39:175 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:39:238 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:39:489 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:39:489 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:39:538 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:39:790 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:39:790 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:39:838 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:40:089 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:40:089 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:40:139 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:40:390 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:40:390 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:40:454 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:40:705 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:40:705 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:40:764 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:41:016 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:41:016 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:41:087 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:41:338 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:41:338 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:41:393 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:41:644 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:41:644 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:41:692 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:41:943 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:41:943 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:42:017 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:42:269 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:42:269 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:42:318 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:42:569 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:42:569 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:42:623 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:42:874 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:42:874 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:42:928 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:43:180 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:43:180 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:43:233 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:43:485 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:43:485 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:43:541 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:43:792 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:43:792 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:43:837 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:44:089 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:44:089 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:44:136 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:44:388 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:44:388 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:44:440 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:44:691 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:44:691 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:44:741 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:44:992 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:44:992 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:45:041 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:45:292 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:45:292 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:45:339 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:45:591 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:45:591 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:45:639 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:45:890 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:45:890 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:45:933 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:46:184 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:46:184 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:46:236 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:46:487 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:46:487 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:46:529 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:46:780 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:46:780 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:46:834 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:47:086 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:47:086 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:47:132 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:47:383 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:47:383 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:47:430 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:47:681 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:47:681 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:47:731 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:47:982 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:47:982 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:48:032 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:48:283 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:48:283 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:48:328 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:48:579 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:48:579 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:48:627 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:48:878 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:48:878 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:48:927 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:49:179 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:49:179 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:49:233 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:49:484 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:49:484 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:49:534 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:49:785 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:49:785 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:49:837 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:50:088 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:50:088 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:50:131 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:50:382 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:50:382 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:50:434 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:50:685 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:50:685 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:50:734 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:50:985 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:50:985 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:51:035 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:51:286 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:51:286 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:51:336 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:51:588 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:51:588 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:51:636 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:51:889 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:51:889 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:51:956 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:52:207 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:52:207 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:52:265 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:52:516 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:52:516 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:52:563 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:52:814 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:52:814 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:52:930 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:53:182 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:53:182 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:53:249 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:53:500 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:53:500 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:53:573 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:53:824 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:53:824 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:53:884 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:54:135 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:54:135 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:54:184 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:54:435 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:54:435 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:54:499 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:54:750 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:54:750 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:54:838 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:55:090 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:55:090 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:55:158 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:55:410 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:55:410 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:55:463 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:55:714 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:55:714 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:55:769 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:56:020 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:56:020 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:56:084 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:56:335 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:56:335 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:56:386 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:56:637 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:56:637 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:56:690 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:56:942 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:56:942 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:56:997 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:57:248 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:57:248 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:57:303 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:57:555 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:57:555 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:57:607 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:57:859 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:57:859 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:57:925 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:58:176 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:58:176 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:58:233 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:58:485 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:58:485 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:58:543 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:58:794 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:58:794 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:58:844 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:59:096 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:59:096 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:59:144 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:59:395 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:59:395 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:59:438 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:59:690 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:59:690 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:37:59:741 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:37:59:992 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:37:59:992 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:00:035 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:00:286 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:00:286 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:00:340 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:00:591 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:00:591 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:00:635 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:00:886 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:00:886 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:00:937 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:01:189 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:01:189 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:01:235 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:01:486 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:01:486 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:01:538 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:01:790 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:01:790 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:01:836 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:02:087 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:02:087 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:02:169 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:02:420 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:02:420 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:02:467 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:02:718 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:02:718 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:02:768 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:03:020 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:03:020 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:03:070 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:03:322 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:03:322 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:03:366 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:03:617 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:03:617 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:03:668 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:03:920 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:03:920 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:03:966 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:04:217 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:04:217 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:04:273 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:04:524 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:04:524 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:04:574 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:04:826 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:04:826 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:04:878 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:05:130 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:05:130 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:05:180 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:05:431 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:05:431 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:05:479 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:05:730 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:05:730 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:05:777 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:06:028 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:06:028 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:06:076 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:06:327 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:06:327 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:06:373 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:06:624 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:06:624 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:06:672 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:06:923 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:06:923 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:06:969 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:07:221 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:07:221 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:07:273 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:07:525 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:07:525 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:07:571 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:07:822 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:07:822 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:07:884 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:08:135 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:08:135 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:08:183 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:08:435 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:08:435 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:08:490 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:08:741 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:08:741 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+D 2017-01-20 18:38:08:790 VariantUtilities.cpp(95) Result type is JScriptTypeInfo
+D 2017-01-20 18:38:09:041 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:09:041 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:09:170 Browser.cpp(627) -2147417848 [The object invoked has disconnected from its clients.]: Unable to get browser, call to IServiceProvider::QueryService failed for IID_IWebBrowserApp
+W 2017-01-20 18:38:09:170 Browser.cpp(148) Cannot get document
+W 2017-01-20 18:38:09:171 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:09:171 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:09:421 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:09:421 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:09:476 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:09:476 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:09:476 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:09:726 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:09:726 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:09:727 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:09:727 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:09:727 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:09:977 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:09:977 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:09:977 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:09:977 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:09:977 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:10:227 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:10:227 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:10:227 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:10:227 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:10:227 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:10:477 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:10:477 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:10:477 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:10:477 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:10:477 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:10:727 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:10:727 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:10:727 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:10:727 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:10:727 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:10:977 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:10:977 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:10:977 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:10:977 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:10:977 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:11:227 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:11:227 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:11:227 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:11:227 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:11:227 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:11:477 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:11:477 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:11:477 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:11:477 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:11:477 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:11:727 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:11:727 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:11:727 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:11:727 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:11:727 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:11:977 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:11:977 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:11:977 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:11:977 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:11:977 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:12:227 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:12:227 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:12:227 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:12:227 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:12:227 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:12:477 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:12:477 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:12:477 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:12:477 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:12:477 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:12:727 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:12:727 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:12:727 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:12:727 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:12:727 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:12:977 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:12:977 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:12:977 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:12:977 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:12:977 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:13:227 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:13:227 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:13:227 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:13:227 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:13:227 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:13:477 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:13:477 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:13:477 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:13:477 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:13:477 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:13:727 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:13:727 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:13:727 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:13:727 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:13:727 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:13:977 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:13:977 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:13:977 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:13:977 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:13:977 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:14:227 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:14:227 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:14:227 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:14:227 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:14:227 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:14:477 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:14:477 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:14:477 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:14:477 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:14:477 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:14:727 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:14:727 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:14:727 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:14:727 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:14:727 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:14:977 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:14:977 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:14:977 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:14:977 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:14:977 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:15:227 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:15:227 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:15:227 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:15:227 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:15:227 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:15:477 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:15:477 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:15:477 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:15:477 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:15:477 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:15:727 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:15:727 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:15:727 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:15:727 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:15:727 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:15:977 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:15:977 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:15:977 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:15:977 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:15:977 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:16:227 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:16:227 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:16:227 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:16:227 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:16:227 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:16:477 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:16:477 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:16:477 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:16:477 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:16:477 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:16:727 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:16:727 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:16:727 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:16:727 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:16:727 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:16:977 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:16:977 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:16:977 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:16:977 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:16:977 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:17:228 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:17:228 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:17:228 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:17:228 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:17:228 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:17:478 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:17:478 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:17:478 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:17:478 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:17:478 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:17:728 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:17:728 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:17:728 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:17:728 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:17:728 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:17:978 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:17:978 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:17:978 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:17:978 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:17:978 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:18:228 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:18:228 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:18:228 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:18:228 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:18:228 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:18:478 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:18:478 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:18:478 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:18:478 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:18:478 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:18:728 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:18:728 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:18:728 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:18:728 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:18:728 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:18:978 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:18:978 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:18:978 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:18:978 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:18:978 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:19:228 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:19:228 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:19:228 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:19:228 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:19:228 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:19:478 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:19:478 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:19:478 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:19:478 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:19:478 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:19:728 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:19:728 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:19:728 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:19:728 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:19:728 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:19:978 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:19:978 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:19:978 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:19:978 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:19:978 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:20:228 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:20:228 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:20:228 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:20:228 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:20:228 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:20:478 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:20:478 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:20:478 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:20:478 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:20:478 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:20:728 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:20:728 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:20:728 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:20:728 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:20:728 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:20:978 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:20:978 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:20:978 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:20:978 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:20:978 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:21:228 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:21:228 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:21:228 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:21:228 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:21:228 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:21:478 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:21:478 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:21:478 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:21:478 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:21:478 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:21:728 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:21:728 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:21:728 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:21:728 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:21:728 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:21:978 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:21:978 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:21:978 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:21:978 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:21:978 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:22:228 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:22:228 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:22:232 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:22:232 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:22:232 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:22:482 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:22:482 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:22:482 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:22:482 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:22:482 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:22:732 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:22:732 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:22:732 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:22:732 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:22:732 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:22:982 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:22:982 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:22:982 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:22:982 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:22:982 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:23:232 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:23:232 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:23:232 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:23:232 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:23:232 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:23:482 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:23:482 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:23:482 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:23:482 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:23:482 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:23:732 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:23:732 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:23:732 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:23:732 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:23:732 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:23:982 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:23:982 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:23:982 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:23:982 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:23:982 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:24:232 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:24:232 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:24:232 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:24:232 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:24:232 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:24:482 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:24:482 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:24:482 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:24:482 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:24:482 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:24:732 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:24:732 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:24:732 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:24:732 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:24:732 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:24:982 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:24:982 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:24:982 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:24:982 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:24:982 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:25:232 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:25:232 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:25:232 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:25:232 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:25:232 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:25:482 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:25:482 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:25:482 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:25:482 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:25:482 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:25:732 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:25:732 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:25:732 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:25:732 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:25:732 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:25:982 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:25:982 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:25:982 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:25:982 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:25:982 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:26:232 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:26:232 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:26:232 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:26:232 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:26:232 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:26:482 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:26:482 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:26:482 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:26:482 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:26:482 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:26:732 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:26:732 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:26:732 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:26:732 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:26:732 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:26:982 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:26:982 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:26:982 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:26:982 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:26:982 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:27:233 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:27:233 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:27:233 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:27:233 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:27:233 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:27:483 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:27:483 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:27:483 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:27:483 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:27:483 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:27:733 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:27:733 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:27:733 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:27:733 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:27:733 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:27:983 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:27:983 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:27:983 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:27:983 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:27:983 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:28:233 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:28:233 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:28:233 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:28:233 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:28:233 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:28:483 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:28:483 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:28:483 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:28:483 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:28:483 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:28:733 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:28:733 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:28:733 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:28:733 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:28:733 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:28:983 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:28:983 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:28:983 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:28:983 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:28:983 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:29:233 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:29:233 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:29:233 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:29:233 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:29:233 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:29:496 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:29:496 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:29:506 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:29:507 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:29:507 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:29:757 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:29:757 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:29:757 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:29:757 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:29:757 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:30:007 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:30:007 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:30:007 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:30:007 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:30:007 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:30:257 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:30:257 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:30:257 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:30:257 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:30:257 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:30:507 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:30:507 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:30:510 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:30:511 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:30:511 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:30:761 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:30:761 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:30:761 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:30:761 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:30:761 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:31:011 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:31:011 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:31:011 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:31:011 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:31:011 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:31:261 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:31:261 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:31:261 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:31:261 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:31:261 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:31:511 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:31:511 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:31:511 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:31:511 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:31:511 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:31:761 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:31:761 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:31:761 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:31:761 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:31:761 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:32:011 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:32:011 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:32:011 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:32:011 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:32:011 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:32:261 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:32:261 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:32:261 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:32:261 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:32:261 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:32:511 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:32:511 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:32:511 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:32:511 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:32:511 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:32:761 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:32:761 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:32:761 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:32:761 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:32:761 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:33:011 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:33:011 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:33:011 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:33:011 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:33:011 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:33:261 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:33:261 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:33:261 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:33:261 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:33:261 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:33:511 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:33:511 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:33:511 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:33:511 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:33:511 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:33:761 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:33:761 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:33:761 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:33:761 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:33:761 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:34:011 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:34:011 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:34:011 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:34:011 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:34:011 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:34:261 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:34:261 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:34:261 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:34:261 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:34:261 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:34:511 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:34:511 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:34:511 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:34:511 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:34:511 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:34:761 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:34:761 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:34:761 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:34:762 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:34:762 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:35:012 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:35:012 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:35:012 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:35:012 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:35:012 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:35:263 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:35:263 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:35:263 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:35:263 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:35:263 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:35:513 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:35:513 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:35:514 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:35:514 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:35:514 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:35:764 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:35:764 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:35:765 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:35:765 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:35:765 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:36:015 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:36:015 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:36:015 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:36:015 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:36:015 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:36:275 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:36:275 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:36:276 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:36:276 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:36:276 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:36:526 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:36:526 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:36:526 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:36:526 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:36:526 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:36:776 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:36:776 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:36:776 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:36:776 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:36:776 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:37:027 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:37:027 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:37:027 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:37:027 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:37:027 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:37:277 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:37:277 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:37:277 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:37:277 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:37:277 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:37:527 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:37:527 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:37:611 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:37:611 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:37:611 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:37:861 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:37:861 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:37:861 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:37:861 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:37:861 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:38:111 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:38:111 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:38:111 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:38:111 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:38:111 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+D 2017-01-20 18:38:38:361 ElementFinder.cpp(53) Using FindElement atom to locate element having xpath = (//div[@class='tagcloud']/a)[3]
+I 2017-01-20 18:38:38:361 Browser.cpp(124) No child frame focus. Focus is on top-level frame
+W 2017-01-20 18:38:38:361 Browser.cpp(129) -2147023174 [The RPC server is unavailable.]: Unable to get document, IWebBrowser2::get_Document call failed
+W 2017-01-20 18:38:38:361 Script.cpp(170) Script engine host is NULL
+W 2017-01-20 18:38:38:361 ElementFinder.cpp(91) A JavaScript error was encountered executing the findElement atom.
+W 2017-01-20 18:38:38:611 response.cc(77) Error response has status code 7 and message 'Unable to find element with xpath == (//div[@class='tagcloud']/a)[3]' message
+D 2017-01-20 18:38:38:611 server.cc(355) Response: {"sessionId":"3aa89e38-c507-4447-9676-716dc641552e","status":7,"value":{"message":"Unable to find element with xpath == (//div[@class='tagcloud']/a)[3]"}}
+

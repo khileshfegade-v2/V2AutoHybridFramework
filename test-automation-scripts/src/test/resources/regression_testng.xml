@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression suite" verbose="1" configfailurepolicy="continue">
+
+<!-- 	<parameter name="configFileName" value="src/test/resources/config.properties" /> -->
+	<parameter name="pageurlsFileName" value="src/test/resources/pageurls/qa.pageurls.properties" />
+
+	<listeners>
+		<listener class-name="com.v2solutions.taf.listener.LogErrorListener" />
+		<listener class-name="com.v2solutions.taf.listener.SuiteListener" />
+		<listener class-name="com.v2solutions.taf.listener.TestListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<test name="V2SolutionsHomePage" preserve-order="true"> 
+ 		<classes> 
+			<class name="test.v2solutions.components.TestGlobalFooterSection" /> 
+			<class name="test.v2solutions.components.TestGlobalNavigation" /> 
+			<class name="test.v2solutions.components.TestMainNavigation" /> 
+			<class name="test.v2solutions.components.TestPageFootersSection" /> 
+			<class name="test.v2solutions.pages.TestV2SolutionsHomePage" /> 
+			<class name="test.v2solutions.pages.TestV2SolutionsContactUsPage" /> 
+      	</classes> 
+ 	</test> 
+
+</suite>

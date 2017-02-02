@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TabletRegression"
+           tests="10"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="30.352">
+  <properties />
+            <testcase name="verifyMapAndAddressRepresentHorizontallyInMobileView" time="6.608" classname="test.v2solutions.pages.TestV2SolutionsContactUsPage">
+                <failure type="java.lang.AssertionError"
+                  message="The provided server address to RemoteWebDriver is invalid, so the connection could not be established. The browser has died mid-test."
+              >
+<![CDATA[java.lang.AssertionError: The provided server address to RemoteWebDriver is invalid, so the connection could not be established. The browser has died mid-test.
+  org.testng.Assert.fail(Assert.java:83)
+  com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:369)
+  test.v2solutions.pages.TestV2SolutionsContactUsPage.verifyMapAndAddressRepresentHorizontallyInMobileView(TestV2SolutionsContactUsPage.java:525)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: com.v2solutions.taf.common.logs.AnalizerException: The provided server address to RemoteWebDriver is invalid, so the connection could not be established. The browser has died mid-test.
+  com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:363)
+  test.v2solutions.pages.TestV2SolutionsContactUsPage.verifyMapAndAddressRepresentHorizontallyInMobileView(TestV2SolutionsContactUsPage.java:525)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'V2MUMPC0014', ip: '192.168.15.171', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{noReset=true, safari=true, enablePersistentHover=false, browserstack.tunnelIdentifier=, loggingPrefs={performance=ALL, browser=ALL}, language=Apache-HttpClient/4.3.5 (java 1.5), resolution=1280x1024, deviceName==iPhone 6 (8.3 Simulator) [B6160656-BD94-4E03-A734-BD96BB6E5BD0], platform=MAC, browserstack.video.disableWaterMark=false, desired={noReset=true, enablePersistentHover=false, browserstack.tunnelIdentifier=, loggingPrefs={performance=ALL, browser=ALL}, language=Apache-HttpClient/4.3.5 (java 1.5), resolution=1280x1024, deviceName==iPhone 6 (8.3 Simulator) [B6160656-BD94-4E03-A734-BD96BB6E5BD0], platform=MAC, browserstack.video.disableWaterMark=false, osVersion=8.3, acceptSslCerts=false, newCommandTimeout=300, requireWindowFocus=true, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, os=MAC, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, ignoreProtectedModeSettings=true, device=iPhone 6, browserstack.callbackStop=true, proxy_type=node}, osVersion=8.3, acceptSslCerts=false, newCommandTimeout=300, requireWindowFocus=true, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, os=MAC, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, ignoreProtectedModeSettings=true, device=iPhone 6, browserstack.callbackStop=true, proxy_type=node}]
+Session ID: 9fc51238be58ec0ed5e355087120c4a92171cc45
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+  org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:380)
+  com.v2solutions.pages.V2SolutionContactUsPage.verifyComponentPositionInMobile(V2SolutionContactUsPage.java:212)
+  test.v2solutions.pages.TestV2SolutionsContactUsPage.verifyMapAndAddressRepresentHorizontallyInMobileView(TestV2SolutionsContactUsPage.java:522)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: java.lang.NumberFormatException: For input string: "37.5"
+  java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+  java.lang.Integer.parseInt(Integer.java:580)
+  java.math.BigInteger.<init>(BigInteger.java:461)
+  java.math.BigInteger.<init>(BigInteger.java:597)
+  com.google.gson.internal.LazilyParsedNumber.longValue(LazilyParsedNumber.java:51)
+  com.google.gson.JsonPrimitive.getAsLong(JsonPrimitive.java:233)
+  org.openqa.selenium.remote.JsonToBeanConverter.convertJsonPrimitive(JsonToBeanConverter.java:249)
+  org.openqa.selenium.remote.JsonToBeanConverter.convert(JsonToBeanConverter.java:75)
+  org.openqa.selenium.remote.JsonToBeanConverter.convertMap(JsonToBeanConverter.java:344)
+  org.openqa.selenium.remote.JsonToBeanConverter.convert(JsonToBeanConverter.java:219)
+  org.openqa.selenium.remote.JsonToBeanConverter.convert(JsonToBeanConverter.java:43)
+  org.openqa.selenium.remote.JsonToBeanConverter.convert(JsonToBeanConverter.java:144)
+  org.openqa.selenium.remote.JsonToBeanConverter.convert(JsonToBeanConverter.java:43)
+  org.openqa.selenium.remote.http.JsonHttpResponseCodec.decode(JsonHttpResponseCodec.java:78)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+  org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:380)
+  com.v2solutions.pages.V2SolutionContactUsPage.verifyComponentPositionInMobile(V2SolutionContactUsPage.java:212)
+  test.v2solutions.pages.TestV2SolutionsContactUsPage.verifyMapAndAddressRepresentHorizontallyInMobileView(TestV2SolutionsContactUsPage.java:522)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:483)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="verifyPageIsResizedToMobileViewLayout" time="0.005" classname="test.v2solutions.pages.TestV2SolutionsContactUsPage" />
+                <testcase name="verifySocialIconRenderedInMobileView" time="5.644" classname="test.v2solutions.pages.TestV2SolutionsContactUsPage" />
+                <testcase name="verifySocialIconRenderedInMobileView" time="6.333" classname="test.v2solutions.pages.TestV2SolutionsContactUsPage" />
+                <testcase name="verifyFirstNameTextboxInEnquiryFormRenderedWithDefaultValueInMobileView" time="0.320" classname="test.v2solutions.pages.TestV2SolutionsContactUsPage" />
+                <testcase name="verifyUSAndIndiaContactLocationDisplayedInMobileView" time="1.332" classname="test.v2solutions.pages.TestV2SolutionsContactUsPage" />
+                <testcase name="verifyH2HeaderTextInMobileView" time="0.343" classname="test.v2solutions.pages.TestV2SolutionsContactUsPage" />
+                <testcase name="verifyEnquiryFormSectionDisplayedInMobileView" time="1.327" classname="test.v2solutions.pages.TestV2SolutionsContactUsPage" />
+                <testcase name="validateEmailErrorMessageInEnquiryDetailsFormInMobileView" time="2.799" classname="test.v2solutions.pages.TestV2SolutionsContactUsPage" />
+                <testcase name="verifySocialIconRenderedInMobileView" time="5.641" classname="test.v2solutions.pages.TestV2SolutionsContactUsPage" />
+      
+</testsuite>

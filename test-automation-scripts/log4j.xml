@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="ConsoleAppender" class="org.apache.log4j.ConsoleAppender">
+    	<layout class="org.apache.log4j.PatternLayout">
+	         <param name="ConversionPattern" value="%d [%t] %-5p %c %x - %m%n"/>
+    	</layout>
+	</appender>
+	<appender name="fileAppender" class="org.apache.log4j.FileAppender">
+      	<param name="append" value="true"/>
+	    <param name="file" value="logs/testautomation.log"/>
+	    <param name="ImmediateFlush" value="true"/>
+   		<layout class="org.apache.log4j.PatternLayout">
+	         <param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss,SSS} %-5p [Class=%C] [Method=%M] [Line=%L] %m%n"/>
+    	</layout>
+   </appender>
+ 
+ 	<appender name="jsErrorAppender" class="org.apache.log4j.RollingFileAppender">
+      	<param name="append" value="true"/>
+	    <param name="file" value="logs/jserror.log"/>
+	    <param name="MaxFileSize" value="10000KB"/>
+   		<layout class="org.apache.log4j.PatternLayout">
+	         <param name="ConversionPattern" value="%d [%t] %-5p [%c{1}] %m%n"/>
+    	</layout>
+   </appender>
+   
+	<appender name="failedAnalysisQAEngineerAppender" class="org.apache.log4j.RollingFileAppender">
+      	<param name="append" value="true"/>
+	    <param name="file" value="target/QA-EngineerFailAnalysis.log"/>
+	    <param name="MaxFileSize" value="500KB"/>
+	    <param name="ImmediateFlush" value="true"/>
+	    <param name="maxBackupIndex" value="100" />
+   		<layout class="org.apache.log4j.PatternLayout">
+	         <param name="ConversionPattern" value="%m%n"/>
+    	</layout>
+   </appender>
+ 
+	<appender name="failedAnalysisClientAppender" class="org.apache.log4j.RollingFileAppender">
+      	<param name="append" value="true"/>
+	    <param name="file" value="target/ClientFailAnalysis.log"/>
+	    <param name="MaxFileSize" value="500KB"/>
+	    <param name="ImmediateFlush" value="true"/>
+	    <param name="maxBackupIndex" value="100" />
+   		<layout class="org.apache.log4j.PatternLayout">
+	         <param name="ConversionPattern" value="%m%n"/>
+    	</layout>
+   </appender>
+   
+	<appender name="skipAnalysisTestMethodAppender" class="org.apache.log4j.RollingFileAppender">
+      	<param name="append" value="true"/>
+	    <param name="file" value="target/SkipAnalysis.log"/>
+	    <param name="MaxFileSize" value="1000KB"/>
+	    <param name="ImmediateFlush" value="true"/>
+	    <param name="maxBackupIndex" value="100" />
+   		<layout class="org.apache.log4j.PatternLayout">
+	         <param name="ConversionPattern" value="%m%n"/>
+    	</layout>
+   </appender>
+   
+   
+	<appender name="finalResultAppender" class="org.apache.log4j.RollingFileAppender">
+      	<param name="append" value="true"/>
+	    <param name="file" value="target/FinalResult.log"/>
+	    <param name="MaxFileSize" value="10KB"/>
+	    <param name="ImmediateFlush" value="true"/>
+	    <param name="maxBackupIndex" value="100" />
+   		<layout class="org.apache.log4j.PatternLayout">
+	         <param name="ConversionPattern" value="%m%n"/>
+    	</layout>
+   </appender>
+   
+	<appender name="passedTestLoggerAppender" class="org.apache.log4j.RollingFileAppender">
+      	<param name="append" value="true"/>
+	    <param name="file" value="target/Passed.log"/>
+	    <param name="MaxFileSize" value="10000KB"/>
+	    <param name="ImmediateFlush" value="true"/>
+	    <param name="maxBackupIndex" value="100" />
+   		<layout class="org.apache.log4j.PatternLayout">
+	         <param name="ConversionPattern" value="%m%n"/>
+    	</layout>
+   </appender>
+   
+   
+	<appender name="skippedTestLoggerAppender" class="org.apache.log4j.RollingFileAppender">
+      	<param name="append" value="true"/>
+	    <param name="file" value="target/Skipped.log"/>
+	    <param name="MaxFileSize" value="10000KB"/>
+	    <param name="ImmediateFlush" value="true"/>
+	    <param name="maxBackupIndex" value="100" />
+   		<layout class="org.apache.log4j.PatternLayout">
+	         <param name="ConversionPattern" value="%m%n"/>
+    	</layout>
+   </appender>
+   
+	<appender name="failedTestLoggerAppender" class="org.apache.log4j.RollingFileAppender">
+      	<param name="append" value="true"/>
+	    <param name="file" value="target/Failed.log"/>
+	    <param name="MaxFileSize" value="10000KB"/>
+	    <param name="ImmediateFlush" value="true"/>
+	    <param name="maxBackupIndex" value="100" />
+   		<layout class="org.apache.log4j.PatternLayout">
+	         <param name="ConversionPattern" value="%m%n"/>
+    	</layout>
+   </appender>
+   
+   
+   <logger name="TestLogger" additivity="false" >
+	    <level value="INFO" />
+		<appender-ref ref="fileAppender"/>
+   </logger> 
+   
+    <logger name="FailAnalysisQaEngineerLogger" additivity="false" >
+	    <level value="INFO" />
+		<appender-ref ref="failedAnalysisQAEngineerAppender"/>
+   </logger> 
+   <logger name="FailAnalysisClientLogger" additivity="false" >
+	    <level value="INFO" />
+		<appender-ref ref="failedAnalysisClientAppender"/>
+   </logger> 
+
+   <logger name="SkipAnalysisTestMethodLogger" additivity="false" >
+	    <level value="INFO , ERROR" />
+		<appender-ref ref="skipAnalysisTestMethodAppender"/>
+   </logger> 
+   
+   <logger name="FinalResultLogger" additivity="false" >
+	    <level value="INFO" />
+		<appender-ref ref="finalResultAppender"/>
+   </logger> 
+   
+   <logger name="PassedTestLogger" additivity="false" >
+	    <level value="INFO" />
+		<appender-ref ref="passedTestLoggerAppender"/>
+   </logger>
+   
+   <logger name="SkippedTestLogger" additivity="false" >
+	    <level value="INFO" />
+		<appender-ref ref="skippedTestLoggerAppender"/>
+   </logger>
+   
+   <logger name="FailedTestLogger" additivity="false" >
+	    <level value="INFO" />
+		<appender-ref ref="failedTestLoggerAppender"/>
+   </logger>
+   
+ 
+   <logger name="com.v2solutions.taf.common.pages.JSErrorLogger" additivity="false" >
+	    <level value="DEBUG" />
+	    <appender-ref ref="jsErrorAppender"/>
+   </logger> 
+
+  	<root>
+	     <level value="INFO"/>
+	 	<appender-ref ref="fileAppender"/>
+  	</root>
+</log4j:configuration>

@@ -1,0 +1,11 @@
+#iPhone version 6.0 - executes only in this version 
+BROWSER=iPhone
+VERSION=6.0
+MAX_WAIT_TIME_SECONDS=30
+TEST_ENV=browserstack
+DEVICE=iPhone 6
+CLOUD_URL=https://sampletest7:edAmYWTt5paPx1ysgsod@hub-cloud.browserstack.com/wd/hub
+PLATFORM=MAC
+PLATFORM_VERSION=8.3
+BASE_URL=http://www.v2solutions.com
+RESOLUTION=1280x1024

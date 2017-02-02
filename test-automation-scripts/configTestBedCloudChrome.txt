@@ -1,0 +1,11 @@
+#firefox 23.0 with Windows XP/7/8 & OS X Lion/Mountain Lion/Snow Leopard
+BROWSER=chrome
+VERSION=34.0
+MAX_WAIT_TIME_SECONDS=30
+TEST_ENV=saucelabs
+CLOUD_URL=https://khilesh2:y2uGshzqnwMzmd2EDuuK@hub-cloud.browserstack.com/wd/hub
+PLATFORM=OS X
+PLATFORM_VERSION=Mountain Lion
+RESOLUTION=1280x1024
+BASE_URL=http://www.v2solutions.com
+JS_ERROR_LOGGING=FALSE

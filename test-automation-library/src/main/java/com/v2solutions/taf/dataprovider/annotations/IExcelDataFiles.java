@@ -1,0 +1,28 @@
+package com.v2solutions.taf.dataprovider.annotations;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+/**
+ * Annotation for supplying excel files, sheets as arguments to the TestNG's data provider
+ * 
+ * @author V2Solutions
+ * @version 1.0
+ * 
+ */
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+public @interface IExcelDataFiles {
+
+	/**
+	 * String of comma separated list of File, Sheets. Example: input1="File,Sheets",input2="File,Sheets"
+	 * If, no sheets are given, all available sheets will be read.
+	 * 
+	 */
+	String[] excelDataFiles();
+
+}
+

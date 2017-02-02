@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression suite]">
+  <parameter name="configFileName" value="src/test/resources/config.properties"/>
+  <parameter name="pageurlsFileName" value="src/test/resources/pageurls/qa.pageurls.properties"/>
+  <listeners>
+    <listener class-name="com.v2solutions.taf.listener.LogErrorListener"/>
+    <listener class-name="com.v2solutions.taf.listener.SuiteListener"/>
+    <listener class-name="com.v2solutions.taf.listener.TestListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="V2SolutionsHomePage">
+  </test> <!-- V2SolutionsHomePage -->
+</suite> <!-- Failed suite [Regression suite] -->

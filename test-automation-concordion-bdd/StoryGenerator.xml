@@ -1,0 +1,126 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.etouch.BDD</groupId>
+	<artifactId>StoryGenerator</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0</version>
+	<name>StoryGenerator</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+		</dependency>
+		<dependency>
+           <groupId>com.v2solutions.taf</groupId>
+           <artifactId>test-automation-library</artifactId>
+		   <scope>runtime</scope>
+           <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+		
+		<dependency>
+			<groupId>com.v2solutions.tas</groupId>
+			<artifactId>test-automation-scripts</artifactId>			
+			<scope>runtime</scope>
+			<version>1.0-SNAPSHOT</version>						 
+		</dependency>	
+		
+		<dependency>
+			<groupId>com.v2solutions.tas</groupId>
+			<artifactId>test-automation-scripts</artifactId>			
+			<version>1.0-SNAPSHOT</version>			
+			<scope>runtime</scope>
+			<type>test-jar</type>
+		</dependency>		
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>  
+				<groupId>org.codehaus.mojo</groupId>  
+				<artifactId>exec-maven-plugin</artifactId>  
+				<version>1.4.0</version>  
+				<executions>  
+					<execution>  
+						<phase>test</phase>  
+					<goals>  
+						<goal>java</goal>  
+					</goals>  
+					<configuration>  
+						<mainClass>StoryGenerator</mainClass>  
+						<arguments>  
+							<argument>${testNGClassName}</argument>  							
+						</arguments>  
+						
+					</configuration>  
+					</execution>  
+				</executions>  
+			</plugin>  
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>cp1252</encoding>				
+					<includes>
+						<include>StoryGenerator.java</include>
+					</includes>
+					<excludes>
+						<exclude>src/main/java/com/*.java</exclude>							
+						<exclude>src/test/java/com/*.java</exclude>							
+					</excludes>						
+								
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+					<configuration>
+					<excludes>
+						<exclude>**/log4j.properties</exclude>
+					</excludes>
+					<outputDirectory>.</outputDirectory>
+					<archive>
+						<manifest>						
+							<mainClass>StoryGenerator</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>				
+				
+			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<version>2.6.1</version>
+				<configuration>
+					<excludeDefaultDirectories>true</excludeDefaultDirectories>
+					<filesets>
+						<fileset>
+							<directory>.</directory>
+							<includes>
+								<include>**/*</include>
+							</includes>
+						</fileset>
+					</filesets>
+				</configuration>
+			</plugin>
+
+		</plugins>        
+	</build>
+</project>

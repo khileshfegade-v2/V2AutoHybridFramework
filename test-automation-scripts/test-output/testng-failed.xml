@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Regression suite]">
+  <parameter name="configFileName" value="src/test/resources/config.properties"/>
+  <parameter name="pageurlsFileName" value="src/test/resources/pageurls/qa.pageurls.properties"/>
+  <listeners>
+    <listener class-name="com.v2solutions.taf.listener.LogErrorListener"/>
+    <listener class-name="com.v2solutions.taf.listener.SuiteListener"/>
+    <listener class-name="com.v2solutions.taf.listener.TestListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="TabletRegression">
+    <groups>
+      <run>
+        <include name="Mobile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.v2solutions.pages.TestV2SolutionsContactUsPage"/>
+    </classes>
+  </test> <!-- TabletRegression -->
+  <test name="TabletRegression(failed)">
+    <groups>
+      <run>
+        <include name="Mobile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.v2solutions.pages.TestV2SolutionsContactUsPage">
+        <methods>
+          <include name="shutDownDriver"/>
+          <include name="verifyMapAndAddressRepresentHorizontallyInMobileView" invocation-numbers="0"/>
+          <include name="printTimeTaken"/>
+          <include name="prepareBeforeClass"/>
+          <include name="printTimeStart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.v2solutions.pages.TestV2SolutionsContactUsPage -->
+    </classes>
+  </test> <!-- TabletRegression(failed) -->
+</suite> <!-- Failed suite [Regression suite] -->

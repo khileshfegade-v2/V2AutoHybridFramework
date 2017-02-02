@@ -1,0 +1,12 @@
+BROWSER=Chrome
+VERSION=30
+MAX_WAIT_TIME_SECONDS=0
+PLATFORM=WINDOWS
+BASE_URL=http://www.v2solutions.com
+
+####################
+### eTouch config
+####################
+TEST_ENV=local
+HUB=localhost
+PORT=4444
