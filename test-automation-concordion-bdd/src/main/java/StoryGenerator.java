@@ -915,7 +915,7 @@ public class StoryGenerator
 			packageName = packageName.replace("test.","com.");
 			bw.write("import "+packageName+"."+replaceColRefrence(storyClassName)+";\n\n");
 
-			bw.write("/*\n");
+			bw.write("/**\n");
 			for(int i = 0; i < storyCommentLines.length;i++)
 			{
 				bw.write("* "+storyCommentLines[i]+"\n");

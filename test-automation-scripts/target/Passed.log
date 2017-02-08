@@ -1,0 +1,288 @@
+   <Row>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.007</Data></Cell>
+
+    <Cell><Data ss:Type="String">1920</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">1080</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.007</Data></Cell>
+
+    <Cell><Data ss:Type="String">1920</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">1080</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">11</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.002</Data></Cell>
+
+    <Cell><Data ss:Type="String">850</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">850</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">12</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.002</Data></Cell>
+
+    <Cell><Data ss:Type="String">850</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">850</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">21</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.002</Data></Cell>
+
+    <Cell><Data ss:Type="String">685</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">800</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">22</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.002</Data></Cell>
+
+    <Cell><Data ss:Type="String">685</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">800</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+

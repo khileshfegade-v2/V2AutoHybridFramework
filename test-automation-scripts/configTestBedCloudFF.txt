@@ -7,5 +7,5 @@
 #PLATFORM=OS X
 #PLATFORM_VERSION=Sierra
 #RESOLUTION=1280x1024
-#BASE_URL=http://www.v2solutions.com
+#BASE_URL=http://www.cisco.com
 #JS_ERROR_LOGGING=FALSE

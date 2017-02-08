@@ -48,7 +48,7 @@ public class TestGlobalNavigation extends BaseTest{
 		 * @param height
 		 * @param expected_no_of_columns
 		 */
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Desktop", "Regression"}, priority = 1, enabled = true, description = "Verify Page is Resized to 'Desktop view' Layout")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Desktop", "Regression"}, priority = 1, enabled = false, description = "Verify Page is Resized to 'Desktop view' Layout")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "desktop_layout")
 		public void verifyPageIsResizedToDesktopViewLayout(String width, String height, String expected_no_of_columns)
 		{
@@ -67,7 +67,7 @@ public class TestGlobalNavigation extends BaseTest{
 		
 		
 		
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "??", "??"}, priority = 2, enabled = true, description = "Verify global navigation header section present in Desktop View")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "??", "??"}, priority = 2, enabled = false, description = "Verify global navigation header section present in Desktop View")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "GlobalNav")
 		public void verifyGlobalNavigationHeaderPresentInDesktopView(String componentXpath)
 		{
@@ -82,7 +82,7 @@ public class TestGlobalNavigation extends BaseTest{
 		}
 		
 		
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "??", "??"}, priority = 3, enabled = true, description = " In Desktop View- Verify Contact number and contact id rendered in global navigation header")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "??", "??"}, priority = 3, enabled = false, description = " In Desktop View- Verify Contact number and contact id rendered in global navigation header")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "ContactNoAndID_In_GlobalNav")
 		public void verifyContactNoAndIDPresentInGlobalHeaderInDesktopView(String elementXpath, String expectedValue)
 		{
@@ -97,7 +97,7 @@ public class TestGlobalNavigation extends BaseTest{
 		}
 		
 		
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "??", "??"}, priority = 4, enabled = true, description = " In Desktop View- Verify 'Facebook', 'Twitter' and 'Linkedin' social icons rendered in global navigation header")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "??", "??"}, priority = 4, enabled = false, description = " In Desktop View- Verify 'Facebook', 'Twitter' and 'Linkedin' social icons rendered in global navigation header")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "socialIcons_In_GlobalHeader")
 		public void verifySocialIconRenderedInGlobalHeaderInDesktopView(String elementXpath)
 		{
@@ -113,7 +113,7 @@ public class TestGlobalNavigation extends BaseTest{
 		
 		
 		
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "??", "??"}, priority = 5, enabled = true, description = " In Desktop View- Validate 'Facebook', 'Twitter' and 'Linkedin' social icons are clickable")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "??", "??"}, priority = 5, enabled = false, description = " In Desktop View- Validate 'Facebook', 'Twitter' and 'Linkedin' social icons are clickable")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "socialIcons_with_exp_Content")
 		public void verifySocialIconInGlobalHeaderAreClickableInDesktopView(String linkIconXpath, String urlContainsTextValue)
 		{
@@ -129,7 +129,7 @@ public class TestGlobalNavigation extends BaseTest{
 		
 		
 		
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "??", "??"}, priority = 6, enabled = true, description = " In Desktop View- Verify ALT tag value for 'Facebook', 'Twitter' and 'Linkedin' social icons in global header")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "??", "??"}, priority = 6, enabled = false, description = " In Desktop View- Verify ALT tag value for 'Facebook', 'Twitter' and 'Linkedin' social icons in global header")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "socialIcons_with_exp_Content")
 		public void verifyALTTagNameOFSocialIconInGlobalHeaderInDesktopView(String linkIconXpath, String expALTtagValue)
 		{
@@ -170,7 +170,7 @@ public class TestGlobalNavigation extends BaseTest{
 		}
 		}
 		
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 8, enabled = true, description = "Verify global navigation header section present in Tablet View")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 8, enabled = false, description = "Verify global navigation header section present in Tablet View")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "GlobalNav")
 		public void verifyGlobalNavigationHeaderPresentInTabletView(String componentXpath)
 		{
@@ -184,7 +184,7 @@ public class TestGlobalNavigation extends BaseTest{
 			}
 		}
 		
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 9, enabled = true, description = " In Tablet View- Verify Contact number and contact id rendered in global navigation header")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 9, enabled = false, description = " In Tablet View- Verify Contact number and contact id rendered in global navigation header")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "ContactNoAndID_In_GlobalNav")
 		public void verifyContactNoAndIDPresentInGlobalHeaderIntabletView(String elementXpath, String expectedValue)
 		{
@@ -204,7 +204,7 @@ public class TestGlobalNavigation extends BaseTest{
 		 * @param height
 		 * @param expected_no_of_columns
 		 */
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 10, enabled = true, description = "Verify Page is Resized to 'Mobile view' Layout")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 10, enabled = false, description = "Verify Page is Resized to 'Mobile view' Layout")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "mobile_layout")
 		public void verifyPageIsResizedToMobileViewLayout(String width, String height, String expected_no_of_columns)
 		{
@@ -225,7 +225,7 @@ public class TestGlobalNavigation extends BaseTest{
 		}
 		}
 		
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 11, enabled = true, description = "Verify global navigation header section present in Mobile View")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 11, enabled = false, description = "Verify global navigation header section present in Mobile View")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "GlobalNav")
 		public void verifyGlobalNavigationHeaderPresentInMobileView(String componentXpath)
 		{

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="V2SolutionsHomePage"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.164">
+  <properties />
+  
+  
+            <testcase name="verifyPageIsResizedToTabletViewLayout" time="4.295" classname="test.v2solutions.components.TestGlobalNavigation" />
+                <testcase name="close" time="0.869" classname="test.v2solutions.components.TestGlobalNavigation" />
+      
+</testsuite>

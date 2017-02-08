@@ -8,5 +8,6 @@ BASE_URL=http://www.v2solutions.com
 ### eTouch config
 ####################
 TEST_ENV=local
+#DRIVER_LOCATION=D:\\eTouch\\SoftwareInstall\\chromedriver.exe
 HUB=localhost
 PORT=4444

@@ -1,0 +1,3813 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>v2solutions</Author>
+  <LastAuthor>v2solutions</LastAuthor>
+  <Created>2016-11-28T12:12:57Z</Created>
+  <LastSaved>2016-11-28T12:12:57Z</LastSaved>
+  <Version>11.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7995</WindowHeight>
+  <WindowWidth>20115</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>75</WindowTopY>
+  <TabRatio>317</TabRatio>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s53" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s57" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s57">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s53">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s57">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Final Result">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="204"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="203.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="183.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="185.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="183"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="111.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="124.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="101.25"/>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Total passed test methods</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Total failed test methods</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Total skipped test methods</Data></Cell>
+   </Row>
+   <Row>
+
+    <Cell><Data ss:Type="String">V2SolutionsHomePage</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Passed">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="137.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="193.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="413.25"/>
+   <Row ss:StyleID="s68">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sr. No.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Meaningful Method Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Duration</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Parameter Name=Parameter Value</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Test Method Name</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Failed">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="132"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="91.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="180"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="180"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="119.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="91.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="148.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="132"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="274.5"/>
+   <Row ss:StyleID="s71">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sr. No.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Meaningful Method Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Duration</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Parameter Name=Parameter Value</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Meaningful Message</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Page URL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Page Element Label</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Page Element</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Test Method Name</Data></Cell>
+  </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Skipped">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="224.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="224.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="208.5"/>
+   <Row ss:StyleID="s68">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sr. No.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Meaningful Method Name</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Test Method Name</Data></Cell>
+   </Row>
+   <Row>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">4</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">5</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">6</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">7</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">8</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">9</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">10</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">11</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">12</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">14</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">15</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">17</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">18</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">19</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">20</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">21</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">22</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">23</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">24</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">25</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Closes the browser instance</Data></Cell>
+
+    <Cell><Data ss:Type="String">com.v2solutions.common.BaseTest.close</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">26</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Closes the browser instance</Data></Cell>
+
+    <Cell><Data ss:Type="String">com.v2solutions.common.BaseTest.close</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">4</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">5</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">6</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">7</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">8</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">9</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">10</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">11</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">12</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">14</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">15</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">17</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">18</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">19</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">20</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">21</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">22</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">23</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">24</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">25</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">26</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">27</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">28</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>17</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>v2solutions</Author>
+  <LastAuthor>v2solutions</LastAuthor>
+  <Created>2016-11-28T12:12:57Z</Created>
+  <LastSaved>2016-11-28T12:12:57Z</LastSaved>
+  <Version>11.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7995</WindowHeight>
+  <WindowWidth>20115</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>75</WindowTopY>
+  <TabRatio>317</TabRatio>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s53" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s57" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s57">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s53">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s57">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Final Result">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="204"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="203.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="183.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="185.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="183"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="111.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="124.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="101.25"/>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Total passed test methods</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Total failed test methods</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Total skipped test methods</Data></Cell>
+   </Row>
+   <Row>
+
+    <Cell><Data ss:Type="String">V2SolutionsHomePage</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+   </Row>
+
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Passed">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="137.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="193.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="413.25"/>
+   <Row ss:StyleID="s68">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sr. No.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Meaningful Method Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Duration</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Parameter Name=Parameter Value</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Test Method Name</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Failed">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="132"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="91.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="180"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="180"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="119.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="91.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="148.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="132"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="274.5"/>
+   <Row ss:StyleID="s71">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sr. No.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Meaningful Method Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Duration</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Parameter Name=Parameter Value</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Meaningful Message</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Page URL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Page Element Label</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Page Element</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Test Method Name</Data></Cell>
+  </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Skipped">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="224.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="224.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="208.5"/>
+   <Row ss:StyleID="s68">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sr. No.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Meaningful Method Name</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Test Method Name</Data></Cell>
+   </Row>
+   <Row>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">4</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">5</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">6</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">7</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">8</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">9</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">10</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">11</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">12</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">14</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">15</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">17</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">18</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">19</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">20</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">21</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">22</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">23</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">24</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">25</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Closes the browser instance</Data></Cell>
+
+    <Cell><Data ss:Type="String">com.v2solutions.common.BaseTest.close</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">26</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Closes the browser instance</Data></Cell>
+
+    <Cell><Data ss:Type="String">com.v2solutions.common.BaseTest.close</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">4</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">5</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">6</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">7</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">8</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">9</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">10</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">11</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">12</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">14</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">15</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">17</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">18</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">19</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">20</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">21</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">22</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">23</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">24</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">25</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">26</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">27</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">28</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">8</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">10</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">18</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>17</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>v2solutions</Author>
+  <LastAuthor>v2solutions</LastAuthor>
+  <Created>2016-11-28T12:12:57Z</Created>
+  <LastSaved>2016-11-28T12:12:57Z</LastSaved>
+  <Version>11.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7995</WindowHeight>
+  <WindowWidth>20115</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>75</WindowTopY>
+  <TabRatio>317</TabRatio>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s53" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s57" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s57">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s53">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s57">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Final Result">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="204"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="203.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="183.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="185.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="183"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="111.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="124.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="101.25"/>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Total passed test methods</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Total failed test methods</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Total skipped test methods</Data></Cell>
+   </Row>
+   <Row>
+
+    <Cell><Data ss:Type="String">V2SolutionsHomePage</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+    <Cell><Data ss:Type="String">0</Data></Cell>
+
+   </Row>
+
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Passed">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="137.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="193.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="413.25"/>
+   <Row ss:StyleID="s68">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sr. No.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Meaningful Method Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Duration</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Parameter Name=Parameter Value</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Test Method Name</Data></Cell>
+   </Row>
+   <Row>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.007</Data></Cell>
+
+    <Cell><Data ss:Type="String">1920</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">1080</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.007</Data></Cell>
+
+    <Cell><Data ss:Type="String">1920</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">1080</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">11</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.002</Data></Cell>
+
+    <Cell><Data ss:Type="String">850</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">850</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">12</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.002</Data></Cell>
+
+    <Cell><Data ss:Type="String">850</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">850</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">21</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.002</Data></Cell>
+
+    <Cell><Data ss:Type="String">685</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">800</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">22</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">0.002</Data></Cell>
+
+    <Cell><Data ss:Type="String">685</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">800</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String"></Data></Cell>
+
+   </Row>
+
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Failed">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="132"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="91.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="180"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="180"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="119.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="91.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="148.5"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="132"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="274.5"/>
+   <Row ss:StyleID="s71">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sr. No.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Meaningful Method Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Duration</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Parameter Name=Parameter Value</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Meaningful Message</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Page URL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Page Element Label</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Page Element</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Test Method Name</Data></Cell>
+  </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Skipped">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="10000" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="224.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="224.25"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="208.5"/>
+   <Row ss:StyleID="s68">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sr. No.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Test Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Meaningful Method Name</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Test Method Name</Data></Cell>
+   </Row>
+   <Row>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">4</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">5</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">6</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">7</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">8</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">9</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">10</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">11</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">12</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">14</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">15</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">17</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">18</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">19</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">20</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">21</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">22</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">23</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">24</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">25</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Closes the browser instance</Data></Cell>
+
+    <Cell><Data ss:Type="String">com.v2solutions.common.BaseTest.close</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">26</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Closes the browser instance</Data></Cell>
+
+    <Cell><Data ss:Type="String">com.v2solutions.common.BaseTest.close</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">3</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">4</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">5</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">6</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">7</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">8</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">9</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">10</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Desktop view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inDesktopViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">11</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">12</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">13</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">14</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">15</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">17</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">18</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">19</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">20</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Tablet view - Verify user can perform search</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inTabletViewVerifyUserCanPerformSearch</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">21</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">22</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">23</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">24</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user can login with valid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCanLoginWithValidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">25</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">26</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify user cannot login with invalid credentials</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">27</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">28</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">In Mobile view - Verify Search field default text</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.inMobileViewVerifySearchFieldDefaultText</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">1</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">2</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Desktop view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToDesktopView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">8</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">10</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Tablet view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToTabletView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">16</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+   <Row>
+
+    <Cell><Data ss:Type="String">18</Data></Cell>
+
+    <Cell><Data ss:Type="String">TestNYDJ_TC</Data></Cell>
+
+    <Cell><Data ss:Type="String">Verify page is resized according to Mobile view</Data></Cell>
+
+    <Cell><Data ss:Type="String">test.v2solutions.nydj.TestNYDJ_TC.verifyPageIsResizedAccordingToMobileView</Data></Cell>
+
+    <Cell ss:StyleID="s69"/>
+
+   </Row>
+
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>17</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

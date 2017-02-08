@@ -48,7 +48,7 @@ public class TestGlobalFooterSection extends BaseTest{
 		 * @param height
 		 * @param expected_no_of_columns
 		 */
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Desktop", "Regression"}, priority = 1, enabled = false, description = "Verify Page is Resized to 'Desktop view' Layout")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Desktop", "Regression"}, priority = 1, enabled = true, description = "Verify Page is Resized to 'Desktop view' Layout")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "desktop_layout")
 		public void verifyPageIsResizedToDesktopViewLayout(String width, String height, String expected_no_of_columns)
 		{
@@ -67,7 +67,7 @@ public class TestGlobalFooterSection extends BaseTest{
 		
 		
 		
-		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Desktop", "Regression"}, priority = 2, enabled = false, description = "Verify global footer section present in Desktop View")
+		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Desktop", "Regression"}, priority = 2, enabled = true, description = "Verify global footer section present in Desktop View")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "FooterSection")
 		public void verifyGlobalFooterSectionPresentInDesktopView(String componentXpath)
 		{
@@ -153,7 +153,6 @@ public class TestGlobalFooterSection extends BaseTest{
 		}
 		
 		
-//	-------------------------------------------
 		
 		@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 8, enabled = false, description = "Verify Page is Resized to 'Desktop view' Layout")
 		@ITafExcelDataProviderInputs(excelFile = "v2solutionshomepage", excelsheet = "V2MainPage", dataKey = "tablet_layout")

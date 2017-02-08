@@ -1,0 +1,71 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion" xmlns:ext="urn:concordion-extensions:2010">
+	<head lang="en">
+		<meta charset="UTF-8"/>
+
+		<script type="text/javascript">
+		function goBack() {
+			window.history.back();
+		}
+		</script>
+		<style  type="text/css">
+		h1,h2
+		{
+			background: linear-gradient(to right, #005CE6, #E6F0FF);
+		}
+		h2
+		{
+			background: linear-gradient(to right, #E6F0FF,#005CE6);
+		}
+		body
+		{
+			padding: 0px;
+			background:#C0C0C0;
+		}
+		button		{
+			color:blue;
+			background:#E6F0FF;
+			border:none;
+		}
+		div
+		{
+			min-height:22px;
+		}
+		</style>
+		<title>BDDTestV2SolutionsHomePage</title>
+	</head>
+	<body style='margin-top:0;margin-left:15;margin-right:0;'>
+			<center><table width="100%" border="0"><tr align="center" valign="center" style="background: linear-gradient(to right, #005CE6, #E6F0FF);"><td><h1><font color="white">Acceptance Tests</font></h1></td></tr></table></center>
+			<br/><button onclick="goBack()">Go Back</button><br/>
+			<h2><u>    BDD  Test V2 Solutions Home Page</u></h2>
+			<div concordion:assertTrue="validateTabToggleWorkingFuctionalityInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Tab Toggle Working Fuctionality In Desktop View</div>
+			<div concordion:assertTrue="validateThumbnailIconRenderHorizontallyInOurIndustryFocusSection()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Thumbnail Icon Render Horizontally In Our Industry Focus Section</div>
+			<div concordion:assertTrue="validatePaginationInOurCustomerSaysSlideSectionInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Pagination In Our Customer Says Slide Section In Desktop View</div>
+			<div concordion:assertTrue="validatePaginationForCompaniesWorkedWithSectionInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Pagination For Companies Worked With Section In Desktop View</div>
+			<div concordion:assertTrue="validateReadMoreLinkClickableInLatestBlogSectionDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Read More Link Clickable In Latest Blog Section Desktop View</div>
+			<div concordion:assertTrue="validateWorkingOfTabToggleFuctionalityInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Working Of Tab Toggle Fuctionality In Tablet View</div>
+			<div concordion:assertTrue="validatePaginationForCompaniesWorkedWithSectionInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Pagination For Companies Worked With Section In Tablet View</div>
+			<div concordion:assertTrue="validatePaginationInOurCustomerSaysSlideSectionInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Pagination In Our Customer Says Slide Section In Tablet View</div>
+			<div concordion:assertTrue="validateReadMoreLinkClickableInLatestBlogSectionTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Read More Link Clickable In Latest Blog Section Tablet View</div>
+			<div concordion:assertTrue="validateWorkingOfTabToggleFuctionalityInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Working Of Tab Toggle Fuctionality In Mobile View</div>
+			<div concordion:assertTrue="validatePaginationForCompaniesWorkedWithSectionInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Pagination For Companies Worked With Section In Mobile View</div>
+			<div concordion:assertTrue="validatePaginationInOurCustomerSaysSlideSectionInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Pagination In Our Customer Says Slide Section In Mobile View</div>
+			<div concordion:assertTrue="validateReadMoreLinkClickableInLatestBlogSectionMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Read More Link Clickable In Latest Blog Section Mobile View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToDesktopViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Desktop View Layout</div>
+			<div concordion:assertTrue="validateLatestBlogSectionRenderedInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Latest Blog Section Rendered In Desktop View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToTabletViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Tablet View Layout</div>
+			<div concordion:assertTrue="validateLatestBlogSectionRenderedInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Latest Blog Section Rendered In Tablet View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToMobileViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Mobile View Layout</div>
+			<div concordion:assertTrue="validateLatestBlogSectionRenderedInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Latest Blog Section Rendered In Mobile View</div>
+			<div concordion:assertTrue="validateButtonLinksInInnovationThatMattersSectionAreHighlightedOnMouseHoverInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Button Links In Innovation That Matters Section Are Highlighted On Mouse Hover In Desktop View</div>
+			<div concordion:assertTrue="validateInOurSolutionsSectionTabToggleFunctionalityArrangeHorizontallynDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate In Our Solutions Section Tab Toggle Functionality Arrange Horizontallyn Desktop View</div>
+			<div concordion:assertTrue="validateButtonLinksInInnovationThatMattersSectionAreClickableInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Button Links In Innovation That Matters Section Are Clickable In Desktop View</div>
+			<div concordion:assertTrue="validateButtonLinksInInnovationThatMattersSectionAreClickableInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Button Links In Innovation That Matters Section Are Clickable In Tablet View</div>
+			<div concordion:assertTrue="validateInOurSolutionsSectionTabToggleFunctionalityDisplayedInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate In Our Solutions Section Tab Toggle Functionality Displayed In Tablet View</div>
+			<div concordion:assertTrue="validateThumbnailIconRenderedInOurIndustryFocusSectionInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Thumbnail Icon Rendered In Our Industry Focus Section In Tablet View</div>
+			<div concordion:assertTrue="validateButtonLinksInInnovationThatMattersSectionAreClickableInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Button Links In Innovation That Matters Section Are Clickable In Mobile View</div>
+			<div concordion:assertTrue="validateInOurSolutionsSectionTabToggleFunctionalityDisplayedInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate In Our Solutions Section Tab Toggle Functionality Displayed In Mobile View</div>
+			<div concordion:assertTrue="validateThumbnailIconRenderedInOurIndustryFocusSectionInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Thumbnail Icon Rendered In Our Industry Focus Section In Mobile View</div>
+			<h2><u>End</u></h2>
+			<div><button onclick="goBack()">Go Back</button></div><br />
+	</body>
+</html>

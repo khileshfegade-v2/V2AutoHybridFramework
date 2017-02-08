@@ -10,33 +10,24 @@
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="TabletRegression">
-    <groups>
-      <run>
-        <include name="Mobile"/>
-      </run>
-    </groups>
+  <test name="V2SolutionsHomePage">
     <classes>
-      <class name="test.v2solutions.pages.TestV2SolutionsContactUsPage"/>
+      <class name="test.v2solutions.cisco.TestCISCO_TC"/>
     </classes>
-  </test> <!-- TabletRegression -->
-  <test name="TabletRegression(failed)">
-    <groups>
-      <run>
-        <include name="Mobile"/>
-      </run>
-    </groups>
+  </test> <!-- V2SolutionsHomePage -->
+  <test name="V2SolutionsHomePage(failed)">
     <classes>
-      <class name="test.v2solutions.pages.TestV2SolutionsContactUsPage">
+      <class name="test.v2solutions.cisco.TestCISCO_TC">
         <methods>
-          <include name="shutDownDriver"/>
-          <include name="verifyMapAndAddressRepresentHorizontallyInMobileView" invocation-numbers="0"/>
-          <include name="printTimeTaken"/>
+          <include name="inMobileViewVerifyUserCanLoginWithValidCredentials" invocation-numbers="0"/>
           <include name="prepareBeforeClass"/>
+          <include name="shutDownDriver"/>
+          <include name="printTimeTaken"/>
           <include name="printTimeStart"/>
+          <include name="inMobileViewVerifyUserCanPerformSearch"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- test.v2solutions.pages.TestV2SolutionsContactUsPage -->
+      </class> <!-- test.v2solutions.cisco.TestCISCO_TC -->
     </classes>
-  </test> <!-- TabletRegression(failed) -->
+  </test> <!-- V2SolutionsHomePage(failed) -->
 </suite> <!-- Failed suite [Regression suite] -->
