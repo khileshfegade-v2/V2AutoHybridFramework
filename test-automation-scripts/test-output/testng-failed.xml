@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite configfailurepolicy="continue" name="Failed suite [Regression suite]">
-  <parameter name="configFileName" value="src/test/resources/config.properties"/>
   <parameter name="pageurlsFileName" value="src/test/resources/pageurls/qa.pageurls.properties"/>
   <listeners>
     <listener class-name="com.v2solutions.taf.listener.LogErrorListener"/>
@@ -10,12 +9,22 @@
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="V2SolutionsHomePage">
+  <test name="MobileRegression">
+    <groups>
+      <run>
+        <include name="Mobile"/>
+      </run>
+    </groups>
     <classes>
       <class name="test.v2solutions.cisco.TestCISCO_TC"/>
     </classes>
-  </test> <!-- V2SolutionsHomePage -->
-  <test name="V2SolutionsHomePage(failed)">
+  </test> <!-- MobileRegression -->
+  <test name="MobileRegression(failed)">
+    <groups>
+      <run>
+        <include name="Mobile"/>
+      </run>
+    </groups>
     <classes>
       <class name="test.v2solutions.cisco.TestCISCO_TC">
         <methods>
@@ -24,10 +33,10 @@
           <include name="shutDownDriver"/>
           <include name="printTimeTaken"/>
           <include name="printTimeStart"/>
-          <include name="inMobileViewVerifyUserCanPerformSearch"/>
           <include name="tearDown"/>
+          <include name="inMobileViewVerifySearchFieldDefaultText" invocation-numbers="0"/>
         </methods>
       </class> <!-- test.v2solutions.cisco.TestCISCO_TC -->
     </classes>
-  </test> <!-- V2SolutionsHomePage(failed) -->
+  </test> <!-- MobileRegression(failed) -->
 </suite> <!-- Failed suite [Regression suite] -->

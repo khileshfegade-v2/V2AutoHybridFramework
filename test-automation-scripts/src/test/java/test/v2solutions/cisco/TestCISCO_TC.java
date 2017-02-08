@@ -73,7 +73,7 @@ public class TestCISCO_TC extends BaseTest
 			cisco_TC.logAndCreateADefect(e, "", "", "Is page resized", String.valueOf(value), String.valueOf(true), "defectName_verifyPageIsResizedAccordingToDesktopView", "verifyPageIsResizedToDesktopViewLayout");
 		}
 	}
-	
+
 
 	/**
 	 * In Desktop view - Verify user can login with valid credentials.
@@ -184,7 +184,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param height
 	 * @param expected_no_of_columns
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 6, enabled = false, description = "Verify page is resized according to Tablet view")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Desktop", "Regression"}, priority = 6, enabled = true, description = "Verify page is resized according to Tablet view")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "tablet_layout")
 	public void verifyPageIsResizedAccordingToTabletView(String width, String height, String expected_no_of_columns)
 	{
@@ -216,7 +216,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param loginButtonXPath
 	 * @param loggedUserNameXpath
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 7, enabled = false, description = "In Tablet view - Verify user can login with valid credentials")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 7, enabled = true, description = "In Tablet view - Verify user can login with valid credentials")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithValidCredentialsInMobile")
 	public void inTabletViewVerifyUserCanLoginWithValidCredentials(String hambergerButtonXpath, String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String loggedUserNameXpath)
 	{
@@ -243,7 +243,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param errorMessageXpath
 	 * @param expectedErrorMessage
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 8, enabled = false, description = "In Tablet view - Verify user cannot login with invalid credentials")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 8, enabled = true, description = "In Tablet view - Verify user cannot login with invalid credentials")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithInValidCredentials")
 	public void inTabletViewVerifyUserCannotLoginWithInvalidCredentials(String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMessageXpath, String expectedErrorMessage)
 	{
@@ -265,7 +265,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param searchInputFieldXpath
 	 * @param expectedDefaultMsg
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 9, enabled = false, description = "In Tablet view - Verify Search field default text")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 9, enabled = true, description = "In Tablet view - Verify Search field default text")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "DefaultTextInSearchFieldTabletAndMobile")
 	public void inTabletViewVerifySearchFieldDefaultText(String searchIconXpath, String searchInputFieldXpath, String expectedDefaultMsg)
 	{
@@ -290,7 +290,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param searchResultSetXpath
 	 * @param expectedText
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 10, enabled = false, description = "In Tablet view - Verify user can perform search")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 10, enabled = true, description = "In Tablet view - Verify user can perform search")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "PerformSearchInTabletAndMobile")
 	public void inTabletViewVerifyUserCanPerformSearch(String searchInputFieldXpath, String inputText, String searchFinderXpath, String searchResultSetXpath, String expectedText)
 	{
@@ -312,7 +312,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param height
 	 * @param expected_no_of_columns
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 11, enabled = false, description = "Verify page is resized according to Mobile view")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 11, enabled = true, description = "Verify page is resized according to Mobile view")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "mobile_layout")
 	public void verifyPageIsResizedAccordingToMobileView(String width, String height, String expected_no_of_columns)
 	{
@@ -345,7 +345,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param loginButtonXPath
 	 * @param loggedUserNameXpath
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 12, enabled = false, description = "In Mobile view - Verify user can login with valid credentials")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 12, enabled = true, description = "In Mobile view - Verify user can login with valid credentials")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithValidCredentialsInMobile")
 	public void inMobileViewVerifyUserCanLoginWithValidCredentials(String hambergerButtonXpath, String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String loggedUserNameXpath)
 	{
@@ -373,7 +373,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param errorMessageXpath
 	 * @param expectedErrorMessage
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 13, enabled = false, description = "In Mobile view - Verify user cannot login with invalid credentials")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 13, enabled = true, description = "In Mobile view - Verify user cannot login with invalid credentials")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithInValidCredentials")
 	public void inMobileViewVerifyUserCannotLoginWithInvalidCredentials(String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMessageXpath, String expectedErrorMessage)
 	{
@@ -395,7 +395,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param searchInputFieldXpath
 	 * @param expectedDefaultMsg
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 14, enabled = false, description = "In Mobile view - Verify Search field default text")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 14, enabled = true, description = "In Mobile view - Verify Search field default text")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "DefaultTextInSearchFieldTabletAndMobile")
 	public void inMobileViewVerifySearchFieldDefaultText(String searchIconXpath, String searchInputFieldXpath, String expectedDefaultMsg)
 	{
@@ -420,7 +420,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param searchResultSetXpath
 	 * @param expectedText
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 15, enabled = false, description = "In Mobile view - Verify user can perform search")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 15, enabled = true, description = "In Mobile view - Verify user can perform search")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "PerformSearchInTabletAndMobile")
 	public void inMobileViewVerifyUserCanPerformSearch(String searchInputFieldXpath, String inputText, String searchFinderXpath, String searchResultSetXpath, String expectedText)
 	{

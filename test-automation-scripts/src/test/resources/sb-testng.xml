@@ -12,7 +12,7 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
 	
-<test name="CISCOPage" preserve-order="true"> 
+<test name="V2SolutionsHomePage" preserve-order="true"> 
  		<classes> 
 			<class name="test.v2solutions.cisco.TestCISCO_TC" /> 
  		</classes> 

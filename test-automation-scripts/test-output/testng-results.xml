@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="6" passed="4">
+<testng-results skipped="0" failed="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression suite" duration-ms="85976" started-at="2017-02-08T05:42:27Z" finished-at="2017-02-08T05:43:53Z">
+  <suite name="Regression suite" duration-ms="85097" started-at="2017-02-08T13:12:49Z" finished-at="2017-02-08T13:14:14Z">
     <groups>
       <group name="Regression">
-        <method signature="TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifySearchFieldDefaultText" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifyUserCanLoginWithValidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanPerformSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifyUserCanPerformSearch" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifyUserCannotLoginWithInvalidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.verifyPageIsResizedAccordingToMobileView(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="verifyPageIsResizedAccordingToMobileView" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifySearchFieldDefaultText" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifyUserCanLoginWithValidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanPerformSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifyUserCanPerformSearch" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifyUserCannotLoginWithInvalidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.verifyPageIsResizedAccordingToMobileView(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="verifyPageIsResizedAccordingToMobileView" class="test.v2solutions.cisco.TestCISCO_TC"/>
       </group> <!-- Regression -->
       <group name="CISCO_TC">
-        <method signature="TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifySearchFieldDefaultText" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifyUserCanLoginWithValidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanPerformSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifyUserCanPerformSearch" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifyUserCannotLoginWithInvalidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.verifyPageIsResizedAccordingToMobileView(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="verifyPageIsResizedAccordingToMobileView" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifySearchFieldDefaultText" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifyUserCanLoginWithValidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanPerformSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifyUserCanPerformSearch" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifyUserCannotLoginWithInvalidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.verifyPageIsResizedAccordingToMobileView(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="verifyPageIsResizedAccordingToMobileView" class="test.v2solutions.cisco.TestCISCO_TC"/>
       </group> <!-- CISCO_TC -->
       <group name="Mobile">
-        <method signature="TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifySearchFieldDefaultText" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifyUserCanLoginWithValidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanPerformSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifyUserCanPerformSearch" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="inMobileViewVerifyUserCannotLoginWithInvalidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
-        <method signature="TestCISCO_TC.verifyPageIsResizedAccordingToMobileView(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" name="verifyPageIsResizedAccordingToMobileView" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifySearchFieldDefaultText" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifyUserCanLoginWithValidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifyUserCanPerformSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifyUserCanPerformSearch" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="inMobileViewVerifyUserCannotLoginWithInvalidCredentials" class="test.v2solutions.cisco.TestCISCO_TC"/>
+        <method signature="TestCISCO_TC.verifyPageIsResizedAccordingToMobileView(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" name="verifyPageIsResizedAccordingToMobileView" class="test.v2solutions.cisco.TestCISCO_TC"/>
       </group> <!-- Mobile -->
     </groups>
-    <test name="V2SolutionsHomePage" duration-ms="85976" started-at="2017-02-08T05:42:27Z" finished-at="2017-02-08T05:43:53Z">
+    <test name="MobileRegression" duration-ms="85097" started-at="2017-02-08T13:12:49Z" finished-at="2017-02-08T13:14:14Z">
       <class name="test.v2solutions.cisco.TestCISCO_TC">
-        <test-method status="PASS" signature="prepareBeforeClass()[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="prepareBeforeClass" is-config="true" duration-ms="17999" started-at="2017-02-08T11:12:27Z" finished-at="2017-02-08T11:12:45Z">
+        <test-method status="PASS" signature="prepareBeforeClass()[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="prepareBeforeClass" is-config="true" duration-ms="12902" started-at="2017-02-08T18:42:49Z" finished-at="2017-02-08T18:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareBeforeClass -->
-        <test-method status="PASS" signature="printTimeStart(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="printTimeStart" is-config="true" duration-ms="2" started-at="2017-02-08T11:12:45Z" finished-at="2017-02-08T11:12:45Z">
+        <test-method status="PASS" signature="printTimeStart(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="printTimeStart" is-config="true" duration-ms="3" started-at="2017-02-08T18:43:02Z" finished-at="2017-02-08T18:43:02Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printTimeStart -->
-        <test-method name="verifyPageIsResizedAccordingToMobileView" test-instance-name="" signature="verifyPageIsResizedAccordingToMobileView(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" status="PASS" duration-ms="4399" finished-at="2017-02-08T11:12:50Z" started-at="2017-02-08T11:12:45Z" data-provider="tafDataProvider" description="Verify page is resized according to Mobile view">
+        <test-method name="verifyPageIsResizedAccordingToMobileView" test-instance-name="" signature="verifyPageIsResizedAccordingToMobileView(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" status="PASS" duration-ms="4218" finished-at="2017-02-08T18:43:06Z" started-at="2017-02-08T18:43:02Z" data-provider="tafDataProvider" description="Verify page is resized according to Mobile view">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageIsResizedAccordingToMobileView -->
-        <test-method status="PASS" signature="printTimeTaken(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="printTimeTaken" is-config="true" duration-ms="1" started-at="2017-02-08T11:12:50Z" finished-at="2017-02-08T11:12:50Z">
+        <test-method status="PASS" signature="printTimeTaken(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="printTimeTaken" is-config="true" duration-ms="0" started-at="2017-02-08T18:43:06Z" finished-at="2017-02-08T18:43:06Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printTimeTaken -->
-        <test-method name="inMobileViewVerifyUserCanLoginWithValidCredentials" test-instance-name="" signature="inMobileViewVerifyUserCanLoginWithValidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" status="FAIL" duration-ms="18990" finished-at="2017-02-08T11:13:09Z" started-at="2017-02-08T11:12:50Z" data-provider="tafDataProvider" description="In Mobile view - Verify user can login with valid credentials">
+        <test-method status="PASS" signature="printTimeStart(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="printTimeStart" is-config="true" duration-ms="4" started-at="2017-02-08T18:43:06Z" finished-at="2017-02-08T18:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTimeStart -->
+        <test-method name="inMobileViewVerifyUserCanLoginWithValidCredentials" test-instance-name="" signature="inMobileViewVerifyUserCanLoginWithValidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" status="FAIL" duration-ms="18495" finished-at="2017-02-08T18:43:25Z" started-at="2017-02-08T18:43:06Z" data-provider="tafDataProvider" description="In Mobile view - Verify user can login with valid credentials">
           <params>
             <param index="0">
               <value>
@@ -123,7 +134,7 @@
               <![CDATA[failed to find page object by xpath , message : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='username']"}
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 30 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 B Reasons-Wrong Locator. Or element may not yet be on the screen at the time of the find operation, due to slow internet.]]>
             </message>
@@ -131,12 +142,12 @@ B Reasons-Wrong Locator. Or element may not yet be on the screen at the time of 
               <![CDATA[java.lang.AssertionError: failed to find page object by xpath , message : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='username']"}
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 30 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 B Reasons-Wrong Locator. Or element may not yet be on the screen at the time of the find operation, due to slow internet.
 	at org.testng.Assert.fail(Assert.java:83)
 	at com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:369)
-	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(TestCISCO_TC.java:303)
+	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(TestCISCO_TC.java:360)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -164,7 +175,7 @@ B Reasons-Wrong Locator. Or element may not yet be on the screen at the time of 
 Caused by: com.v2solutions.taf.common.logs.AnalizerException: failed to find page object by xpath , message : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='username']"}
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 30 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 B Reasons-Wrong Locator. Or element may not yet be on the screen at the time of the find operation, due to slow internet.
 	at com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:363)
@@ -172,17 +183,17 @@ B Reasons-Wrong Locator. Or element may not yet be on the screen at the time of 
 Caused by: com.v2solutions.taf.exception.PageException: failed to find page object by xpath , message : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='username']"}
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 30 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'V2MUMPC0014', ip: '192.168.15.171', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+System info: host: 'V2MUMPC0455', ip: '192.168.15.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\test\AppData\Local\Temp\scoped_dir7436_21}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ca1259ebb0f98ccdf278eb6a3206e803
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\KHILES~1.FEG\AppData\Local\Temp\scoped_dir5104_23000}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6a000cdcc92b9c0f8521bd0837741d13
 *** Element info: {Using=xpath, value=//*[@class='username']}
 	at com.v2solutions.taf.core.WebPage.findPageObjectByXPath(WebPage.java:286)
 	at com.v2solutions.cisco.CISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(CISCO_TC.java:442)
-	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(TestCISCO_TC.java:298)
+	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(TestCISCO_TC.java:355)
 	... 24 more
 ]]>
             </full-stacktrace>
@@ -190,18 +201,7 @@ Session ID: ca1259ebb0f98ccdf278eb6a3206e803
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inMobileViewVerifyUserCanLoginWithValidCredentials -->
-        <test-method status="PASS" signature="printTimeStart(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="printTimeStart" is-config="true" duration-ms="0" started-at="2017-02-08T11:12:50Z" finished-at="2017-02-08T11:12:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printTimeStart -->
-        <test-method status="PASS" signature="printTimeTaken(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="printTimeTaken" is-config="true" duration-ms="0" started-at="2017-02-08T11:13:09Z" finished-at="2017-02-08T11:13:09Z">
+        <test-method status="PASS" signature="printTimeTaken(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="printTimeTaken" is-config="true" duration-ms="2" started-at="2017-02-08T18:43:25Z" finished-at="2017-02-08T18:43:25Z">
           <params>
             <param index="0">
               <value>
@@ -212,7 +212,7 @@ Session ID: ca1259ebb0f98ccdf278eb6a3206e803
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printTimeTaken -->
-        <test-method name="inMobileViewVerifyUserCannotLoginWithInvalidCredentials" test-instance-name="" signature="inMobileViewVerifyUserCannotLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" status="PASS" duration-ms="18279" finished-at="2017-02-08T11:13:27Z" started-at="2017-02-08T11:13:09Z" data-provider="tafDataProvider" description="In Mobile view - Verify user cannot login with invalid credentials">
+        <test-method name="inMobileViewVerifyUserCannotLoginWithInvalidCredentials" test-instance-name="" signature="inMobileViewVerifyUserCannotLoginWithInvalidCredentials(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" status="PASS" duration-ms="19171" finished-at="2017-02-08T18:43:44Z" started-at="2017-02-08T18:43:25Z" data-provider="tafDataProvider" description="In Mobile view - Verify user cannot login with invalid credentials">
           <params>
             <param index="0">
               <value>
@@ -258,7 +258,7 @@ Session ID: ca1259ebb0f98ccdf278eb6a3206e803
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inMobileViewVerifyUserCannotLoginWithInvalidCredentials -->
-        <test-method status="PASS" signature="printTimeStart(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="printTimeStart" is-config="true" duration-ms="0" started-at="2017-02-08T11:13:09Z" finished-at="2017-02-08T11:13:09Z">
+        <test-method status="PASS" signature="printTimeStart(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="printTimeStart" is-config="true" duration-ms="0" started-at="2017-02-08T18:43:25Z" finished-at="2017-02-08T18:43:25Z">
           <params>
             <param index="0">
               <value>
@@ -269,7 +269,29 @@ Session ID: ca1259ebb0f98ccdf278eb6a3206e803
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printTimeStart -->
-        <test-method name="inMobileViewVerifySearchFieldDefaultText" test-instance-name="" signature="inMobileViewVerifySearchFieldDefaultText(java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" status="PASS" duration-ms="24838" finished-at="2017-02-08T11:13:52Z" started-at="2017-02-08T11:13:27Z" data-provider="tafDataProvider" description="In Mobile view - Verify Search field default text">
+        <test-method status="PASS" signature="printTimeTaken(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="printTimeTaken" is-config="true" duration-ms="0" started-at="2017-02-08T18:43:44Z" finished-at="2017-02-08T18:43:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTimeTaken -->
+        <test-method status="PASS" signature="printTimeStart(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="printTimeStart" is-config="true" duration-ms="0" started-at="2017-02-08T18:43:44Z" finished-at="2017-02-08T18:43:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTimeStart -->
+        <test-method name="inMobileViewVerifySearchFieldDefaultText" test-instance-name="" signature="inMobileViewVerifySearchFieldDefaultText(java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" status="FAIL" duration-ms="10909" finished-at="2017-02-08T18:43:55Z" started-at="2017-02-08T18:43:44Z" data-provider="tafDataProvider" description="In Mobile view - Verify Search field default text">
           <params>
             <param index="0">
               <value>
@@ -283,46 +305,27 @@ Session ID: ca1259ebb0f98ccdf278eb6a3206e803
             </param>
             <param index="2">
               <value>
-                <![CDATA[Search]]>
+                <![CDATA[Search items]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inMobileViewVerifySearchFieldDefaultText -->
-        <test-method status="PASS" signature="printTimeTaken(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="printTimeTaken" is-config="true" duration-ms="0" started-at="2017-02-08T11:13:27Z" finished-at="2017-02-08T11:13:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printTimeTaken -->
-        <test-method status="PASS" signature="printTimeStart(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="printTimeStart" is-config="true" duration-ms="0" started-at="2017-02-08T11:13:27Z" finished-at="2017-02-08T11:13:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printTimeStart -->
-        <test-method name="inMobileViewVerifyUserCanPerformSearch" test-instance-name="" signature="inMobileViewVerifyUserCanPerformSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" status="FAIL" duration-ms="0" finished-at="2017-02-08T11:13:52Z" started-at="2017-02-08T11:13:52Z" data-provider="tafDataProvider" description="In Mobile view - Verify user can perform search">
-          <exception class="org.testng.TestNGException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[
-The data provider is trying to pass 5 parameters but the method test.v2solutions.cisco.TestCISCO_TC#inMobileViewVerifyUserCanPerformSearch takes 4]]>
+              <![CDATA[ Locator of 'Search icon with xpath ://*[@id='fw-searchbutton'], search input field xpath :' is '//*[@id='search-phrase']' Error-In Mobile view - Verify Search field default text failed. expected [Search items] but found [Search]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-The data provider is trying to pass 5 parameters but the method test.v2solutions.cisco.TestCISCO_TC#inMobileViewVerifyUserCanPerformSearch takes 4
-	at org.testng.internal.Invoker.injectParameters(Invoker.java:1229)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1122)
+              <![CDATA[java.lang.AssertionError:  Locator of 'Search icon with xpath ://*[@id='fw-searchbutton'], search input field xpath :' is '//*[@id='search-phrase']' Error-In Mobile view - Verify Search field default text failed. expected [Search items] but found [Search]
+	at org.testng.Assert.fail(Assert.java:83)
+	at com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:369)
+	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(TestCISCO_TC.java:410)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
 	at org.testng.TestRunner.privateRun(TestRunner.java:782)
@@ -339,13 +342,24 @@ The data provider is trying to pass 5 parameters but the method test.v2solutions
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: com.v2solutions.taf.common.logs.AnalizerException:  Locator of 'Search icon with xpath ://*[@id='fw-searchbutton'], search input field xpath :' is '//*[@id='search-phrase']' Error-In Mobile view - Verify Search field default text failed. expected [Search items] but found [Search]
+	at com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:363)
+	... 25 more
+Caused by: java.lang.AssertionError: In Mobile view - Verify Search field default text failed. expected [Search items] but found [Search]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(TestCISCO_TC.java:406)
+	... 24 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inMobileViewVerifyUserCanPerformSearch -->
-        <test-method status="PASS" signature="printTimeTaken(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="printTimeTaken" is-config="true" duration-ms="0" started-at="2017-02-08T11:13:52Z" finished-at="2017-02-08T11:13:52Z">
+        </test-method> <!-- inMobileViewVerifySearchFieldDefaultText -->
+        <test-method status="PASS" signature="printTimeTaken(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="printTimeTaken" is-config="true" duration-ms="3" started-at="2017-02-08T18:43:55Z" finished-at="2017-02-08T18:43:55Z">
           <params>
             <param index="0">
               <value>
@@ -356,41 +370,68 @@ The data provider is trying to pass 5 parameters but the method test.v2solutions
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printTimeTaken -->
-        <test-method status="PASS" signature="printTimeStart(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="printTimeStart" is-config="true" duration-ms="0" started-at="2017-02-08T11:13:52Z" finished-at="2017-02-08T11:13:52Z">
+        <test-method status="PASS" signature="printTimeStart(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="printTimeStart" is-config="true" duration-ms="1" started-at="2017-02-08T18:43:55Z" finished-at="2017-02-08T18:43:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.v2solutions.common.BaseTest.close() throws java.lang.Exception]]>
+                <![CDATA[public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanPerformSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printTimeStart -->
-        <test-method status="PASS" signature="close()[pri:300, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="close" duration-ms="923" started-at="2017-02-08T11:13:52Z" description="Closes the browser instance" finished-at="2017-02-08T11:13:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method status="PASS" signature="printTimeTaken(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="printTimeTaken" is-config="true" duration-ms="0" started-at="2017-02-08T11:13:53Z" finished-at="2017-02-08T11:13:53Z">
+        <test-method name="inMobileViewVerifyUserCanPerformSearch" test-instance-name="" signature="inMobileViewVerifyUserCanPerformSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" status="PASS" duration-ms="17798" finished-at="2017-02-08T18:44:13Z" started-at="2017-02-08T18:43:55Z" data-provider="tafDataProvider" description="In Mobile view - Verify user can perform search">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.v2solutions.common.BaseTest.close() throws java.lang.Exception]]>
+                <![CDATA[//*[@id='search-phrase']]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[routers]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//*[@id='fw-searchbutton']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[@id='results']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[results]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inMobileViewVerifyUserCanPerformSearch -->
+        <test-method status="PASS" signature="printTimeTaken(java.lang.reflect.Method)[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="printTimeTaken" is-config="true" duration-ms="0" started-at="2017-02-08T18:44:13Z" finished-at="2017-02-08T18:44:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanPerformSearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printTimeTaken -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="tearDown" is-config="true" duration-ms="0" started-at="2017-02-08T11:13:53Z" finished-at="2017-02-08T11:13:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="tearDown" is-config="true" duration-ms="955" started-at="2017-02-08T18:44:13Z" finished-at="2017-02-08T18:44:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="shutDownDriver()[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@4690b489]" test-instance-name="" name="shutDownDriver" is-config="true" duration-ms="0" started-at="2017-02-08T11:13:53Z" finished-at="2017-02-08T11:13:53Z">
+        <test-method status="PASS" signature="shutDownDriver()[pri:0, instance:test.v2solutions.cisco.TestCISCO_TC@3c22fc4c]" test-instance-name="" name="shutDownDriver" is-config="true" duration-ms="1" started-at="2017-02-08T18:44:14Z" finished-at="2017-02-08T18:44:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDownDriver -->
       </class> <!-- test.v2solutions.cisco.TestCISCO_TC -->
-    </test> <!-- V2SolutionsHomePage -->
+    </test> <!-- MobileRegression -->
   </suite> <!-- Regression suite -->
 </testng-results>

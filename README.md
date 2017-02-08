@@ -1,2 +1,0 @@
-# V2AutoHybridFramework
-V2AutoHybridFramework

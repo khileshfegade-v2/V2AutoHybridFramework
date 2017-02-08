@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Regression_suite">
-                    <span>C:\Users\test\git\V2AutoHybridFramework\test-automation-scripts\src\test\resources\sb-testng.xml</span>
+                    <span>D:\V2Auto_POM\test-automation-scripts\src\test\resources\sb-testng_mobileDevice.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Regression_suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,12 +102,12 @@
                     <div class="method-list-content failed suite-Regression_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="test.v2solutions.cisco.TestCISCO_TC" hash-for-method="inMobileViewVerifyUserCanLoginWithValidCredentials(//*[@id=&#039;fw-treenavbutton&#039;], (//*[@class=&#039;fw-login-util&#039;]/a)[2], //*[@id=&#039;userInput&#039;], khileshfegade...)">inMobileViewVerifyUserCanLoginWithValidCredentials(//*[@id='fw-treenavbutton'], (//*[@class='fw-login-util']/a)[2], //*[@id='userInput'], khileshfegade...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="test.v2solutions.cisco.TestCISCO_TC" hash-for-method="inMobileViewVerifySearchFieldDefaultText(//*[@id=&#039;fw-searchbutton&#039;], //*[@id=&#039;search-phrase&#039;], Search items)">inMobileViewVerifySearchFieldDefaultText(//*[@id='fw-searchbutton'], //*[@id='search-phrase'], Search items)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="test.v2solutions.cisco.TestCISCO_TC" hash-for-method="inMobileViewVerifyUserCanPerformSearch">inMobileViewVerifyUserCanPerformSearch</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="test.v2solutions.cisco.TestCISCO_TC" hash-for-method="inMobileViewVerifyUserCanLoginWithValidCredentials(//*[@id=&#039;fw-treenavbutton&#039;], (//*[@class=&#039;fw-login-util&#039;]/a)[2], //*[@id=&#039;userInput&#039;], khileshfegade...)">inMobileViewVerifyUserCanLoginWithValidCredentials(//*[@id='fw-treenavbutton'], (//*[@class='fw-login-util']/a)[2], //*[@id='userInput'], khileshfegade...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Regression_suite -->
@@ -121,12 +121,7 @@
                     <div class="method-list-content passed suite-Regression_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="test.v2solutions.cisco.TestCISCO_TC" hash-for-method="close">close</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="test.v2solutions.cisco.TestCISCO_TC" hash-for-method="inMobileViewVerifySearchFieldDefaultText(//*[@id=&#039;fw-searchbutton&#039;], //*[@id=&#039;search-phrase&#039;], Search)">inMobileViewVerifySearchFieldDefaultText(//*[@id='fw-searchbutton'], //*[@id='search-phrase'], Search)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="test.v2solutions.cisco.TestCISCO_TC" hash-for-method="inMobileViewVerifyUserCanPerformSearch(//*[@id=&#039;search-phrase&#039;], routers, //*[@id=&#039;fw-searchbutton&#039;], //*[@id=&#039;results&#039;], results)">inMobileViewVerifyUserCanPerformSearch(//*[@id='search-phrase'], routers, //*[@id='fw-searchbutton'], //*[@id='results'], results)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -159,6 +154,27 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="inMobileViewVerifySearchFieldDefaultText(//*[@id=&#039;fw-searchbutton&#039;], //*[@id=&#039;search-phrase&#039;], Search items)">
+                  </a> <!-- inMobileViewVerifySearchFieldDefaultText(//*[@id='fw-searchbutton'], //*[@id='search-phrase'], Search items) -->
+                  <span class="method-name">inMobileViewVerifySearchFieldDefaultText</span>
+                  <span class="parameters">(//*[@id='fw-searchbutton'], //*[@id='search-phrase'], Search items)</span>
+                  <div class="stack-trace">java.lang.AssertionError:  Locator of &apos;Search icon with xpath ://*[@id=&apos;fw-searchbutton&apos;], search input field xpath :&apos; is &apos;//*[@id=&apos;search-phrase&apos;]&apos; Error-In Mobile view - Verify Search field default text failed. expected [Search items] but found [Search]
+	at com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:369)
+	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(TestCISCO_TC.java:410)
+Caused by: com.v2solutions.taf.common.logs.AnalizerException:  Locator of &apos;Search icon with xpath ://*[@id=&apos;fw-searchbutton&apos;], search input field xpath :&apos; is &apos;//*[@id=&apos;search-phrase&apos;]&apos; Error-In Mobile view - Verify Search field default text failed. expected [Search items] but found [Search]
+	at com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:363)
+	... 25 more
+Caused by: java.lang.AssertionError: In Mobile view - Verify Search field default text failed. expected [Search items] but found [Search]
+	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(TestCISCO_TC.java:406)
+	... 24 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(In Mobile view - Verify Search field default text)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="inMobileViewVerifyUserCanLoginWithValidCredentials(//*[@id=&#039;fw-treenavbutton&#039;], (//*[@class=&#039;fw-login-util&#039;]/a)[2], //*[@id=&#039;userInput&#039;], khileshfegade...)">
                   </a> <!-- inMobileViewVerifyUserCanLoginWithValidCredentials(//*[@id='fw-treenavbutton'], (//*[@class='fw-login-util']/a)[2], //*[@id='userInput'], khileshfegade...) -->
                   <span class="method-name">inMobileViewVerifyUserCanLoginWithValidCredentials</span>
@@ -166,15 +182,15 @@
                   <div class="stack-trace">java.lang.AssertionError: failed to find page object by xpath , message : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;username&apos;]&quot;}
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 30 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 B Reasons-Wrong Locator. Or element may not yet be on the screen at the time of the find operation, due to slow internet.
 	at com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:369)
-	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(TestCISCO_TC.java:303)
+	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(TestCISCO_TC.java:360)
 Caused by: com.v2solutions.taf.common.logs.AnalizerException: failed to find page object by xpath , message : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;username&apos;]&quot;}
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 30 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 B Reasons-Wrong Locator. Or element may not yet be on the screen at the time of the find operation, due to slow internet.
 	at com.v2solutions.taf.common.pages.CommonPage.logAndCreateADefect(CommonPage.java:363)
@@ -182,35 +198,22 @@ B Reasons-Wrong Locator. Or element may not yet be on the screen at the time of 
 Caused by: com.v2solutions.taf.exception.PageException: failed to find page object by xpath , message : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;username&apos;]&quot;}
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 26 milliseconds
+Command duration or timeout: 30 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;V2MUMPC0014&apos;, ip: &apos;192.168.15.171&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+System info: host: &apos;V2MUMPC0455&apos;, ip: &apos;192.168.15.38&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_31&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\test\AppData\Local\Temp\scoped_dir7436_21}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ca1259ebb0f98ccdf278eb6a3206e803
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\KHILES~1.FEG\AppData\Local\Temp\scoped_dir5104_23000}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6a000cdcc92b9c0f8521bd0837741d13
 *** Element info: {Using=xpath, value=//*[@class=&apos;username&apos;]}
 	at com.v2solutions.taf.core.WebPage.findPageObjectByXPath(WebPage.java:286)
 	at com.v2solutions.cisco.CISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(CISCO_TC.java:442)
-	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(TestCISCO_TC.java:298)
+	at test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(TestCISCO_TC.java:355)
 	... 24 more
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (In Mobile view - Verify user can login with valid credentials)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="inMobileViewVerifyUserCanPerformSearch">
-                  </a> <!-- inMobileViewVerifyUserCanPerformSearch -->
-                  <span class="method-name">inMobileViewVerifyUserCanPerformSearch</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-The data provider is trying to pass 5 parameters but the method test.v2solutions.cisco.TestCISCO_TC#inMobileViewVerifyUserCanPerformSearch takes 4
-... Removed 18 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(In Mobile view - Verify user can perform search)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -223,21 +226,12 @@ The data provider is trying to pass 5 parameters but the method test.v2solutions
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="close">
-                  </a> <!-- close -->
-                  <span class="method-name">close</span>
+                  <a name="inMobileViewVerifyUserCanPerformSearch(//*[@id=&#039;search-phrase&#039;], routers, //*[@id=&#039;fw-searchbutton&#039;], //*[@id=&#039;results&#039;], results)">
+                  </a> <!-- inMobileViewVerifyUserCanPerformSearch(//*[@id='search-phrase'], routers, //*[@id='fw-searchbutton'], //*[@id='results'], results) -->
+                  <span class="method-name">inMobileViewVerifyUserCanPerformSearch</span>
+                  <span class="parameters">(//*[@id='search-phrase'], routers, //*[@id='fw-searchbutton'], //*[@id='results'], results)</span>
                   <em>
-(Closes the browser instance)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="inMobileViewVerifySearchFieldDefaultText(//*[@id=&#039;fw-searchbutton&#039;], //*[@id=&#039;search-phrase&#039;], Search)">
-                  </a> <!-- inMobileViewVerifySearchFieldDefaultText(//*[@id='fw-searchbutton'], //*[@id='search-phrase'], Search) -->
-                  <span class="method-name">inMobileViewVerifySearchFieldDefaultText</span>
-                  <span class="parameters">(//*[@id='fw-searchbutton'], //*[@id='search-phrase'], Search)</span>
-                  <em>
-(In Mobile view - Verify Search field default text)                  </em>
+(In Mobile view - Verify user can perform search)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -265,14 +259,13 @@ The data provider is trying to pass 5 parameters but the method test.v2solutions
         </div> <!-- panel Regression_suite -->
         <div panel-name="test-xml-Regression_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\test\git\V2AutoHybridFramework\test-automation-scripts\src\test\resources\sb-testng.xml</span>
+            <span class="header-content">D:\V2Auto_POM\test-automation-scripts\src\test\resources\sb-testng_mobileDevice.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite configfailurepolicy=&quot;continue&quot; name=&quot;Regression suite&quot;&gt;
-  &lt;parameter name=&quot;configFileName&quot; value=&quot;src/test/resources/config.properties&quot;/&gt;
   &lt;parameter name=&quot;pageurlsFileName&quot; value=&quot;src/test/resources/pageurls/qa.pageurls.properties&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.v2solutions.taf.listener.LogErrorListener&quot;/&gt;
@@ -281,26 +274,16 @@ The data provider is trying to pass 5 parameters but the method test.v2solutions
     &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;V2SolutionsHomePage&quot;&gt;
+  &lt;test name=&quot;MobileRegression&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Mobile&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.v2solutions.cisco.TestCISCO_TC&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- V2SolutionsHomePage --&gt;
-  &lt;test name=&quot;V2SolutionsHomePage(failed)&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;test.v2solutions.cisco.TestCISCO_TC&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;inMobileViewVerifyUserCanLoginWithValidCredentials&quot; invocation-numbers=&quot;0&quot;/&gt;
-          &lt;include name=&quot;prepareBeforeClass&quot;/&gt;
-          &lt;include name=&quot;shutDownDriver&quot;/&gt;
-          &lt;include name=&quot;printTimeTaken&quot;/&gt;
-          &lt;include name=&quot;printTimeStart&quot;/&gt;
-          &lt;include name=&quot;inMobileViewVerifyUserCanPerformSearch&quot;/&gt;
-          &lt;include name=&quot;tearDown&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- test.v2solutions.cisco.TestCISCO_TC --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- V2SolutionsHomePage(failed) --&gt;
+  &lt;/test&gt; &lt;!-- MobileRegression --&gt;
 &lt;/suite&gt; &lt;!-- Regression suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -312,10 +295,7 @@ The data provider is trying to pass 5 parameters but the method test.v2solutions
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">V2SolutionsHomePage (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">V2SolutionsHomePage(failed) (1 class)</span>
+                <span class="test-name">MobileRegression (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -413,31 +393,27 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'inMobileViewVerifySearchFieldDefaultText')
+data.setCell(0, 1, 'inMobileViewVerifyUserCannotLoginWithInvalidCredentials')
 data.setCell(0, 2, 'test.v2solutions.cisco.TestCISCO_TC')
-data.setCell(0, 3, 24838);
+data.setCell(0, 3, 19171);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'inMobileViewVerifyUserCanLoginWithValidCredentials')
 data.setCell(1, 2, 'test.v2solutions.cisco.TestCISCO_TC')
-data.setCell(1, 3, 18990);
+data.setCell(1, 3, 18495);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'inMobileViewVerifyUserCannotLoginWithInvalidCredentials')
+data.setCell(2, 1, 'inMobileViewVerifyUserCanPerformSearch')
 data.setCell(2, 2, 'test.v2solutions.cisco.TestCISCO_TC')
-data.setCell(2, 3, 18279);
+data.setCell(2, 3, 17798);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyPageIsResizedAccordingToMobileView')
+data.setCell(3, 1, 'inMobileViewVerifySearchFieldDefaultText')
 data.setCell(3, 2, 'test.v2solutions.cisco.TestCISCO_TC')
-data.setCell(3, 3, 4399);
+data.setCell(3, 3, 10909);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'close')
+data.setCell(4, 1, 'verifyPageIsResizedAccordingToMobileView')
 data.setCell(4, 2, 'test.v2solutions.cisco.TestCISCO_TC')
-data.setCell(4, 3, 923);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'inMobileViewVerifyUserCanPerformSearch')
-data.setCell(5, 2, 'test.v2solutions.cisco.TestCISCO_TC')
-data.setCell(5, 3, 0);
+data.setCell(4, 3, 4218);
 window.suiteTableData['Regression_suite']= { tableData: data, tableDiv: 'times-div-Regression_suite'}
 return data;
 }
@@ -457,7 +433,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Regression_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">10 ignored methods</span>
+            <span class="header-content">11 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -476,6 +452,8 @@ return data;
                 <span class="ignored-method-name">inTabletViewVerifyUserCannotLoginWithInvalidCredentials</span>
                 <br/>
                 <span class="ignored-method-name">inTabletViewVerifySearchFieldDefaultText</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
                 <br/>
                 <span class="ignored-method-name">verifyPageIsResizedAccordingToTabletView</span>
                 <br/>
@@ -500,73 +478,75 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">printTimeStart(public void test.v2solutions.cisco.TestCISCO_TC.verifyPageIsResizedAccordingToMobileView(java.lang.S...)</span>
-                <span class="method-start">18496 ms</span>
+                <span class="method-start">13466 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPageIsResizedAccordingToMobileView(685, 800, 1)</span>
-                <span class="method-start">18498 ms</span>
+                <span class="method-start">13469 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">printTimeTaken(public void test.v2solutions.cisco.TestCISCO_TC.verifyPageIsResizedAccordingToMobileView(java.lang.S...)</span>
-                <span class="method-start">22913 ms</span>
+                <span class="method-start">17696 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">printTimeStart(public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(j...)</span>
+                <span class="method-start">17698 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">inMobileViewVerifyUserCanLoginWithValidCredentials(//*[@id='fw-treenavbutton'], (//*[@class='fw-login-util']/a)[2], //*[@id='userInput'], khileshfegade...)</span>
-                <span class="method-start">22915 ms</span>
+                <span class="method-start">17702 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">printTimeStart(public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(j...)</span>
-                <span class="method-start">22915 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">printTimeTaken(public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanLoginWithValidCredentials(j...)</span>
-                <span class="method-start">41915 ms</span>
+                <span class="method-start">36215 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">inMobileViewVerifyUserCannotLoginWithInvalidCredentials(//*[@class='fw-login-util']/a, //*[@id='userInput'], khileshfegade@v2solutions.com, //*[@id='passwor...)</span>
-                <span class="method-start">41925 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">printTimeStart(public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredenti...)</span>
-                <span class="method-start">41925 ms</span>
+                <span class="method-start">36218 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">inMobileViewVerifySearchFieldDefaultText(//*[@id='fw-searchbutton'], //*[@id='search-phrase'], Search)</span>
-                <span class="method-start">60204 ms</span>
+                <span class="method-name">inMobileViewVerifyUserCannotLoginWithInvalidCredentials(//*[@class='fw-login-util']/a, //*[@id='userInput'], khileshfegade@v2solutions.com, //*[@id='passwor...)</span>
+                <span class="method-start">36218 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">printTimeStart(public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.S...)</span>
-                <span class="method-start">60204 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">printTimeTaken(public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredenti...)</span>
-                <span class="method-start">60204 ms</span>
+                <span class="method-start">55394 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">printTimeStart(public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.S...)</span>
+                <span class="method-start">55395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">inMobileViewVerifySearchFieldDefaultText(//*[@id='fw-searchbutton'], //*[@id='search-phrase'], Search items)</span>
+                <span class="method-start">55395 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">printTimeTaken(public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifySearchFieldDefaultText(java.lang.S...)</span>
-                <span class="method-start">85042 ms</span>
+                <span class="method-start">66315 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">close</span>
-                <span class="method-start">85043 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">printTimeStart(public void com.v2solutions.common.BaseTest.close() throws java.lang.Exception)</span>
-                <span class="method-start">85043 ms</span>
+                <span class="method-name">printTimeStart(public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanPerformSearch(java.lang.Str...)</span>
+                <span class="method-start">66318 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inMobileViewVerifyUserCanPerformSearch(//*[@id='search-phrase'], routers, //*[@id='fw-searchbutton'], //*[@id='results'], results)</span>
+                <span class="method-start">66319 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">printTimeTaken(public void com.v2solutions.common.BaseTest.close() throws java.lang.Exception)</span>
-                <span class="method-start">85966 ms</span>
+                <span class="method-name">printTimeTaken(public void test.v2solutions.cisco.TestCISCO_TC.inMobileViewVerifyUserCanPerformSearch(java.lang.Str...)</span>
+                <span class="method-start">84130 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">85966 ms</span>
+                <span class="method-start">84130 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">shutDownDriver</span>
-                <span class="method-start">85996 ms</span>
+                <span class="method-start">85114 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

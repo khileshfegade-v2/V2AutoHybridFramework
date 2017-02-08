@@ -21,7 +21,7 @@
 <!-- 			<class name="test.v2solutions.components.TestPageFootersSection" />  -->
 <!-- 			<class name="test.v2solutions.pages.TestV2SolutionsHomePage" />  -->
 <!-- 			<class name="test.v2solutions.pages.TestV2SolutionsContactUsPage" />  -->
-				<class name="test.v2solutions.cisco.TestCISCO_TC" /> 
+				<class name="test.v2solutions.cisco.TestCISCO_TC" />
       	</classes> 
  	</test> 
 

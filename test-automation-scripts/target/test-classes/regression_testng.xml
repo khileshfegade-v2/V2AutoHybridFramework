@@ -15,12 +15,13 @@
 	
 	<test name="V2SolutionsHomePage" preserve-order="true"> 
  		<classes> 
-			<class name="test.v2solutions.components.TestGlobalFooterSection" /> 
-			<class name="test.v2solutions.components.TestGlobalNavigation" /> 
-			<class name="test.v2solutions.components.TestMainNavigation" /> 
-			<class name="test.v2solutions.components.TestPageFootersSection" /> 
-			<class name="test.v2solutions.pages.TestV2SolutionsHomePage" /> 
-			<class name="test.v2solutions.pages.TestV2SolutionsContactUsPage" /> 
+<!-- 			<class name="test.v2solutions.components.TestGlobalFooterSection" />  -->
+<!-- 			<class name="test.v2solutions.components.TestGlobalNavigation" />  -->
+<!-- 			<class name="test.v2solutions.components.TestMainNavigation" />  -->
+<!-- 			<class name="test.v2solutions.components.TestPageFootersSection" />  -->
+<!-- 			<class name="test.v2solutions.pages.TestV2SolutionsHomePage" />  -->
+<!-- 			<class name="test.v2solutions.pages.TestV2SolutionsContactUsPage" />  -->
+				<class name="test.v2solutions.cisco.TestCISCO_TC" />
       	</classes> 
  	</test> 
 
