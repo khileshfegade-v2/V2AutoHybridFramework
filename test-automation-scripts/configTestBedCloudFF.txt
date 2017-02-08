@@ -1,11 +1,10 @@
-#firefox 23.0 with Windows XP/7/8 & OS X Lion/Mountain Lion/Snow Leopard
-#BROWSER=Firefox
-#VERSION=47.0
-#MAX_WAIT_TIME_SECONDS=30
-#TEST_ENV=browserstack
-#CLOUD_URL=https://sampletest7:edAmYWTt5paPx1ysgsod@hub-cloud.browserstack.com/wd/hub
-#PLATFORM=OS X
-#PLATFORM_VERSION=Sierra
-#RESOLUTION=1280x1024
-#BASE_URL=http://www.cisco.com
-#JS_ERROR_LOGGING=FALSE
+BROWSER=Firefox
+VERSION=44.0
+MAX_WAIT_TIME_SECONDS=30
+TEST_ENV=browserstack
+CLOUD_URL=https://qaossautomation1:XcyHrMrDYpkPeqLHeHq2@hub-cloud.browserstack.com/wd/hub
+PLATFORM=Windows
+PLATFORM_VERSION=10
+RESOLUTION=1280x1024
+BASE_URL=http://www.cisco.com
+JS_ERROR_LOGGING=FALSE
