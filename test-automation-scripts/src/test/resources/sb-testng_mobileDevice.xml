@@ -19,7 +19,7 @@
      	 		<include name="Mobile"/>
    		 	</run>
   		</groups>
-  		<class name="test.v2solutions.pages.TestV2SolutionsContactUsPage" /> 
+  		<class name="test.v2solutions.cisco.TestCISCO_TC" /> 
    	</classes>
 </test>
 

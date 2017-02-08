@@ -1,7 +1,9 @@
+test\v2solutions\pages\TestV2SolutionsContactUsPage.class
 test\v2solutions\components\TestGlobalFooterSection.class
 test\v2solutions\components\TestGlobalNavigation.class
 test\v2solutions\components\TestMainNavigation.class
 test\v2solutions\components\TestPageFootersSection.class
 test\v2solutions\pages\TestV2SolutionsHomePage.class
+test\v2solutions\cisco\TestCISCO_TC.class
 test\samples\TestDatabase.class
 test\samples\TestSampleScript.class

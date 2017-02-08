@@ -1,0 +1,67 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion" xmlns:ext="urn:concordion-extensions:2010">
+	<head lang="en">
+		<meta charset="UTF-8"/>
+
+		<script type="text/javascript">
+		function goBack() {
+			window.history.back();
+		}
+		</script>
+		<style  type="text/css">
+		h1,h2
+		{
+			background: linear-gradient(to right, #005CE6, #E6F0FF);
+		}
+		h2
+		{
+			background: linear-gradient(to right, #E6F0FF,#005CE6);
+		}
+		body
+		{
+			padding: 0px;
+			background:#C0C0C0;
+		}
+		button		{
+			color:blue;
+			background:#E6F0FF;
+			border:none;
+		}
+		div
+		{
+			min-height:22px;
+		}
+		</style>
+		<title>BDDTestPageFootersSection</title>
+	</head>
+	<body style='margin-top:0;margin-left:15;margin-right:0;'>
+			<center><table width="100%" border="0"><tr align="center" valign="center" style="background: linear-gradient(to right, #005CE6, #E6F0FF);"><td><h1><font color="white">Acceptance Tests</font></h1></td></tr></table></center>
+			<br/><button onclick="goBack()">Go Back</button><br/>
+			<h2><u>    BDD  Test Page Footers Section</u></h2>
+			<div concordion:assertTrue="verifyPageIsResizedToDesktopViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Desktop View Layout</div>
+			<div concordion:assertTrue="verifyPageFooterSectionPresentInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Footer Section Present In Desktop View</div>
+			<div concordion:assertTrue="validateQuickLinksAreClickableInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Quick Links Are Clickable In Desktop View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToTabletViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Tablet View Layout</div>
+			<div concordion:assertTrue="verifyPageFooterSectionPresentInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Footer Section Present In Tablet View</div>
+			<div concordion:assertTrue="validateQuickLinksAreClickableInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Quick Links Are Clickable In Tablet View</div>
+			<div concordion:assertTrue="verifyLogoDisplayedInPageFooterInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Logo Displayed In Page Footer In Tablet View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToMobileViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Mobile View Layout</div>
+			<div concordion:assertTrue="verifyPageFooterSectionPresentInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Footer Section Present In Mobile View</div>
+			<div concordion:assertTrue="validateQuickLinksAreClickableInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Quick Links Are Clickable In Mobile View</div>
+			<div concordion:assertTrue="verifyLogoDisplayedInPageFooterInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Logo Displayed In Page Footer In Mobile View</div>
+			<div concordion:assertTrue="verifyTwoPageFooterComponentsPlacedHorizonatllyAndOtherTwoBelowItInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Two Page Footer Components Placed Horizonatlly And Other Two Below It In Mobile View</div>
+			<div concordion:assertTrue="verifyPageFooterComponentsHorizontallyPlacedInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Footer Components Horizontally Placed In Desktop View</div>
+			<div concordion:assertTrue="verifyInValueDeliveredSectionTextIsPresentInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify In Value Delivered Section Text Is Present In Desktop View</div>
+			<div concordion:assertTrue="validateTwitterSectionContainingTwitterLinksInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Twitter Section Containing Twitter Links In Desktop View</div>
+			<div concordion:assertTrue="verifyAddressPresentBelowContactUsSectionInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Address Present Below Contact Us Section In Desktop View</div>
+			<div concordion:assertTrue="verifyPageFooterComponentsHorizontallyPlacedInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Footer Components Horizontally Placed In Tablet View</div>
+			<div concordion:assertTrue="verifyInValueDeliveredSectionTextIsPresentInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify In Value Delivered Section Text Is Present In Tablet View</div>
+			<div concordion:assertTrue="validateTwitterSectionContainingTwitterLinksInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Twitter Section Containing Twitter Links In Tablet View</div>
+			<div concordion:assertTrue="verifyAddressPresentBelowContactUsSectionInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Address Present Below Contact Us Section In Tablet View</div>
+			<div concordion:assertTrue="verifyInValueDeliveredSectionTextIsPresentInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify In Value Delivered Section Text Is Present In Mobile View</div>
+			<div concordion:assertTrue="validateTwitterSectionContainingTwitterLinksInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Twitter Section Containing Twitter Links In Mobile View</div>
+			<div concordion:assertTrue="verifyAddressPresentBelowContactUsSectionInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Address Present Below Contact Us Section In Mobile View</div>
+			<div concordion:assertTrue="verifyLogoDisplayedInPageFooter()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Logo Displayed In Page Footer</div>
+			<h2><u>End</u></h2>
+			<div><button onclick="goBack()">Go Back</button></div><br />
+	</body>
+</html>

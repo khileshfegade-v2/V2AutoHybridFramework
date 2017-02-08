@@ -1,0 +1,54 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion" xmlns:ext="urn:concordion-extensions:2010">
+	<head lang="en">
+		<meta charset="UTF-8"/>
+
+		<script type="text/javascript">
+		function goBack() {
+			window.history.back();
+		}
+		</script>
+		<style  type="text/css">
+		h1,h2
+		{
+			background: linear-gradient(to right, #005CE6, #E6F0FF);
+		}
+		h2
+		{
+			background: linear-gradient(to right, #E6F0FF,#005CE6);
+		}
+		body
+		{
+			padding: 0px;
+			background:#C0C0C0;
+		}
+		button		{
+			color:blue;
+			background:#E6F0FF;
+			border:none;
+		}
+		div
+		{
+			min-height:22px;
+		}
+		</style>
+		<title>BDDTestGlobalNavigation</title>
+	</head>
+	<body style='margin-top:0;margin-left:15;margin-right:0;'>
+			<center><table width="100%" border="0"><tr align="center" valign="center" style="background: linear-gradient(to right, #005CE6, #E6F0FF);"><td><h1><font color="white">Acceptance Tests</font></h1></td></tr></table></center>
+			<br/><button onclick="goBack()">Go Back</button><br/>
+			<h2><u>    BDD  Test Global Navigation</u></h2>
+			<div concordion:assertTrue="verifyContactNoAndIDPresentInGlobalHeaderInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Contact No And I D Present In Global Header In Desktop View</div>
+			<div concordion:assertTrue="verifySocialIconRenderedInGlobalHeaderInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Social Icon Rendered In Global Header In Desktop View</div>
+			<div concordion:assertTrue="verifySocialIconInGlobalHeaderAreClickableInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Social Icon In Global Header Are Clickable In Desktop View</div>
+			<div concordion:assertTrue="verifyALTTagNameOFSocialIconInGlobalHeaderInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify A L T Tag Name O F Social Icon In Global Header In Desktop View</div>
+			<div concordion:assertTrue="verifyContactNoAndIDPresentInGlobalHeaderIntabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Contact No And I D Present In Global Header Intablet View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToDesktopViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Desktop View Layout</div>
+			<div concordion:assertTrue="verifyGlobalNavigationHeaderPresentInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Global Navigation Header Present In Desktop View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToTabletViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Tablet View Layout</div>
+			<div concordion:assertTrue="verifyGlobalNavigationHeaderPresentInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Global Navigation Header Present In Tablet View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToMobileViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Mobile View Layout</div>
+			<div concordion:assertTrue="verifyGlobalNavigationHeaderPresentInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Global Navigation Header Present In Mobile View</div>
+			<h2><u>End</u></h2>
+			<div><button onclick="goBack()">Go Back</button></div><br />
+	</body>
+</html>

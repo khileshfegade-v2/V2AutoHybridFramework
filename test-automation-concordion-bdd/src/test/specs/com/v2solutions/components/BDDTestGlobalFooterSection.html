@@ -1,0 +1,64 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion" xmlns:ext="urn:concordion-extensions:2010">
+	<head lang="en">
+		<meta charset="UTF-8"/>
+
+		<script type="text/javascript">
+		function goBack() {
+			window.history.back();
+		}
+		</script>
+		<style  type="text/css">
+		h1,h2
+		{
+			background: linear-gradient(to right, #005CE6, #E6F0FF);
+		}
+		h2
+		{
+			background: linear-gradient(to right, #E6F0FF,#005CE6);
+		}
+		body
+		{
+			padding: 0px;
+			background:#C0C0C0;
+		}
+		button		{
+			color:blue;
+			background:#E6F0FF;
+			border:none;
+		}
+		div
+		{
+			min-height:22px;
+		}
+		</style>
+		<title>BDDTestGlobalFooterSection</title>
+	</head>
+	<body style='margin-top:0;margin-left:15;margin-right:0;'>
+			<center><table width="100%" border="0"><tr align="center" valign="center" style="background: linear-gradient(to right, #005CE6, #E6F0FF);"><td><h1><font color="white">Acceptance Tests</font></h1></td></tr></table></center>
+			<br/><button onclick="goBack()">Go Back</button><br/>
+			<h2><u>BDD  Test Global Footer Section</u></h2>
+			<div concordion:assertTrue="verifySocialIconRenderedInFooterSectionOfDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Social Icon Rendered In Footer Section Of Desktop View</div>
+			<div concordion:assertTrue="verifyALTTagNameOFSocialIconInFooterSectionOfDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify ALT Tag Name OF Social Icon In Footer Section Of Desktop View</div>
+			<div concordion:assertTrue="verifySocialIconInFooterSectionAreClickableInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Social Icon In Footer Section Are Clickable In Desktop View</div>
+			<div concordion:assertTrue="verifySocialIconRenderedInFooterSectionOfTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Social Icon Rendered In Footer Section Of Tablet View</div>
+			<div concordion:assertTrue="verifyALTTagNameOFSocialIconInFooterSectionOfTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify ALT Tag Name O F Social Icon In Footer Section Of Tablet View</div>
+			<div concordion:assertTrue="verifySocialIconInFooterSectionAreClickableInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Social Icon In Footer Section Are Clickable In Tablet View</div>
+			<div concordion:assertTrue="verifySocialIconRenderedInFooterSectionOfMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Social Icon Rendered In Footer Section Of Mobile View</div>
+			<div concordion:assertTrue="verifyALTTagNameOFSocialIconInFooterSectionOfMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify ALT Tag Name OF Social Icon In Footer Section Of Mobile View</div>
+			<div concordion:assertTrue="verifySocialIconInFooterSectionAreClickableInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Social Icon In Footer Section Are Clickable In Mobile View</div>
+			<div concordion:assertTrue="verifyInGlobalFooterSectionCopyRightsMessageDisplayedInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify In Global Footer Section Copy Rights Message Displayed In Desktop View</div>
+			<div concordion:assertTrue="verifyInGlobalFooterSectionCopyRightsMessageDisplayedInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify In Global Footer Section Copy Rights Message Displayed In Tablet View</div>
+			<div concordion:assertTrue="verifyInGlobalFooterSectionCopyRightsMessageDisplayedInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify In Global Footer Section Copy Rights Message Displayed In Mobile View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToDesktopViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Desktop View Layout</div>
+			<div concordion:assertTrue="verifyGlobalFooterSectionPresentInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Global Footer Section Present In Desktop View</div>
+			<div concordion:assertTrue="validateCopyRightsLinksClickableInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Copy Rights Links Clickable In Desktop View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToTabletViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Tablet View Layout</div>
+			<div concordion:assertTrue="verifyGlobalFooterSectionPresentInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Global Footer Section Present In Tablet View</div>
+			<div concordion:assertTrue="validateCopyRightsLinksClickableInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Copy Rights Links Clickable In Tablet View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToMobileViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Mobile View Layout</div>
+			<div concordion:assertTrue="verifyGlobalFooterSectionPresentInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Global Footer Section Present In Mobile View</div>
+			<div concordion:assertTrue="validateCopyRightsLinksClickableInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Copy Rights Links Clickable In Mobile View</div>
+			<h2><u>End</u></h2>
+			<div><button onclick="goBack()">Go Back</button></div><br />
+	</body>
+</html>

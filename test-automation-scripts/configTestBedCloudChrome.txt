@@ -6,5 +6,5 @@ CLOUD_URL=https://sampletest7:edAmYWTt5paPx1ysgsod@hub-cloud.browserstack.com/wd
 PLATFORM=OS X
 PLATFORM_VERSION=Mountain Lion
 RESOLUTION=1280x1024
-BASE_URL=http://www.v2solutions.com
+BASE_URL=http://www.cisco.com
 JS_ERROR_LOGGING=FALSE

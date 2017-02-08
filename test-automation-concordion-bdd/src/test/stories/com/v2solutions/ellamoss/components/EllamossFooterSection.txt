@@ -1,0 +1,12 @@
+# TC - Validate footer section of Ellamoss web site
+
+Verify 'Ellamoss' logo present in footer section
+Validate 'Ellamoss' logo is clickable
+Verify social icons rendered in footer section
+Validate social icons are clickable
+Validate footer links are clickable
+Validate links in 'Shop our other brands' are clickable 
+Validate background color of footer section is black
+Validate 'A Treat For You' pop page rendred after clicked on 'Go' link below 'JOIN OUR LIST' footer section
+Validate email error message on 'A Treat For You' pop page by without entering the data
+Validate Thank you message on 'A Treat For You' pop page by entering the correct data

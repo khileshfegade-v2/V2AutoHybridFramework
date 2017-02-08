@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression suite" duration-ms="4" started-at="2017-02-02T08:54:39Z" finished-at="2017-02-02T08:54:39Z">
+  <suite name="Regression suite" duration-ms="4" started-at="2017-02-07T12:09:30Z" finished-at="2017-02-07T12:09:30Z">
     <groups>
     </groups>
-    <test name="V2SolutionsHomePage" duration-ms="4" started-at="2017-02-02T08:54:39Z" finished-at="2017-02-02T08:54:39Z">
+    <test name="V2SolutionsHomePage" duration-ms="4" started-at="2017-02-07T12:09:30Z" finished-at="2017-02-07T12:09:30Z">
     </test> <!-- V2SolutionsHomePage -->
   </suite> <!-- Regression suite -->
 </testng-results>

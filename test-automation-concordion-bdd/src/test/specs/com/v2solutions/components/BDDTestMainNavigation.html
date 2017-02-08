@@ -1,0 +1,56 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion" xmlns:ext="urn:concordion-extensions:2010">
+	<head lang="en">
+		<meta charset="UTF-8"/>
+
+		<script type="text/javascript">
+		function goBack() {
+			window.history.back();
+		}
+		</script>
+		<style  type="text/css">
+		h1,h2
+		{
+			background: linear-gradient(to right, #005CE6, #E6F0FF);
+		}
+		h2
+		{
+			background: linear-gradient(to right, #E6F0FF,#005CE6);
+		}
+		body
+		{
+			padding: 0px;
+			background:#C0C0C0;
+		}
+		button		{
+			color:blue;
+			background:#E6F0FF;
+			border:none;
+		}
+		div
+		{
+			min-height:22px;
+		}
+		</style>
+		<title>BDDTestMainNavigation</title>
+	</head>
+	<body style='margin-top:0;margin-left:15;margin-right:0;'>
+			<center><table width="100%" border="0"><tr align="center" valign="center" style="background: linear-gradient(to right, #005CE6, #E6F0FF);"><td><h1><font color="white">Acceptance Tests</font></h1></td></tr></table></center>
+			<br/><button onclick="goBack()">Go Back</button><br/>
+			<h2><u>    BDD  Test Main Navigation</u></h2>
+			<div concordion:assertTrue="validateMenuLinksAreClickable()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Menu Links Are Clickable</div>
+			<div concordion:assertTrue="verifyPageIsResizedToDesktopViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Desktop View Layout</div>
+			<div concordion:assertTrue="verifyMainNavigationPresentInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Main Navigation Present In Desktop View</div>
+			<div concordion:assertTrue="verifyLogoPresentInMainNavigationDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Logo Present In Main Navigation Desktop View</div>
+			<div concordion:assertTrue="validateOnMouseHoverSubMenuLinksAreHighlighted()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate On Mouse Hover Sub Menu Links Are Highlighted</div>
+			<div concordion:assertTrue="verifyPageIsResizedToTabletViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Tablet View Layout</div>
+			<div concordion:assertTrue="verifyMainNavigationPresentInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Main Navigation Present In Tablet View</div>
+			<div concordion:assertTrue="validateMenuLinksAreClickableInTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Menu Links Are Clickable In Tablet View</div>
+			<div concordion:assertTrue="verifyLogoPresentInMainNavigationTabletView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Logo Present In Main Navigation Tablet View</div>
+			<div concordion:assertTrue="verifyPageIsResizedToMobileViewLayout()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Page Is Resized To Mobile View Layout</div>
+			<div concordion:assertTrue="verifyHamburgerButtonPresentInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify Hamburger Button Present In Mobile View</div>
+			<div concordion:assertTrue="validateHamburgerButtonClickableInMobileView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Validate Hamburger Button Clickable In Mobile View</div>
+			<div concordion:assertTrue="verifyOnMouseHoverMainNavigationMenuLinksExpandedInDesktopView()" style="font-family: Calibri,Verdana,Geneva,sans-serif;font-size: 18px;font-style: normal;font-variant: normal;font-weight: 400;line-height: 20px;">Verify On Mouse Hover Main Navigation Menu Links Expanded In Desktop View</div>
+			<h2><u>End</u></h2>
+			<div><button onclick="goBack()">Go Back</button></div><br />
+	</body>
+</html>
