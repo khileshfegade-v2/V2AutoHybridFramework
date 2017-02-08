@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 BROWSER=Chrome
 TEST_ENV=local
 HUB=localhost
@@ -6,4 +7,14 @@ PLATFORM=WINDOWS
 BASE_URL=http://www.cisco.com
 CAPTURE_VIDEO=No
 JS_ERROR_LOGGING=No
+=======
+BROWSER=Chrome
+TEST_ENV=local
+HUB=localhost
+MAX_WAIT_TIME_SECONDS=30
+PLATFORM=WINDOWS
+BASE_URL=http://www.cisco.com
+CAPTURE_VIDEO=No
+JS_ERROR_LOGGING=No
+>>>>>>> 2a202fbc401438d8d1698bfd26b5d07b79d61cb5
 EMAIL_NOTIFICATION=No
