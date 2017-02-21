@@ -1,7 +1,0 @@
-# TC - Validate main navigation menu bar 
-
-Validate 'Ellamoss' logo present in main navigation menu bar
-Validate 'Ellamoss' logo is clickable
-Validate sub menu links in main navigation bar are clickable
-Validate whether sub menu links are expanded on mouse hover
-Validate whether expanded sub menu links are clickable

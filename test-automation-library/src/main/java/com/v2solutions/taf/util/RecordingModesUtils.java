@@ -27,7 +27,7 @@ public class RecordingModesUtils{
 	private ScreenRecorder screenRecorder;
 	public void startRecording() throws Exception
     {    
-           File file = new File(System.getProperty("user.dir")+"\\RecordedVideos");
+           File file = new File(System.getProperty("user.dir")+"\\recordedVideos");
             
            Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
            int width = screenSize.width;

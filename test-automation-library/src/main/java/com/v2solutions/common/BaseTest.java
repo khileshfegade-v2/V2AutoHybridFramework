@@ -151,11 +151,13 @@ public class BaseTest {
 		System.out.println(" ******************** @AfterClass tearDown() method of BaseTest.java ***************************");
 		if (testBedManager.getDriver() != null)
 		{
+			System.out.println("-----------$$ After class method $$-----------iffff-------");
 			testBedManager.getDriver().quit();
 			testBedManager.setDriverNull();
 		}
 		browserOpen--;
 		log.info("------browserOpen ::" + browserOpen);
+		System.out.println("-----------$$ ------ $$------------------");
 	}
 
 	 @AfterSuite(alwaysRun = true)
@@ -165,11 +167,6 @@ public class BaseTest {
 		 {
 			 log.info("browserOpen ::"+browserOpen);
 			 log.info("testBedManager.getDriver() ::"+testBedManager.getDriver());
-			 if((profile.getEmailNotification().equalsIgnoreCase("YES"))||(profile.getEmailNotification().equalsIgnoreCase("true"))){
-				 MailNotificationUtil sendNotification = new MailNotificationUtil();
-				 sendNotification.sendEmailNotification();
-				 
-			 }
 			 if (browserOpen > 0 && testBedManager.getDriver() != null)
 			 {
 				 testBedManager.getDriver().quit();
@@ -239,12 +236,17 @@ public class BaseTest {
 	public void close() throws Exception 
 	{
 		System.out.println("*************************** This close method is invoked by Concordion BDD Test Class *****************************");
-		tearDown();
 		if(flag){
+			tearDown();
 			 //To stop video recording.
 			videoRecord.stopRecording();
 			  log.info("Stopped recording local execution...");
 			  System.out.println("Stopped recording local execution...");
+			  System.out.println("Rrrrrrrrrrrrrrrrrrrrrrr ifffffff");
+		}
+		else{
+			System.out.println("Elseeeeeeeeeeeeeeeeeee eeeeeeeeee");
+			tearDown();
 		}
 		
 	}

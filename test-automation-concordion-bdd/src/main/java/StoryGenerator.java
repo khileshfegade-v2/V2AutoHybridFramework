@@ -390,8 +390,8 @@ public class StoryGenerator
 			bw.write("*\tin respective folder. TestNG API's provide @Factory annotation which provides means for feeding test classes\n");
 			bw.write("*\tto TestNG runner for test execution.\n");
 			bw.write("*\t\n");
-			bw.write("*\tCompany: eTouch\n");
-			bw.write("*\tAuthor: Mahendra Kale\n");			
+			bw.write("*\tCompany: V2 Solutions Pvt Ltd\n");
+			bw.write("*\tAuthor: V2 Solution Automation Team\n");			
 			bw.write("*\tGeneration Date: "+sdf.format(todaysDate)+"\n");			
 			bw.write("*/\n\n");
 
@@ -490,8 +490,8 @@ public class StoryGenerator
 			bw.write("*\tall proxy glue code and hence kept in base class called BDDTestNGBaseClass. That's why\n");
 			bw.write("*\tfollowing class is extended from BDDTestNGBaseClass java class\n");
 			bw.write("*\n");
-			bw.write("*\tCompany: eTouch\n");
-			bw.write("*\tAuthor: Mahendra Kale\n");
+			bw.write("*\tCompany: V2 Solutions Pvt Ltd\n");
+			bw.write("*\tAuthor: V2 Solutions Automation Team\n");
 			bw.write("*\tGeneration Date: "+sdf.format(todaysDate)+"\n");			
 			bw.write("*/\n\n");
 

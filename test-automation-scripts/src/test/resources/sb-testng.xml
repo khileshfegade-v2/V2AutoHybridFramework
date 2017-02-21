@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Regression suite" verbose="1" configfailurepolicy="continue">
+<suite name="Automation_Execution_Suite" verbose="1" configfailurepolicy="continue">
 
-<!-- 	<parameter name="configFileName" value="src/test/resources/config.properties" /> -->
+	<parameter name="configFileName" value="src/test/resources/config.properties" />
 	<parameter name="pageurlsFileName" value="src/test/resources/pageurls/qa.pageurls.properties" />
 
 	<listeners>
 		<listener class-name="com.v2solutions.taf.listener.LogErrorListener" />
 		<listener class-name="com.v2solutions.taf.listener.SuiteListener" />
 		<listener class-name="com.v2solutions.taf.listener.TestListener" />
-		<listener class-name="org.uncommons.reportng.HTMLReporter" />
-		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
 	
-<test name="V2SolutionsHomePage" preserve-order="true"> 
+<test name="CISCO_Page" preserve-order="true"> 
  		<classes> 
-			<class name="test.v2solutions.cisco.TestCISCO_TC" /> 
+<!-- 			<class name="test.v2solutions.cisco.TestCISCO_TC" />  -->
  		</classes> 
  	</test> 
 

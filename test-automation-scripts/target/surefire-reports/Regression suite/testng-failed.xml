@@ -7,9 +7,7 @@
     <listener class-name="com.v2solutions.taf.listener.LogErrorListener"/>
     <listener class-name="com.v2solutions.taf.listener.SuiteListener"/>
     <listener class-name="com.v2solutions.taf.listener.TestListener"/>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="V2SolutionsHomePage">
-  </test> <!-- V2SolutionsHomePage -->
+  <test name="CISCO_Page">
+  </test> <!-- CISCO_Page -->
 </suite> <!-- Failed suite [Regression suite] -->

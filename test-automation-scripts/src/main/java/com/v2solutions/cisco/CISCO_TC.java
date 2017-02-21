@@ -39,6 +39,7 @@ public class CISCO_TC extends CommonPage
 		super(sbPageUrl, webPage);
 		loadPage();
 		webPage.waitForLoad(webPage.getDriver());
+		captureJSErrors();
 	}
 
 	/**
@@ -143,8 +144,10 @@ public class CISCO_TC extends CommonPage
 	*/
 	public String inDesktopViewVerifyUserCannotLoginWithInvalidCredentials(String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMsgXpath, String expectedErrorMessage) throws PageException
 	{
-		
-		
+		loadPage();
+		webPage.waitForLoad(webPage.getDriver());
+		WebElement loginButton = webPage.findPageObjectByXPath(loginButtonXpath, IPageObjectType.Link);
+		loginButton.click();
 		webPage.waitForLoad(webPage.getDriver());
 		WebElement email = webPage.findPageObjectByXPath(emailTextFieldXpath, IPageObjectType.TextBox);
 		Mouse mouse = ((HasInputDevices) webPage.getDriver()).getMouse();
@@ -215,7 +218,6 @@ public class CISCO_TC extends CommonPage
 		webPage.sleep(2000);
 		
 		WebElement searchPageResult = webPage.findPageObjectByXPath(searchResultSetXpath, IPageObjectType.Text);
-		System.out.println("***-----------------"+searchPageResult);
 		if(searchPageResult.getText().contains(expectedText)){
 			value = true;
 		}
@@ -223,6 +225,22 @@ public class CISCO_TC extends CommonPage
 		return value;
 	}
 
+	
+	/*
+	* Please write method description here.
+	* In Desktop view - Verify user can login with valid credentials.
+	*/
+	public boolean inDesktopViewVerifyUserCanLoggoutSuccessfully(String logoutLinkXpath, String logoutSuccessMsgXpath) throws PageException
+	{
+		boolean value= false;
+		WebElement logOutLink = webPage.findPageObjectByXPath(logoutLinkXpath, IPageObjectType.Link);
+		logOutLink.click();
+		webPage.waitForLoad(webPage.getDriver());
+		WebElement logoutSuccessMsg = webPage.findPageObjectByXPath(logoutSuccessMsgXpath, IPageObjectType.ComponentSection);
+		if(logoutSuccessMsg.isDisplayed())
+		 value = true;
+		return value;
+	}
 
 	/*
 	* Please write method description here.
@@ -299,8 +317,16 @@ public class CISCO_TC extends CommonPage
 	* Please write method description here.
 	* In Tablet view - Verify user cannot login with invalid credentials.
 	*/
-	public String inTabletViewVerifyUserCannotLoginWithInvalidCredentials(String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMsgXpath, String expectedErrorMessage) throws PageException
+	public String inTabletViewVerifyUserCannotLoginWithInvalidCredentials(String hamburgerButtonXpath, String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMsgXpath, String expectedErrorMessage) throws PageException
 	{
+		loadPage();
+		webPage.waitForLoad(webPage.getDriver());
+		WebElement hambergerButton = webPage.findPageObjectByXPath(hamburgerButtonXpath, IPageObjectType.Button);
+		hambergerButton.click();
+		webPage.sleep(2000);
+		
+		WebElement loginButton = webPage.findPageObjectByXPath(loginButtonXpath, IPageObjectType.Link);
+		loginButton.click();
 		webPage.waitForLoad(webPage.getDriver());
 		WebElement email = webPage.findPageObjectByXPath(emailTextFieldXpath, IPageObjectType.TextBox);
 		Mouse mouse = ((HasInputDevices) webPage.getDriver()).getMouse();
@@ -366,7 +392,6 @@ public class CISCO_TC extends CommonPage
 		searchInputField.sendKeys(inputText);
 		
 		WebElement searchIcon = webPage.findPageObjectByXPath(searchFinderXpath, IPageObjectType.Icon);
-		System.out.println("Search icon is displayed --->"+searchIcon.isDisplayed());
 		webPage.sleep(2000);
 		searchIcon.click();
 		webPage.sleep(2000);
@@ -379,6 +404,26 @@ public class CISCO_TC extends CommonPage
 		return value;
 	}
 
+	
+	/*
+	* Please write method description here.
+	* In Desktop view - Verify user can login with valid credentials.
+	*/
+	public boolean inTabletViewVerifyUserCanLoggoutSuccessfully(String hamburgerButtonXpath, String logoutLinkXpath, String logoutSuccessMsgXpath) throws PageException
+	{
+		boolean value= false;
+		WebElement hamburgerButton = webPage.findPageObjectByXPath(hamburgerButtonXpath, IPageObjectType.Link);
+		hamburgerButton.click();
+		webPage.sleep(2000);
+		WebElement logOutLink = webPage.findPageObjectByXPath(logoutLinkXpath, IPageObjectType.Link);
+		logOutLink.click();
+		webPage.waitForLoad(webPage.getDriver());
+		
+		WebElement logoutSuccessMsg = webPage.findPageObjectByXPath(logoutSuccessMsgXpath, IPageObjectType.ComponentSection);
+		if(logoutSuccessMsg.isDisplayed())
+			 value = true;
+		return value;
+	}
 
 	/*
 	* Please write method description here.
@@ -448,13 +493,40 @@ public class CISCO_TC extends CommonPage
 		return value;
 	}
 
+	/*
+	* Please write method description here.
+	* In Desktop view - Verify user can login with valid credentials.
+	*/
+	public boolean inMobileViewVerifyUserCanLoggoutSuccessfully(String hamburgerButtonXpath, String logoutLinkXpath, String logoutSuccessMsgXpath) throws PageException
+	{
+		boolean value= false;
+		WebElement hamburgerButton = webPage.findPageObjectByXPath(hamburgerButtonXpath, IPageObjectType.Link);
+		hamburgerButton.click();
+		webPage.sleep(2000);
+		WebElement logOutLink = webPage.findPageObjectByXPath(logoutLinkXpath, IPageObjectType.Link);
+		logOutLink.click();
+		webPage.waitForLoad(webPage.getDriver());
+		
+		WebElement logoutSuccessMsg = webPage.findPageObjectByXPath(logoutSuccessMsgXpath, IPageObjectType.ComponentSection);
+		if(logoutSuccessMsg.isDisplayed())
+			 value = true;
+		return value;
+	}
 
 	/*
 	* Please write method description here.
 	* In Mobile view - Verify user cannot login with invalid credentials.
 	*/
-	public String inMobileViewVerifyUserCannotLoginWithInvalidCredentials(String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMsgXpath, String expectedErrorMessage) throws PageException
+	public String inMobileViewVerifyUserCannotLoginWithInvalidCredentials(String hamburgerButtonXpath, String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMsgXpath, String expectedErrorMessage) throws PageException
 	{
+		loadPage();
+		webPage.waitForLoad(webPage.getDriver());
+		WebElement hambergerButton = webPage.findPageObjectByXPath(hamburgerButtonXpath, IPageObjectType.Button);
+		hambergerButton.click();
+		webPage.sleep(2000);
+		
+		WebElement loginButton = webPage.findPageObjectByXPath(loginButtonXpath, IPageObjectType.Link);
+		loginButton.click();
 		webPage.waitForLoad(webPage.getDriver());
 		WebElement email = webPage.findPageObjectByXPath(emailTextFieldXpath, IPageObjectType.TextBox);
 		Mouse mouse = ((HasInputDevices) webPage.getDriver()).getMouse();

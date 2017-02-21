@@ -7,8 +7,6 @@ package com.v2solutions.cisco;
 *	in respective folder. TestNG API's provide @Factory annotation which provides means for feeding test classes
 *	to TestNG runner for test execution.
 *	
-*	Company: eTouch
-*	Author: Mahendra Kale
 *	Generation Date: 02/06/2017
 */
 

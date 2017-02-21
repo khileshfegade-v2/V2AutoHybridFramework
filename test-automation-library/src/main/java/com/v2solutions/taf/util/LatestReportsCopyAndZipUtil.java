@@ -3,6 +3,7 @@ package com.v2solutions.taf.util;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
+import java.io.FileFilter;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -14,6 +15,9 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
+
+import org.apache.commons.io.comparator.LastModifiedFileComparator;
+import org.apache.commons.io.filefilter.WildcardFileFilter;
 
 public class LatestReportsCopyAndZipUtil {
 	public static String rootPath = System.getProperty("user.dir");
@@ -27,15 +31,23 @@ public class LatestReportsCopyAndZipUtil {
 	  public static String Latestresultsfolder;
 	  public static String execution_Reports_LogsPath = rootPath+ "/executionreports/";
 	  public static String DotZip = "[.]"+"[zip]";
+	  
+	  
+	  
 	  public static SimpleDateFormat sdf = new SimpleDateFormat("dd_MMM_yyyy_hh-mm-ss_aaa(zzz)");
-		public static final java.util.Date curDate = new java.util.Date();
-		public static final String strDate = sdf.format(curDate);
-		public static final String strActDate = strDate.toString();
+	  public static final java.util.Date curDate = new java.util.Date();
+	  public static final String strDate = sdf.format(curDate);
+	  public static final String strActDate = strDate.toString();
+	  
+	 public static String FILE_DIR = rootPath+"/target";
+	 public static String FILE_TEXT_SRT = "QA-EngineerFailAnalysis";
+	 private static final String FILE_TEXT_STRT = "allResult";
+	 static File f1 = null;
+	 static File f2 = null;
 
-
-	public static void copyReports() throws ParseException {
+	public static void copyReports() throws ParseException, IOException {
 		srcFolder[0] = new File(rootPath + "/logs");
-		srcFolder[1] = new File(rootPath + "/test-output/html");
+		srcFolder[1] = new File(rootPath + "/test-output/Automation_Execution_Suite");
 		srcFolder[2] = new File(rootPath + "/screenshots");
 		destFolder = new File(execution_Reports_LogsPath+""+ strActDate);
 				
@@ -50,6 +62,16 @@ public class LatestReportsCopyAndZipUtil {
 					System.out.println(":"+e.getMessage());
 				}
 			}
+		}
+		
+		try{ 
+		f1 = new File(destFolder+"\\"+getTheNewestFile(FILE_DIR,FILE_TEXT_STRT).getName());
+		f2 = new File(destFolder+"\\"+getTheNewestFile(FILE_DIR,FILE_TEXT_SRT).getName());
+		   
+		copyFileUsingFileStreams(getTheNewestFile(FILE_DIR,FILE_TEXT_SRT),f2);
+		copyFileUsingFileStreams(getTheNewestFile(FILE_DIR,FILE_TEXT_STRT),f1);
+		}catch(NullPointerException ne){
+			System.out.println(":"+ne.getMessage());
 		}
 	}
 
@@ -113,7 +135,20 @@ public class LatestReportsCopyAndZipUtil {
 	}
 	
 
+	public static File getTheNewestFile(String filePath, String strt) {
+	    File theNewestFile = null;
+	    File dir = new File(filePath);
+	    FileFilter fileFilter = new WildcardFileFilter(strt+ "*.xml");
+	    File[] files = dir.listFiles(fileFilter);
 
+	    if (files.length > 0) {
+	        /** The newest file comes first **/
+	        Arrays.sort(files, LastModifiedFileComparator.LASTMODIFIED_REVERSE);
+	        theNewestFile = files[0];
+	    }
+
+	    return theNewestFile;
+	}
 	
 	
  public static void getResultFolderPath(){
@@ -154,7 +189,36 @@ public class LatestReportsCopyAndZipUtil {
 	}
 	
 
-
+ 	private static void copyFileUsingFileStreams(File source, File dest)throws IOException {
+ 		
+	    InputStream input = null;
+	
+	    OutputStream output = null;
+	
+	    try {
+	
+	        input = new FileInputStream(source);
+	
+	        output = new FileOutputStream(dest);
+	
+	        byte[] buf = new byte[1024];
+	
+	        int bytesRead;
+	
+	        while ((bytesRead = input.read(buf)) > 0) {
+	
+	            output.write(buf, 0, bytesRead);
+	
+	        }
+	
+	    } finally {
+		        input.close();
+	
+	        output.close();
+	
+	    }
+	
+	}
   
 }
 

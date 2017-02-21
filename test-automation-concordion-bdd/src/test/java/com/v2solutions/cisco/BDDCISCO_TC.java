@@ -31,7 +31,7 @@ public class BDDCISCO_TC extends BDDTestNGBaseClass
 {
 	public BDDCISCO_TC()
 	{
-		super("com.v2solutions.nydj.BDDNYDJ_TCClassFactory");
+		super("com.v2solutions.cisco.BDDCISCO_TCClassFactory");
 	}
 	public boolean verifyPageIsResizedAccordingToDesktopView() throws Throwable
 	{

@@ -11,6 +11,7 @@ import com.v2solutions.taf.core.WebPage;
 import com.v2solutions.taf.dataprovider.TafExcelDataProvider;
 import com.v2solutions.taf.dataprovider.annotations.IExcelDataFiles;
 import com.v2solutions.taf.dataprovider.annotations.ITafExcelDataProviderInputs;
+import com.v2solutions.taf.exception.PageException;
 import com.v2solutions.taf.listener.SuiteListener;
 import com.v2solutions.taf.util.BrowserInfoUtil;
 import com.v2solutions.taf.util.LogUtil;
@@ -84,10 +85,11 @@ public class TestCISCO_TC extends BaseTest
 	 * @param pwd
 	 * @param loginButtonXPath
 	 * @param loggedUserNameXpath
+	 * @throws PageException 
 	 */
 	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Desktop", "Regression"}, priority = 2, enabled = true, description = "In Desktop view - Verify user can login with valid credentials")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithValidCredentials")
-	public void inDesktopViewVerifyUserCanLoginWithValidCredentials(String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String loggedUserNameXpath)
+	public void inDesktopViewVerifyUserCanLoginWithValidCredentials(String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String loggedUserNameXpath, String logoutLinkXpath, String logoutSuccessMsgXpath) throws PageException
 	{
 		boolean returnValue = false;
 		try
@@ -98,6 +100,9 @@ public class TestCISCO_TC extends BaseTest
 		catch (Throwable e)
 		{
 			cisco_TC.logAndCreateADefect(e, "Login button having xpath value : "+loginButtonXpath+" and submit button xpath :"+loginButtonXPath+", and find logged user name with xpath ", loggedUserNameXpath, "User able to log in successfully with valid credentials", String.valueOf(returnValue), String.valueOf(true), "defectName_inDesktopViewVerifyUserCanLoginWithValidCredentials", "inDesktopViewVerifyUserCanLoginWithValidCredentials");
+		}finally{
+			returnValue = cisco_TC.inDesktopViewVerifyUserCanLoggoutSuccessfully(logoutLinkXpath, logoutSuccessMsgXpath);
+			Assert.assertTrue(returnValue,"In Desktop view - Verify user can failed to logout.");
 		}
 	}
 
@@ -184,7 +189,7 @@ public class TestCISCO_TC extends BaseTest
 	 * @param height
 	 * @param expected_no_of_columns
 	 */
-	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Desktop", "Regression"}, priority = 6, enabled = true, description = "Verify page is resized according to Tablet view")
+	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 6, enabled = true, description = "Verify page is resized according to Tablet view")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "tablet_layout")
 	public void verifyPageIsResizedAccordingToTabletView(String width, String height, String expected_no_of_columns)
 	{
@@ -215,10 +220,11 @@ public class TestCISCO_TC extends BaseTest
 	 * @param pwd
 	 * @param loginButtonXPath
 	 * @param loggedUserNameXpath
+	 * @throws PageException 
 	 */
 	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 7, enabled = true, description = "In Tablet view - Verify user can login with valid credentials")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithValidCredentialsInMobile")
-	public void inTabletViewVerifyUserCanLoginWithValidCredentials(String hambergerButtonXpath, String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String loggedUserNameXpath)
+	public void inTabletViewVerifyUserCanLoginWithValidCredentials(String hambergerButtonXpath, String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String loggedUserNameXpath, String hamburgerButtonXpath, String logoutLinkXpath, String logoutSuccessMsgXpath) throws PageException
 	{
 		boolean returnValue = false;
 		try
@@ -229,6 +235,9 @@ public class TestCISCO_TC extends BaseTest
 		catch (Throwable e)
 		{
 			cisco_TC.logAndCreateADefect(e, "Login button having xpath value : "+loginButtonXpath+" and submit button xpath :"+loginButtonXPath+", and find logged user name with xpath ", loggedUserNameXpath, "User able to log in successfully with valid credentials", String.valueOf(returnValue), String.valueOf(true), "defectName_inTabletViewVerifyUserCanLoginWithValidCredentials", "inTabletViewVerifyUserCanLoginWithValidCredentials");
+		}finally{
+			returnValue = cisco_TC.inTabletViewVerifyUserCanLoggoutSuccessfully(hamburgerButtonXpath,logoutLinkXpath, logoutSuccessMsgXpath);
+			Assert.assertTrue(returnValue,"In Tablet view - Verify user can failed to logout.");
 		}
 	}
 	
@@ -244,13 +253,13 @@ public class TestCISCO_TC extends BaseTest
 	 * @param expectedErrorMessage
 	 */
 	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Tablet", "Regression"}, priority = 8, enabled = true, description = "In Tablet view - Verify user cannot login with invalid credentials")
-	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithInValidCredentials")
-	public void inTabletViewVerifyUserCannotLoginWithInvalidCredentials(String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMessageXpath, String expectedErrorMessage)
+	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithInValidCredentialsMobileAndTablet")
+	public void inTabletViewVerifyUserCannotLoginWithInvalidCredentials(String hamburgerXpath, String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMessageXpath, String expectedErrorMessage)
 	{
 		String actualErrorMsgValue = null;
 		try
 		{
-			actualErrorMsgValue = cisco_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials(loginButtonXpath, emailTextFieldXpath, ID, pwdTextFieldXpath, pwd, loginButtonXPath, errorMessageXpath, expectedErrorMessage);
+			actualErrorMsgValue = cisco_TC.inTabletViewVerifyUserCannotLoginWithInvalidCredentials(hamburgerXpath, loginButtonXpath, emailTextFieldXpath, ID, pwdTextFieldXpath, pwd, loginButtonXPath, errorMessageXpath, expectedErrorMessage);
 			Assert.assertEquals(actualErrorMsgValue, expectedErrorMessage, "In Tablet view - Verify user cannot login with invalid credentials failed.");
 		}
 		catch (Throwable e)
@@ -344,10 +353,11 @@ public class TestCISCO_TC extends BaseTest
 	 * @param pwd
 	 * @param loginButtonXPath
 	 * @param loggedUserNameXpath
+	 * @throws PageException 
 	 */
 	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 12, enabled = true, description = "In Mobile view - Verify user can login with valid credentials")
 	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithValidCredentialsInMobile")
-	public void inMobileViewVerifyUserCanLoginWithValidCredentials(String hambergerButtonXpath, String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String loggedUserNameXpath)
+	public void inMobileViewVerifyUserCanLoginWithValidCredentials(String hambergerButtonXpath, String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String loggedUserNameXpath, String hamburgerButtonXpath, String logoutLinkXpath, String logoutSuccessMsgXpath) throws PageException
 	{
 		boolean returnValue = false;
 		try
@@ -358,6 +368,9 @@ public class TestCISCO_TC extends BaseTest
 		catch (Throwable e)
 		{
 			cisco_TC.logAndCreateADefect(e, "Login button having xpath value : "+loginButtonXpath+" and submit button xpath :"+loginButtonXPath+", and find logged user name with xpath ", loggedUserNameXpath, "User able to log in successfully with valid credentials", String.valueOf(returnValue), String.valueOf(true), "defectName_inMobileViewVerifyUserCanLoginWithValidCredentials", "inMobileViewVerifyUserCanLoginWithValidCredentials");
+		}finally{
+			returnValue = cisco_TC.inMobileViewVerifyUserCanLoggoutSuccessfully(hamburgerButtonXpath,logoutLinkXpath, logoutSuccessMsgXpath);
+			Assert.assertTrue(returnValue,"In Tablet view - Verify user can failed to logout.");
 		}
 	}
 	
@@ -374,13 +387,13 @@ public class TestCISCO_TC extends BaseTest
 	 * @param expectedErrorMessage
 	 */
 	@Test(dataProvider = "tafDataProvider", dataProviderClass = TafExcelDataProvider.class, groups = { "Mobile", "Regression"}, priority = 13, enabled = true, description = "In Mobile view - Verify user cannot login with invalid credentials")
-	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithInValidCredentials")
-	public void inMobileViewVerifyUserCannotLoginWithInvalidCredentials(String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMessageXpath, String expectedErrorMessage)
+	@ITafExcelDataProviderInputs(excelFile = "BaseLayoutDataFile", excelsheet = "CISCO_Site", dataKey = "LoginWithInValidCredentialsMobileAndTablet")
+	public void inMobileViewVerifyUserCannotLoginWithInvalidCredentials(String hamburgerXpath, String loginButtonXpath, String emailTextFieldXpath, String ID, String pwdTextFieldXpath, String pwd, String loginButtonXPath, String errorMessageXpath, String expectedErrorMessage)
 	{
 		String actualErrorMsgValue = null;
 		try
 		{
-			actualErrorMsgValue = cisco_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials(loginButtonXpath, emailTextFieldXpath, ID, pwdTextFieldXpath, pwd, loginButtonXPath, errorMessageXpath, expectedErrorMessage);
+			actualErrorMsgValue = cisco_TC.inMobileViewVerifyUserCannotLoginWithInvalidCredentials(hamburgerXpath, loginButtonXpath, emailTextFieldXpath, ID, pwdTextFieldXpath, pwd, loginButtonXPath, errorMessageXpath, expectedErrorMessage);
 			Assert.assertEquals(actualErrorMsgValue, expectedErrorMessage, "In Tablet view - Verify user cannot login with invalid credentials failed.");
 		}
 		catch (Throwable e)

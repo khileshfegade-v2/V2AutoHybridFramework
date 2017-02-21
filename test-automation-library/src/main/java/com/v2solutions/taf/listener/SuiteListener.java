@@ -2,14 +2,23 @@ package com.v2solutions.taf.listener;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.Properties;
+
+import javax.mail.MessagingException;
+
 import org.apache.commons.logging.Log;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
+
+import com.v2solutions.taf.TestBedManager;
 import com.v2solutions.taf.common.logs.ExcelCompatibleXMLFile;
 import com.v2solutions.taf.common.logs.ITestResultLogger;
+import com.v2solutions.taf.core.TestBed;
+import com.v2solutions.taf.exception.ProfileBuilderException;
 import com.v2solutions.taf.util.FileUtils;
 import com.v2solutions.taf.util.LogUtil;
+import com.v2solutions.taf.util.MailNotificationUtil;
 
 /**
  * 
@@ -25,6 +34,9 @@ public class SuiteListener implements ISuiteListener {
 	static public Properties pageURLs = null;
 	
 	public static ITestResultLogger excelXlsTestResultLogger;
+	
+	 MailNotificationUtil sendNotification = new MailNotificationUtil();
+	 ExcelCompatibleXMLFile xmlFile = new ExcelCompatibleXMLFile();
 	
 	/**
 	 * Added new constructor to read config/prperties file. Config/properties file name and location
@@ -57,6 +69,7 @@ public class SuiteListener implements ISuiteListener {
 			log.info("Log error listener object started.");
 		}    	
     }
+	
 	
     public void onStart(ISuite arg0) 
     {
@@ -96,7 +109,6 @@ public class SuiteListener implements ISuiteListener {
     {
      	log.info("Suite Name :"+ arg0.getName() + " - End");
     	log.info("********Results*******");
-    	
 		if(excelXlsTestResultLogger != null) 
 		{
 
@@ -106,7 +118,19 @@ public class SuiteListener implements ISuiteListener {
 		System.out.println("**********Started to complete xml**********");
     	ExcelCompatibleXMLFile.main(null);
 		System.out.println("**********Stopped xml**********");
-    	
-    }
-    
+		
+//		Newly added method
+				try {
+					sendNotification.sendEmailNotification();
+				} catch (MessagingException e) {
+					e.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
+				} catch (ParseException e) {
+					e.printStackTrace();
+				} catch (ProfileBuilderException e) {
+					e.printStackTrace();
+				}
+			}
+			 
 }

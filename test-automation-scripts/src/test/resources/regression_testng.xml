@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Regression suite" verbose="1" configfailurepolicy="continue">
+<suite name="Automation_Execution_Suite" verbose="1" configfailurepolicy="continue">
 
 <!-- 	<parameter name="configFileName" value="src/test/resources/config.properties" /> -->
 	<parameter name="pageurlsFileName" value="src/test/resources/pageurls/qa.pageurls.properties" />
@@ -15,12 +15,6 @@
 	
 	<test name="V2SolutionsHomePage" preserve-order="true"> 
  		<classes> 
-<!-- 			<class name="test.v2solutions.components.TestGlobalFooterSection" />  -->
-<!-- 			<class name="test.v2solutions.components.TestGlobalNavigation" />  -->
-<!-- 			<class name="test.v2solutions.components.TestMainNavigation" />  -->
-<!-- 			<class name="test.v2solutions.components.TestPageFootersSection" />  -->
-<!-- 			<class name="test.v2solutions.pages.TestV2SolutionsHomePage" />  -->
-<!-- 			<class name="test.v2solutions.pages.TestV2SolutionsContactUsPage" />  -->
 				<class name="test.v2solutions.cisco.TestCISCO_TC" />
       	</classes> 
  	</test> 

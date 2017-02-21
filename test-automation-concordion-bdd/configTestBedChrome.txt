@@ -2,7 +2,7 @@ BROWSER=Chrome
 VERSION=30
 MAX_WAIT_TIME_SECONDS=0
 PLATFORM=WINDOWS
-BASE_URL=http://www.v2solutions.com
+BASE_URL=http://www.cisco.com
 
 ####################
 ### eTouch config
