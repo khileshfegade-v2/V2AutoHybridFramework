@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation_Execution_Suite" duration-ms="5" started-at="2017-02-22T05:27:53Z" finished-at="2017-02-22T05:27:53Z">
+  <suite name="Automation_Execution_Suite" duration-ms="4" started-at="2017-02-22T05:31:01Z" finished-at="2017-02-22T05:31:01Z">
     <groups>
     </groups>
-    <test name="CISCO_Page" duration-ms="5" started-at="2017-02-22T05:27:53Z" finished-at="2017-02-22T05:27:53Z">
+    <test name="CISCO_Page" duration-ms="4" started-at="2017-02-22T05:31:01Z" finished-at="2017-02-22T05:31:01Z">
     </test> <!-- CISCO_Page -->
   </suite> <!-- Automation_Execution_Suite -->
 </testng-results>
