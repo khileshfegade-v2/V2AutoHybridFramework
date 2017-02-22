@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression suite" duration-ms="3" started-at="2017-02-20T09:34:57Z" finished-at="2017-02-20T09:34:57Z">
+  <suite name="Automation_Execution_Suite" duration-ms="5" started-at="2017-02-22T05:27:53Z" finished-at="2017-02-22T05:27:53Z">
     <groups>
     </groups>
-    <test name="CISCO_Page" duration-ms="3" started-at="2017-02-20T09:34:57Z" finished-at="2017-02-20T09:34:57Z">
+    <test name="CISCO_Page" duration-ms="5" started-at="2017-02-22T05:27:53Z" finished-at="2017-02-22T05:27:53Z">
     </test> <!-- CISCO_Page -->
-  </suite> <!-- Regression suite -->
+  </suite> <!-- Automation_Execution_Suite -->
 </testng-results>

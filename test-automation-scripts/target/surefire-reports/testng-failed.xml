@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite configfailurepolicy="continue" verbose="0" name="Failed suite [Regression suite]">
+<suite configfailurepolicy="continue" verbose="0" name="Failed suite [Automation_Execution_Suite]">
   <parameter name="configFileName" value="src/test/resources/config.properties"/>
   <parameter name="pageurlsFileName" value="src/test/resources/pageurls/qa.pageurls.properties"/>
   <listeners>
@@ -10,4 +10,4 @@
   </listeners>
   <test name="CISCO_Page">
   </test> <!-- CISCO_Page -->
-</suite> <!-- Failed suite [Regression suite] -->
+</suite> <!-- Failed suite [Automation_Execution_Suite] -->
