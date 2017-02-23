@@ -1,0 +1,42 @@
+23 Feb 2017 12:29:56,455 INFO  [Class=com.v2solutions.taf.listener.LogErrorListener] [Method=<init>] [Line=25] Log error listener object is created.
+23 Feb 2017 12:29:56,687 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=<init>] [Line=49] ****Excel Logger Thread instantiated!
+23 Feb 2017 12:29:56,694 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=125] ****Excel Logger Thread started to write failed analysis for qa-engineer logs.
+23 Feb 2017 12:29:56,694 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=129] ****Excel Logger Thread started to write failed analysis for customer logs.
+23 Feb 2017 12:29:56,694 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=132] ****Excel Logger Thread started to write for Final Results.
+23 Feb 2017 12:29:56,695 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=135] ****Excel Logger Thread started to write for Passed Results.
+23 Feb 2017 12:29:56,696 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=138] ****Excel Logger Thread started to write for Skipped Results.
+23 Feb 2017 12:29:56,696 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=141] ****Excel Logger Thread started to write for Failed Results.
+23 Feb 2017 12:29:56,697 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=<init>] [Line=69] Log error listener object started.
+23 Feb 2017 12:29:56,704 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=run] [Line=172] ****Excel Logger Thread started.
+23 Feb 2017 12:29:57,076 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onStart] [Line=76] Suite Name :Automation_Execution_Suite - Start
+23 Feb 2017 12:29:57,077 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onStart] [Line=78] src/test/resources/pageurls/qa.pageurls.properties
+23 Feb 2017 12:29:57,078 INFO  [Class=com.v2solutions.taf.util.FileUtils] [Method=readPropertyFile] [Line=78] Loading property file from C:\Users\khilesh.fegade\git\V2AutoHybridFramework\test-automation-scripts\src\test\resources\pageurls\qa.pageurls.properties
+23 Feb 2017 12:29:57,079 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onStart] [Line=84] {TestContactUsPagePage=<baseurl>/company/contact-us, V2SolutionsHome_Page=<baseurl>/, V2SolutionsContactUs_Page=<baseurl>/company/contact-us, CISCO_TCPage=<baseurl>}
+23 Feb 2017 12:29:57,080 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onStart] [Line=96] Host Name:null
+23 Feb 2017 12:29:57,132 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onFinish] [Line=110] Suite Name :Automation_Execution_Suite - End
+23 Feb 2017 12:29:57,134 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onFinish] [Line=111] ********Results*******
+23 Feb 2017 12:29:57,704 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=run] [Line=233] ****Going to stop Excel Logger Thread.
+23 Feb 2017 12:29:57,704 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=run] [Line=237] ****Excel Logger Thread is stopped.
+23 Feb 2017 12:29:57,704 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=stopLogging] [Line=165] ****Excel Logger Thread stopped logging.
+23 Feb 2017 12:29:57,705 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onFinish] [Line=117] Log error listener object stopped.
+23 Feb 2017 12:32:28,463 INFO  [Class=com.v2solutions.taf.listener.LogErrorListener] [Method=<init>] [Line=25] Log error listener object is created.
+23 Feb 2017 12:32:28,576 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=<init>] [Line=49] ****Excel Logger Thread instantiated!
+23 Feb 2017 12:32:28,582 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=125] ****Excel Logger Thread started to write failed analysis for qa-engineer logs.
+23 Feb 2017 12:32:28,582 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=129] ****Excel Logger Thread started to write failed analysis for customer logs.
+23 Feb 2017 12:32:28,582 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=132] ****Excel Logger Thread started to write for Final Results.
+23 Feb 2017 12:32:28,582 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=135] ****Excel Logger Thread started to write for Passed Results.
+23 Feb 2017 12:32:28,583 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=138] ****Excel Logger Thread started to write for Skipped Results.
+23 Feb 2017 12:32:28,583 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=startLogging] [Line=141] ****Excel Logger Thread started to write for Failed Results.
+23 Feb 2017 12:32:28,583 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=<init>] [Line=69] Log error listener object started.
+23 Feb 2017 12:32:28,583 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=run] [Line=172] ****Excel Logger Thread started.
+23 Feb 2017 12:32:28,649 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onStart] [Line=76] Suite Name :Automation_Execution_Suite - Start
+23 Feb 2017 12:32:28,649 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onStart] [Line=78] src/test/resources/pageurls/qa.pageurls.properties
+23 Feb 2017 12:32:28,650 INFO  [Class=com.v2solutions.taf.util.FileUtils] [Method=readPropertyFile] [Line=78] Loading property file from C:\Users\khilesh.fegade\git\V2AutoHybridFramework\test-automation-scripts\src\test\resources\pageurls\qa.pageurls.properties
+23 Feb 2017 12:32:28,651 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onStart] [Line=84] {TestContactUsPagePage=<baseurl>/company/contact-us, V2SolutionsHome_Page=<baseurl>/, V2SolutionsContactUs_Page=<baseurl>/company/contact-us, CISCO_TCPage=<baseurl>}
+23 Feb 2017 12:32:28,651 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onStart] [Line=96] Host Name:null
+23 Feb 2017 12:32:28,678 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onFinish] [Line=110] Suite Name :Automation_Execution_Suite - End
+23 Feb 2017 12:32:28,679 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onFinish] [Line=111] ********Results*******
+23 Feb 2017 12:32:29,598 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=run] [Line=233] ****Going to stop Excel Logger Thread.
+23 Feb 2017 12:32:29,598 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=run] [Line=237] ****Excel Logger Thread is stopped.
+23 Feb 2017 12:32:29,599 INFO  [Class=com.v2solutions.taf.common.logs.ITestResultLogger] [Method=stopLogging] [Line=165] ****Excel Logger Thread stopped logging.
+23 Feb 2017 12:32:29,599 INFO  [Class=com.v2solutions.taf.listener.SuiteListener] [Method=onFinish] [Line=117] Log error listener object stopped.
