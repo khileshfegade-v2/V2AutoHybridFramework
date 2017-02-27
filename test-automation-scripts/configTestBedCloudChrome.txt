@@ -1,5 +1,5 @@
 BROWSER=chrome
-VERSION=34.0
+VERSION=55.0
 MAX_WAIT_TIME_SECONDS=30
 TEST_ENV=saucelabs
 CLOUD_URL=https://qaossautomation1:XcyHrMrDYpkPeqLHeHq2@hub-cloud.browserstack.com/wd/hub
