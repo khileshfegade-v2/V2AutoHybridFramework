@@ -84,17 +84,24 @@ public class CISCO_TC extends CommonPage
 	{
 		int actualHeight;
 		int actualWidth;
-		
+		boolean value = false;
 		//Get size of opened browser window 
 		Dimension dimension = webPage.getDriver().manage().window().getSize();
 		actualHeight = dimension.getHeight();
 		actualWidth = dimension.getWidth();
 		log.info("Get the browsers dimension in (width*height)"+"("+actualWidth+"*"+actualHeight+")");
 		//Compare actual width and height with expected width and height of the browser 
+		if(BrowserInfoUtil.INSTANCE.isCloudChrome()){
+			if(actualWidth == expWidth){
+				value = true;
+			}
+		}else{
 		if(actualHeight==expHeight && actualWidth == expWidth)
-			return true;
+			value = true;
 		else 
-			return false;
+			value = false;
+		}
+		return value;
 	}
 
 	

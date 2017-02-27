@@ -75,7 +75,6 @@ public class TestCISCO_TC extends BaseTest
 		}
 	}
 
-
 	/**
 	 * In Desktop view - Verify user can login with valid credentials.
 	 * @param loginButtonXpath
