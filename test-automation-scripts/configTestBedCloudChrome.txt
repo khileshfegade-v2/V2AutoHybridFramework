@@ -1,8 +1,8 @@
 BROWSER=chrome
 VERSION=55.0
 MAX_WAIT_TIME_SECONDS=30
-TEST_ENV=saucelabs
-CLOUD_URL=https://qaossautomation1:XcyHrMrDYpkPeqLHeHq2@hub-cloud.browserstack.com/wd/hub
+TEST_ENV=browserstack
+CLOUD_URL=https://vsolution1:dPMSDRkpH8JXsAE7mRUr@hub-cloud.browserstack.com/wd/hub
 PLATFORM=OS X
 PLATFORM_VERSION=Sierra
 RESOLUTION=1280x1024
